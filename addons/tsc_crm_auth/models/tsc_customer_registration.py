@@ -21,7 +21,6 @@ class TscCustomerRegistration(models.TransientModel):
             'name': self.name,
             'phone': self.phone,
             'email': self.email,
-            'tsc_customer_type': 'individual',
         })
         self.env['res.users'].create({
             'login': self.phone,

@@ -12,6 +12,7 @@
     ],
     'data': [
         'security/ir.model.access.csv',
+        'data/sequence_data.xml',
         'views/tsc_contract_views.xml',
         'views/tsc_invoice_views.xml',
         'views/tsc_payment_views.xml',

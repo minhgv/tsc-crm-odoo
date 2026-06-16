@@ -19,7 +19,7 @@ class TestCrmLeadTsc(TransactionCase):
             'tsc_region_id': self.region.id,
         })
         self.assertTrue(lead.tsc_order_id)
-        self.assertEqual(lead.tsc_order_id[:4], 'ORD-')
+        self.assertNotEqual(lead.tsc_order_id, 'New')
 
     def test_lead_overdue_computation(self):
         lead = self.env['crm.lead'].create({

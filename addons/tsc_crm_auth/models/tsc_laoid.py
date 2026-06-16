@@ -114,12 +114,12 @@ class TscLaoID(models.AbstractModel):
             'name': name,
             'email': email,
             'partner_id': partner.id,
+            'password': random_password,
             'tsc_user_type': 'employee',
             'tsc_lao_id': laoid_id,
             'tsc_phone': phone,
             'groups_id': [(4, self.env.ref('base.group_user').id)],
         })
-        user._set_password(random_password)
         return user
 
     @api.model
