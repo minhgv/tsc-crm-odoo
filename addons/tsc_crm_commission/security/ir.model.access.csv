@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_tsc_commission_rule,tsc.commission.rule,model_tsc_commission_rule,base.group_system,1,1,1,1
+access_tsc_commission_admin,tsc.commission.admin,model_tsc_commission,base.group_system,1,1,1,1
+access_tsc_commission_user,tsc.commission.user,model_tsc_commission,base.group_user,1,1,1,0

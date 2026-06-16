@@ -1,0 +1,41 @@
+# TSC-CRM Odoo 18
+
+# === OpenCode & Mimocode ===
+.opencode/
+.mimocode/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# === Odoo ===
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# === Docker ===
+db-data/
+odoo-data/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Env ===
+.env
+.env.*
+!.env.example

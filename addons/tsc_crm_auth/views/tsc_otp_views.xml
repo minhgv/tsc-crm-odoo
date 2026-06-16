@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="tsc_otp_view_tree" model="ir.ui.view">
+        <field name="name">tsc.otp.code.tree</field>
+        <field name="model">tsc.otp.code</field>
+        <field name="arch" type="xml">
+            <list string="OTP Codes">
+                <field name="phone"/>
+                <field name="code"/>
+                <field name="purpose"/>
+                <field name="state"/>
+                <field name="expires_at"/>
+                <field name="attempts"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="tsc_otp_action" model="ir.actions.act_window">
+        <field name="name">OTP Codes</field>
+        <field name="res_model">tsc.otp.code</field>
+        <field name="view_mode">list</field>
+    </record>
+</odoo>

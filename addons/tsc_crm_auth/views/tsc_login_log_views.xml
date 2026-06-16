@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="tsc_login_log_view_tree" model="ir.ui.view">
+        <field name="name">tsc.login.log.tree</field>
+        <field name="model">tsc.login.log</field>
+        <field name="arch" type="xml">
+            <list string="Login Logs">
+                <field name="user_id"/>
+                <field name="login_type"/>
+                <field name="state"/>
+                <field name="ip_address"/>
+                <field name="login_date"/>
+                <field name="failure_reason"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="tsc_login_log_action" model="ir.actions.act_window">
+        <field name="name">Login Logs</field>
+        <field name="res_model">tsc.login.log</field>
+        <field name="view_mode">list</field>
+    </record>
+</odoo>

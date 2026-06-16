@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="tsc_agency_view_form" model="ir.ui.view">
+        <field name="name">tsc.agency.form</field>
+        <field name="model">tsc.agency</field>
+        <field name="arch" type="xml">
+            <form string="Agency">
+                <sheet>
+                    <div class="oe_title">
+                        <h1><field name="name" placeholder="Agency Name"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="code"/>
+                            <field name="contact_name"/>
+                            <field name="phone"/>
+                            <field name="email"/>
+                        </group>
+                        <group>
+                            <field name="address"/>
+                            <field name="revenue_tier"/>
+                            <field name="active"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="tsc_agency_view_tree" model="ir.ui.view">
+        <field name="name">tsc.agency.tree</field>
+        <field name="model">tsc.agency</field>
+        <field name="arch" type="xml">
+            <list string="Agencies">
+                <field name="name"/>
+                <field name="code"/>
+                <field name="contact_name"/>
+                <field name="phone"/>
+                <field name="revenue_tier"/>
+                <field name="active" widget="boolean_toggle"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="tsc_agency_action" model="ir.actions.act_window">
+        <field name="name">Agencies</field>
+        <field name="res_model">tsc.agency</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

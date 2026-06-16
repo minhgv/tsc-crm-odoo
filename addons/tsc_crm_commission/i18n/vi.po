@@ -1,0 +1,128 @@
+# Language: vi
+# Translation file for $mod
+# Generated automatically
+
+msgid "Agency"
+msgstr ""
+
+msgid "AM Province"
+msgstr ""
+
+msgid "Approved"
+msgstr ""
+
+msgid "Commission"
+msgstr ""
+
+msgid "Commission Rule"
+msgstr ""
+
+msgid "Draft"
+msgstr ""
+
+msgid "Fixed Amount"
+msgstr ""
+
+msgid "Management"
+msgstr ""
+
+msgid "Paid"
+msgstr ""
+
+msgid "Percentage"
+msgstr ""
+
+msgid "Staff"
+msgstr ""
+
+
+# Vietnamese translations
+msgid "Service"
+msgstr "Dịch vụ"
+
+msgid "Package"
+msgstr "Gói cước"
+
+msgid "Order"
+msgstr "Đơn hàng"
+
+msgid "Contract"
+msgstr "Hợp đồng"
+
+msgid "Invoice"
+msgstr "Hóa đơn"
+
+msgid "Payment"
+msgstr "Thanh toán"
+
+msgid "Region"
+msgstr "Khu vực"
+
+msgid "Customer"
+msgstr "Khách hàng"
+
+msgid "Employee"
+msgstr "Nhân viên"
+
+msgid "Draft"
+msgstr "Nháp"
+
+msgid "Confirmed"
+msgstr "Đã xác nhận"
+
+msgid "Active"
+msgstr "Hoạt động"
+
+msgid "Pending"
+msgstr "Chờ xử lý"
+
+msgid "Success"
+msgstr "Thành công"
+
+msgid "Failed"
+msgstr "Thất bại"
+
+msgid "Cancel"
+msgstr "Hủy"
+
+msgid "Save"
+msgstr "Lưu"
+
+msgid "Search"
+msgstr "Tìm kiếm"
+
+msgid "Create"
+msgstr "Tạo"
+
+msgid "Edit"
+msgstr "Sửa"
+
+msgid "Delete"
+msgstr "Xóa"
+
+msgid "Name"
+msgstr "Tên"
+
+msgid "Description"
+msgstr "Mô tả"
+
+msgid "Price"
+msgstr "Giá"
+
+msgid "Total"
+msgstr "Tổng cộng"
+
+msgid "Status"
+msgstr "Trạng thái"
+
+msgid "Date"
+msgstr "Ngày"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Phone"
+msgstr "Điện thoại"
+
+msgid "Address"
+msgstr "Địa chỉ"

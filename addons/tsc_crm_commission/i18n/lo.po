@@ -1,0 +1,37 @@
+# Language: lo
+# Translation file for $mod
+# Generated automatically
+
+msgid "Agency"
+msgstr ""
+
+msgid "AM Province"
+msgstr ""
+
+msgid "Approved"
+msgstr ""
+
+msgid "Commission"
+msgstr ""
+
+msgid "Commission Rule"
+msgstr ""
+
+msgid "Draft"
+msgstr ""
+
+msgid "Fixed Amount"
+msgstr ""
+
+msgid "Management"
+msgstr ""
+
+msgid "Paid"
+msgstr ""
+
+msgid "Percentage"
+msgstr ""
+
+msgid "Staff"
+msgstr ""
+

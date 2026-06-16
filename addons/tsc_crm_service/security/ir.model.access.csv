@@ -1,0 +1,11 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_tsc_service_admin,tsc.service.admin,model_tsc_service,base.group_system,1,1,1,1
+access_tsc_service_user,tsc.service.user,model_tsc_service,base.group_user,1,0,0,0
+access_tsc_package_admin,tsc.package.admin,model_tsc_package,base.group_system,1,1,1,1
+access_tsc_package_user,tsc.package.user,model_tsc_package,base.group_user,1,0,0,0
+access_tsc_package_level_admin,tsc.package.level.admin,model_tsc_package_level,base.group_system,1,1,1,1
+access_tsc_combo_admin,tsc.combo.admin,model_tsc_combo,base.group_system,1,1,1,1
+access_tsc_combo_line_admin,tsc.combo.line.admin,model_tsc_combo_line,base.group_system,1,1,1,1
+access_tsc_discount_admin,tsc.discount.admin,model_tsc_discount,base.group_system,1,1,1,1
+access_tsc_agency_admin,tsc.agency.admin,model_tsc_agency,base.group_system,1,1,1,1
+access_tsc_agency_user,tsc.agency.user,model_tsc_agency,base.group_user,1,0,0,0

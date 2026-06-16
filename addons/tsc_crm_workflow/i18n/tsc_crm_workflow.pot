@@ -1,0 +1,108 @@
+# Translation file for $mod
+# Generated automatically
+
+msgid "24 Hours"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Assignment"
+msgstr ""
+
+msgid "Cancelled"
+msgstr ""
+
+msgid "Cash"
+msgstr ""
+
+msgid "Confirmed"
+msgstr ""
+
+msgid "Contract"
+msgstr ""
+
+msgid "Days"
+msgstr ""
+
+msgid "Draft"
+msgstr ""
+
+msgid "Exchange Rate"
+msgstr ""
+
+msgid "Expired"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+msgid "Hours"
+msgstr ""
+
+msgid "Invoice"
+msgstr ""
+
+msgid "Invoice Line"
+msgstr ""
+
+msgid "Minutes"
+msgstr ""
+
+msgid "Mobile Balance"
+msgstr ""
+
+msgid "Paid"
+msgstr ""
+
+msgid "Payment"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Pending Signature"
+msgstr ""
+
+msgid "Posted"
+msgstr ""
+
+msgid "QR Payment"
+msgstr ""
+
+msgid "Refunded"
+msgstr ""
+
+msgid "Scanned"
+msgstr ""
+
+msgid "Signed"
+msgstr ""
+
+msgid "SLA Configuration"
+msgstr ""
+
+msgid "Survey"
+msgstr ""
+
+msgid "Terminated"
+msgstr ""
+
+msgid "uMoney"
+msgstr ""
+
+msgid "Unipay Bank Transfer"
+msgstr ""
+
+msgid "Unipay Wallet"
+msgstr ""
+
+msgid "VAT Configuration"
+msgstr ""
+
+msgid "WHT Configuration"
+msgstr ""
+
+msgid "Working Hours"
+msgstr ""
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- CRM Lead TSC Extension - Form -->
+    <record id="tsc_crm_lead_view_form" model="ir.ui.view">
+        <field name="name">crm.lead.tsc.form</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.crm_lead_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='user_id']" position="after">
+                <field name="tsc_order_id"/>
+                <field name="tsc_service_type"/>
+                <field name="tsc_customer_type"/>
+                <field name="tsc_source"/>
+                <field name="tsc_region_id"/>
+            </xpath>
+            <xpath expr="//field[@name='expected_revenue']" position="after">
+                <field name="tsc_sla_deadline"/>
+                <field name="tsc_is_overdue" readonly="1"/>
+                <field name="tsc_order_total" readonly="1"/>
+            </xpath>
+            <xpath expr="//sheet" position="inside">
+                <notebook>
+                    <page string="Order Lines" name="tsc_order_lines">
+                        <field name="tsc_order_line_ids"/>
+                    </page>
+                </notebook>
+            </xpath>
+        </field>
+    </record>
+</odoo>

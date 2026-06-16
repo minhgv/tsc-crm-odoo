@@ -1,0 +1,28 @@
+{
+    'name': 'TSC CRM Core',
+    'version': '18.0.1.0.0',
+    'category': 'CRM',
+    'summary': 'TSC/Unitel CRM core module',
+    'description': 'Core CRM module extending Odoo 18 for TSC telecom.',
+    'author': 'TSC',
+    'website': 'https://tsc.la',
+    'license': 'LGPL-3',
+    'depends': [
+        'crm',
+        'hr',
+        'mail',
+        'contacts',
+    ],
+    'data': [
+        'security/tsc_security.xml',
+        'security/ir.model.access.csv',
+        'views/region_views.xml',
+        'views/crm_lead_views.xml',
+        'views/crm_team_views.xml',
+        'views/hr_employee_views.xml',
+        'views/tsc_dashboard_views.xml',
+        'views/tsc_menu.xml',
+    ],
+    'installable': True,
+    'application': True,
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- HR Employee TSC Extension -->
+    <record id="tsc_hr_employee_view_form" model="ir.ui.view">
+        <field name="name">hr.employee.tsc.form</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='job_id']" position="after">
+                <field name="tsc_role"/>
+                <field name="tsc_group_type"/>
+                <field name="tsc_lao_id"/>
+                <field name="tsc_max_order"/>
+                <field name="tsc_current_order" readonly="1"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

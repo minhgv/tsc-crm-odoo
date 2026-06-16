@@ -1,0 +1,24 @@
+{
+    'name': 'TSC CRM Integration',
+    'version': '18.0.1.0.0',
+    'category': 'Extra Tools',
+    'summary': 'Notifications, external system integration, frontend',
+    'description': 'Integration module for TSC CRM. Manages notifications, external system connections, landing page, and customer/employee portals.',
+    'author': 'TSC',
+    'website': 'https://tsc.la',
+    'depends': [
+        'tsc_crm',
+        'tsc_crm_service',
+        'tsc_crm_workflow',
+        'tsc_crm_auth',
+    ],
+    'data': [
+        'security/ir.model.access.csv',
+        'views/tsc_notification_views.xml',
+        'views/tsc_integration_views.xml',
+        'views/tsc_landing_page_views.xml',
+        'views/tsc_menu.xml',
+    ],
+    'installable': True,
+    'license': 'LGPL-3',
+}

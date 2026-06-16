@@ -1,0 +1,49 @@
+# Language: lo
+# Translation file for $mod
+# Generated automatically
+
+msgid "Business"
+msgstr ""
+
+msgid "CMS CRM"
+msgstr ""
+
+msgid "Confirmed"
+msgstr ""
+
+msgid "Delivered"
+msgstr ""
+
+msgid "Direct Sale"
+msgstr ""
+
+msgid "Draft"
+msgstr ""
+
+msgid "Government"
+msgstr ""
+
+msgid "Individual"
+msgstr ""
+
+msgid "Manager"
+msgstr ""
+
+msgid "Miniapp"
+msgstr ""
+
+msgid "Order Line"
+msgstr ""
+
+msgid "Project"
+msgstr ""
+
+msgid "Region"
+msgstr ""
+
+msgid "Staff"
+msgstr ""
+
+msgid "Technical"
+msgstr ""
+

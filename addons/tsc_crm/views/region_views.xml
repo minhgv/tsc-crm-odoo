@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Region Form View -->
+    <record id="tsc_region_view_form" model="ir.ui.view">
+        <field name="name">tsc.region.form</field>
+        <field name="model">tsc.region</field>
+        <field name="arch" type="xml">
+            <form string="Region">
+                <sheet>
+                    <div class="oe_title">
+                        <h1><field name="name" placeholder="Region Name"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="code"/>
+                            <field name="parent_id"/>
+                            <field name="manager_id"/>
+                        </group>
+                        <group>
+                            <field name="active"/>
+                            <field name="sequence"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Child Regions" name="children">
+                            <field name="child_ids"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Region Tree View -->
+    <record id="tsc_region_view_tree" model="ir.ui.view">
+        <field name="name">tsc.region.tree</field>
+        <field name="model">tsc.region</field>
+        <field name="arch" type="xml">
+            <list string="Regions">
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="code"/>
+                <field name="parent_id"/>
+                <field name="manager_id"/>
+                <field name="active" widget="boolean_toggle"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- Region Search View -->
+    <record id="tsc_region_view_search" model="ir.ui.view">
+        <field name="name">tsc.region.search</field>
+        <field name="model">tsc.region</field>
+        <field name="arch" type="xml">
+            <search string="Search Regions">
+                <field name="name"/>
+                <field name="code"/>
+                <filter name="filter_active" string="Active" domain="[('active','=',True)]"/>
+            </search>
+        </field>
+    </record>
+
+    <!-- Region Action -->
+    <record id="tsc_region_action" model="ir.actions.act_window">
+        <field name="name">Regions</field>
+        <field name="res_model">tsc.region</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

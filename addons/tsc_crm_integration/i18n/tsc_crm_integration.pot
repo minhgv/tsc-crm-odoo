@@ -1,0 +1,81 @@
+# Translation file for $mod
+# Generated automatically
+
+msgid "BCCS3"
+msgstr ""
+
+msgid "Contract Signed"
+msgstr ""
+
+msgid "Datalake"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+msgid "Inbound"
+msgstr ""
+
+msgid "Integration Configuration"
+msgstr ""
+
+msgid "Integration Log"
+msgstr ""
+
+msgid "Invoice Created"
+msgstr ""
+
+msgid "Landing Page Configuration"
+msgstr ""
+
+msgid "New Order"
+msgstr ""
+
+msgid "Notification Log"
+msgstr ""
+
+msgid "Notification Template"
+msgstr ""
+
+msgid "Order Assigned"
+msgstr ""
+
+msgid "Order Overdue"
+msgstr ""
+
+msgid "Order Transferred"
+msgstr ""
+
+msgid "Outbound"
+msgstr ""
+
+msgid "Payment Received"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Push Notification"
+msgstr ""
+
+msgid "Sent"
+msgstr ""
+
+msgid "SMS"
+msgstr ""
+
+msgid "SMS Gateway"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+msgid "Unipay"
+msgstr ""
+
+msgid "Voffice"
+msgstr ""
+

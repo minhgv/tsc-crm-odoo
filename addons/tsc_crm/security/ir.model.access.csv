@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_tsc_region_admin,tsc.region.admin,model_tsc_region,base.group_system,1,1,1,1
+access_tsc_region_manager,tsc.region.manager,model_tsc_region,group_tsc_manager,1,1,0,0
+access_tsc_region_staff,tsc.region.staff,model_tsc_region,group_tsc_staff_business,1,0,0,0
+access_tsc_order_line_admin,tsc.order.line.admin,model_tsc_order_line,base.group_system,1,1,1,1
+access_tsc_order_line_manager,tsc.order.line.manager,model_tsc_order_line,group_tsc_manager,1,1,1,0
+access_tsc_order_line_staff_b,tsc.order.line.staff,model_tsc_order_line,group_tsc_staff_business,1,1,1,0
+access_tsc_dashboard,tsc.dashboard,model_tsc_dashboard,base.group_system,1,1,1,1

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="tsc_menu_integration" name="Integration" parent="tsc_crm.tsc_menu_root" sequence="50"/>
+    <menuitem id="tsc_menu_notifications" name="Notifications" parent="tsc_menu_integration" sequence="10"/>
+    <menuitem id="tsc_menu_notification_templates" name="Templates" parent="tsc_menu_notifications" action="tsc_notification_template_action" sequence="10"/>
+    <menuitem id="tsc_menu_notification_logs" name="Logs" parent="tsc_menu_notifications" action="tsc_notification_log_action" sequence="20"/>
+    <menuitem id="tsc_menu_integrations" name="External Systems" parent="tsc_menu_integration" sequence="20"/>
+    <menuitem id="tsc_menu_integration_configs" name="Configurations" parent="tsc_menu_integrations" action="tsc_integration_config_action" sequence="10"/>
+    <menuitem id="tsc_menu_integration_logs" name="Logs" parent="tsc_menu_integrations" action="tsc_integration_log_action" sequence="20"/>
+    <menuitem id="tsc_menu_landing_pages" name="Landing Pages" parent="tsc_menu_integration" action="tsc_landing_page_action" sequence="30"/>
+</odoo>

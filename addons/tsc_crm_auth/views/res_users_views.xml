@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="tsc_res_users_view_form" model="ir.ui.view">
+        <field name="name">res.users.tsc.form</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='login']" position="after">
+                <field name="tsc_user_type"/>
+                <field name="tsc_phone"/>
+                <field name="tsc_lao_id"/>
+                <field name="tsc_is_active"/>
+                <field name="tsc_last_login"/>
+                <field name="tsc_login_count"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

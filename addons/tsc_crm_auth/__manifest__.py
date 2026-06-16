@@ -1,0 +1,23 @@
+{
+    'name': 'TSC CRM Authentication',
+    'version': '18.0.1.0.0',
+    'category': 'Extra Tools',
+    'summary': 'OTP login, LaoID OAuth, customer registration',
+    'description': 'Authentication module for TSC CRM. Supports OTP login for customers, LaoID OAuth for employees, and backend password login.',
+    'author': 'TSC',
+    'website': 'https://tsc.la',
+    'depends': [
+        'base',
+        'auth_signup',
+        'auth_oauth',
+        'mail',
+    ],
+    'data': [
+        'security/ir.model.access.csv',
+        'views/res_users_views.xml',
+        'views/tsc_otp_views.xml',
+        'views/tsc_login_log_views.xml',
+    ],
+    'installable': True,
+    'license': 'LGPL-3',
+}

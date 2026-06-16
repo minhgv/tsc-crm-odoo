@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="tsc_combo_view_form" model="ir.ui.view">
+        <field name="name">tsc.combo.form</field>
+        <field name="model">tsc.combo</field>
+        <field name="arch" type="xml">
+            <form string="Combo">
+                <sheet>
+                    <div class="oe_title">
+                        <h1><field name="name" placeholder="Combo Name"/></h1>
+                    </div>
+                    <group>
+                        <field name="total_price" readonly="1"/>
+                        <field name="active"/>
+                    </group>
+                    <field name="line_ids"/>
+                </sheet>
+                <chatter/>
+            </form>
+        </field>
+    </record>
+
+    <record id="tsc_combo_view_tree" model="ir.ui.view">
+        <field name="name">tsc.combo.tree</field>
+        <field name="model">tsc.combo</field>
+        <field name="arch" type="xml">
+            <list string="Combos">
+                <field name="name"/>
+                <field name="total_price"/>
+                <field name="active" widget="boolean_toggle"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="tsc_combo_action" model="ir.actions.act_window">
+        <field name="name">Combos</field>
+        <field name="res_model">tsc.combo</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

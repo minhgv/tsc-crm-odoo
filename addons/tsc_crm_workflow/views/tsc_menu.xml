@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="tsc_menu_workflow" name="Workflow" parent="tsc_crm.tsc_menu_root" sequence="30"/>
+    <menuitem id="tsc_menu_contracts" name="Contracts" parent="tsc_menu_workflow" action="tsc_contract_action" sequence="10"/>
+    <menuitem id="tsc_menu_invoices" name="Invoices" parent="tsc_menu_workflow" action="tsc_invoice_action" sequence="20"/>
+    <menuitem id="tsc_menu_payments" name="Payments" parent="tsc_menu_workflow" action="tsc_payment_action" sequence="30"/>
+
+    <menuitem id="tsc_menu_config" name="Configuration" parent="tsc_crm.tsc_menu_root" sequence="90"/>
+    <menuitem id="tsc_menu_vat_config" name="VAT" parent="tsc_menu_config" action="tsc_vat_config_action" sequence="10"/>
+    <menuitem id="tsc_menu_wht_config" name="WHT" parent="tsc_menu_config" action="tsc_wht_config_action" sequence="20"/>
+    <menuitem id="tsc_menu_exchange_rate" name="Exchange Rates" parent="tsc_menu_config" action="tsc_exchange_rate_action" sequence="30"/>
+    <menuitem id="tsc_menu_sla_config" name="SLA" parent="tsc_menu_config" action="tsc_sla_config_action" sequence="40"/>
+</odoo>

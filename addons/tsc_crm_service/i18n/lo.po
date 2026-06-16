@@ -1,0 +1,73 @@
+# Language: lo
+# Translation file for $mod
+# Generated automatically
+
+msgid "Agency"
+msgstr ""
+
+msgid "Both"
+msgstr ""
+
+msgid "Business"
+msgstr ""
+
+msgid "Combo"
+msgstr ""
+
+msgid "Combo Line"
+msgstr ""
+
+msgid "Commission"
+msgstr ""
+
+msgid "Cycle"
+msgstr ""
+
+msgid "Direct Sale"
+msgstr ""
+
+msgid "Discount"
+msgstr ""
+
+msgid "Government"
+msgstr ""
+
+msgid "Individual"
+msgstr ""
+
+msgid "Line Discount"
+msgstr ""
+
+msgid "Offline"
+msgstr ""
+
+msgid "Online"
+msgstr ""
+
+msgid "Package"
+msgstr ""
+
+msgid "Package Level"
+msgstr ""
+
+msgid "Per Use"
+msgstr ""
+
+msgid "Project"
+msgstr ""
+
+msgid "Promotion"
+msgstr ""
+
+msgid "Service"
+msgstr ""
+
+msgid "Tier 1"
+msgstr ""
+
+msgid "Tier 2"
+msgstr ""
+
+msgid "Tier 3"
+msgstr ""
+

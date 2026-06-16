@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_tsc_otp_code,tsc.otp.code,model_tsc_otp_code,,1,1,1,1
+access_tsc_customer_registration,tsc.customer.registration,model_tsc_customer_registration,,1,1,1,1
+access_tsc_login_log,tsc.login.log,model_tsc_login_log,base.group_user,1,0,0,0
+access_tsc_login_log_admin,tsc.login.log.admin,model_tsc_login_log,base.group_system,1,1,1,1

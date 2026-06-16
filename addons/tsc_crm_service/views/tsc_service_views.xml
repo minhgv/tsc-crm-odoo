@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="tsc_service_view_form" model="ir.ui.view">
+        <field name="name">tsc.service.form</field>
+        <field name="model">tsc.service</field>
+        <field name="arch" type="xml">
+            <form string="Service">
+                <sheet>
+                    <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                    <div class="oe_title">
+                        <h1><field name="name" placeholder="Service Name"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="code"/>
+                            <field name="service_type"/>
+                            <field name="target_customer"/>
+                            <field name="distribution_channel"/>
+                        </group>
+                        <group>
+                            <field name="active"/>
+                            <field name="sequence"/>
+                            <field name="video_url"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Description" name="description">
+                            <field name="slogan" placeholder="Slogan"/>
+                            <field name="description"/>
+                            <field name="value_proposition" placeholder="Value proposition"/>
+                            <field name="policy"/>
+                        </page>
+                        <page string="Packages" name="packages">
+                            <field name="package_ids"/>
+                        </page>
+                        <page string="Media" name="media">
+                            <group>
+                                <field name="logo" widget="image"/>
+                                <field name="icon" widget="image"/>
+                                <field name="banner" widget="image"/>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+                <chatter/>
+            </form>
+        </field>
+    </record>
+
+    <record id="tsc_service_view_tree" model="ir.ui.view">
+        <field name="name">tsc.service.tree</field>
+        <field name="model">tsc.service</field>
+        <field name="arch" type="xml">
+            <list string="Services">
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="code"/>
+                <field name="service_type"/>
+                <field name="target_customer"/>
+                <field name="active" widget="boolean_toggle"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="tsc_service_view_search" model="ir.ui.view">
+        <field name="name">tsc.service.search</field>
+        <field name="model">tsc.service</field>
+        <field name="arch" type="xml">
+            <search string="Search Services">
+                <field name="name"/>
+                <field name="code"/>
+                <filter name="filter_active" string="Active" domain="[('active','=',True)]"/>
+                <group expand="0" string="Group By">
+                    <filter name="group_type" string="Service Type" context="{'group_by':'service_type'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="tsc_service_action" model="ir.actions.act_window">
+        <field name="name">Services</field>
+        <field name="res_model">tsc.service</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="tsc_menu_commission" name="Commission" parent="tsc_crm.tsc_menu_root" sequence="40"/>
+    <menuitem id="tsc_menu_commission_rules" name="Rules" parent="tsc_menu_commission" action="tsc_commission_rule_action" sequence="10"/>
+    <menuitem id="tsc_menu_commissions" name="Commissions" parent="tsc_menu_commission" action="tsc_commission_action" sequence="20"/>
+</odoo>

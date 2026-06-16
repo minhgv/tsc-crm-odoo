@@ -1,0 +1,12 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_tsc_contract_admin,tsc.contract.admin,model_tsc_contract,base.group_system,1,1,1,1
+access_tsc_contract_user,tsc.contract.user,model_tsc_contract,base.group_user,1,1,1,0
+access_tsc_invoice_admin,tsc.invoice.admin,model_tsc_invoice,base.group_system,1,1,1,1
+access_tsc_invoice_user,tsc.invoice.user,model_tsc_invoice,base.group_user,1,1,1,0
+access_tsc_invoice_line,tsc.invoice.line,model_tsc_invoice_line,base.group_system,1,1,1,1
+access_tsc_payment_admin,tsc.payment.admin,model_tsc_payment,base.group_system,1,1,1,1
+access_tsc_payment_user,tsc.payment.user,model_tsc_payment,base.group_user,1,0,1,0
+access_tsc_vat_config,tsc.vat.config,model_tsc_vat_config,base.group_system,1,1,1,1
+access_tsc_wht_config,tsc.wht.config,model_tsc_wht_config,base.group_system,1,1,1,1
+access_tsc_exchange_rate,tsc.exchange.rate,model_tsc_exchange_rate,base.group_system,1,1,1,1
+access_tsc_sla_config,tsc.sla.config,model_tsc_sla_config,base.group_system,1,1,1,1

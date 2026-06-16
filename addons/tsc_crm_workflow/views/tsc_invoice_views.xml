@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="tsc_invoice_view_form" model="ir.ui.view">
+        <field name="name">tsc.invoice.form</field>
+        <field name="model">tsc.invoice</field>
+        <field name="arch" type="xml">
+            <form string="Invoice">
+                <header>
+                    <button name="action_post" string="Post" type="object" class="oe_highlight" invisible="state != 'draft'"/>
+                    <button name="action_pay" string="Mark Paid" type="object" class="oe_highlight" invisible="state != 'posted'"/>
+                    <button name="action_cancel" string="Cancel" type="object" invisible="state in ('paid', 'cancelled', 'refunded')"/>
+                    <button name="action_refund" string="Refund" type="object" invisible="state != 'paid'"/>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,posted,paid"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1><field name="name"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="lead_id"/>
+                            <field name="contract_id"/>
+                            <field name="partner_id"/>
+                            <field name="invoice_date"/>
+                            <field name="due_date"/>
+                        </group>
+                        <group>
+                            <field name="currency_id"/>
+                            <field name="exchange_rate"/>
+                            <field name="exchange_rate_date"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Lines" name="lines">
+                            <field name="line_ids"/>
+                        </page>
+                        <page string="Payments" name="payments">
+                            <field name="payment_ids"/>
+                        </page>
+                    </notebook>
+                    <group>
+                        <group class="oe_subtotal_footer oe_right">
+                            <field name="subtotal" string="Subtotal"/>
+                            <field name="vat_rate" string="VAT %"/>
+                            <field name="vat_amount" string="VAT"/>
+                            <field name="wht_rate" string="WHT %"/>
+                            <field name="wht_amount" string="WHT"/>
+                            <field name="total" string="Total" class="oe_subtotal_ticket"/>
+                        </group>
+                    </group>
+                </sheet>
+                <chatter/>
+            </form>
+        </field>
+    </record>
+
+    <record id="tsc_invoice_view_tree" model="ir.ui.view">
+        <field name="name">tsc.invoice.tree</field>
+        <field name="model">tsc.invoice</field>
+        <field name="arch" type="xml">
+            <list string="Invoices">
+                <field name="name"/>
+                <field name="partner_id"/>
+                <field name="invoice_date"/>
+                <field name="total"/>
+                <field name="state"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="tsc_invoice_action" model="ir.actions.act_window">
+        <field name="name">Invoices</field>
+        <field name="res_model">tsc.invoice</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

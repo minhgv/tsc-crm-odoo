@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="group_tsc_staff_business" model="res.groups">
+        <field name="name">TSC / Staff Business</field>
+        <field name="comment">Can create and manage orders</field>
+    </record>
+
+    <record id="group_tsc_staff_technical" model="res.groups">
+        <field name="name">TSC / Staff Technical</field>
+        <field name="comment">Can view orders and update technical tasks</field>
+    </record>
+
+    <record id="group_tsc_manager" model="res.groups">
+        <field name="name">TSC / Manager</field>
+        <field name="implied_ids" eval="[(4, ref('group_tsc_staff_business'))]"/>
+        <field name="comment">Can manage staff and view all data in branch</field>
+    </record>
+
+    <record id="group_tsc_admin" model="res.groups">
+        <field name="name">TSC / Admin</field>
+        <field name="comment">Full access to all TSC CRM features</field>
+    </record>
+</odoo>

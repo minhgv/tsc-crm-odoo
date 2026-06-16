@@ -1,0 +1,54 @@
+# Translation file for $mod
+# Generated automatically
+
+msgid "Backend"
+msgstr ""
+
+msgid "Backend User"
+msgstr ""
+
+msgid "Customer"
+msgstr ""
+
+msgid "Customer Registration"
+msgstr ""
+
+msgid "Employee"
+msgstr ""
+
+msgid "Expired"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+msgid "LaoID"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "Login Log"
+msgstr ""
+
+msgid "OTP"
+msgstr ""
+
+msgid "OTP Code"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Register"
+msgstr ""
+
+msgid "Reset Password"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+msgid "Verified"
+msgstr ""
+

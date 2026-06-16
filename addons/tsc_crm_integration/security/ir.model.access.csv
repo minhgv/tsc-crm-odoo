@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_tsc_notification_template,tsc.notification.template,model_tsc_notification_template,base.group_system,1,1,1,1
+access_tsc_notification_log,tsc.notification.log,model_tsc_notification_log,base.group_user,1,0,0,0
+access_tsc_integration_config,tsc.integration.config,model_tsc_integration_config,base.group_system,1,1,1,1
+access_tsc_integration_log,tsc.integration.log,model_tsc_integration_log,base.group_system,1,0,0,0
+access_tsc_landing_page,tsc.landing.page,model_tsc_landing_page,base.group_system,1,1,1,1
