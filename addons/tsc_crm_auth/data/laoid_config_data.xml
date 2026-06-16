@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="laoid_environment" model="ir.config_parameter">
+        <field name="key">tsc.laoid.environment</field>
+        <field name="value">production</field>
+    </record>
+    <record id="laoid_base_url" model="ir.config_parameter">
+        <field name="key">tsc.laoid.base_url</field>
+        <field name="value">https://sso.laoid.net</field>
+    </record>
+    <record id="laoid_client_id" model="ir.config_parameter">
+        <field name="key">tsc.laoid.client_id</field>
+        <field name="value"></field>
+    </record>
+    <record id="laoid_client_secret" model="ir.config_parameter">
+        <field name="key">tsc.laoid.client_secret</field>
+        <field name="value"></field>
+    </record>
+    <record id="laoid_callback_url" model="ir.config_parameter">
+        <field name="key">tsc.laoid.callback_url</field>
+        <field name="value"></field>
+    </record>
+    <record id="laoid_default_password" model="ir.config_parameter">
+        <field name="key">tsc.laoid.default_password</field>
+        <field name="value">changeme123</field>
+    </record>
+</odoo>

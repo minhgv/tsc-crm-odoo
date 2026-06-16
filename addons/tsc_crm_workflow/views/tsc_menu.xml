@@ -10,4 +10,7 @@
     <menuitem id="tsc_menu_wht_config" name="WHT" parent="tsc_menu_config" action="tsc_wht_config_action" sequence="20"/>
     <menuitem id="tsc_menu_exchange_rate" name="Exchange Rates" parent="tsc_menu_config" action="tsc_exchange_rate_action" sequence="30"/>
     <menuitem id="tsc_menu_sla_config" name="SLA" parent="tsc_menu_config" action="tsc_sla_config_action" sequence="40"/>
+    <menuitem id="tsc_menu_voffice" name="VOffice" parent="tsc_menu_config" sequence="50"/>
+    <menuitem id="tsc_menu_voffice_config" name="VOffice Configuration" parent="tsc_menu_voffice" action="tsc_voffice_config_action" sequence="10"/>
+    <menuitem id="tsc_menu_voffice_signs" name="Signing Records" parent="tsc_menu_voffice" action="tsc_voffice_sign_action" sequence="20"/>
 </odoo>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="laoid_config_action" model="ir.actions.act_window">
+        <field name="name">LaoID Configuration</field>
+        <field name="res_model">ir.config_parameter</field>
+        <field name="view_mode">list</field>
+        <field name="domain">[('key', 'like', 'tsc.laoid.%')]</field>
+        <field name="context">{'search_default_group_by_key': 1}</field>
+    </record>
+
+    <menuitem id="laoid_config_menu"
+              name="LaoID Configuration"
+              parent="base.menu_config"
+              sequence="90"/>
+
+    <record id="laoid_config_view_form" model="ir.ui.view">
+        <field name="name">ir.config_parameter.laoid.form</field>
+        <field name="model">ir.config_parameter</field>
+        <field name="arch" type="xml">
+            <form string="LaoID Configuration">
+                <sheet>
+                    <div class="oe_title">
+                        <label for="key"/>
+                        <h1><field name="key" readonly="1"/></h1>
+                    </div>
+                    <group>
+                        <field name="value" widget="text"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

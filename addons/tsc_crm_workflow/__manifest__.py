@@ -16,6 +16,7 @@
         'views/tsc_invoice_views.xml',
         'views/tsc_payment_views.xml',
         'views/tsc_config_views.xml',
+        'views/tsc_voffice_views.xml',
         'views/tsc_menu.xml',
     ],
     'installable': True,

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="laoid_login_button" name="LaoID Login Button" inherit_id="web.login">
+        <xpath expr="//div[hasclass('o_login_auth')]" position="inside">
+            <a t-attf-href="/auth/laoid"
+               class="btn btn-outline-primary btn-block d-flex align-items-center justify-content-center mt-2"
+               style="border-color: #1a73e8; color: #1a73e8; border-radius: 6px; padding: 8px 12px;">
+                <img src="https://sso.laoid.net/_next/static/media/logo.cd2d8966.png"
+                     alt="LaoID"
+                     style="height: 24px; width: auto; margin-right: 8px;"/>
+                <span>Login by LaoID</span>
+            </a>
+        </xpath>
+    </template>
+</odoo>

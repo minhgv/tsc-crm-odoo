@@ -14,9 +14,12 @@
     ],
     'data': [
         'security/ir.model.access.csv',
+        'data/laoid_config_data.xml',
         'views/res_users_views.xml',
         'views/tsc_otp_views.xml',
         'views/tsc_login_log_views.xml',
+        'views/tsc_laoid_login_template.xml',
+        'views/tsc_laoid_config_views.xml',
     ],
     'installable': True,
     'license': 'LGPL-3',

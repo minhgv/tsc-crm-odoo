@@ -10,3 +10,7 @@ access_tsc_vat_config,tsc.vat.config,model_tsc_vat_config,base.group_system,1,1,
 access_tsc_wht_config,tsc.wht.config,model_tsc_wht_config,base.group_system,1,1,1,1
 access_tsc_exchange_rate,tsc.exchange.rate,model_tsc_exchange_rate,base.group_system,1,1,1,1
 access_tsc_sla_config,tsc.sla.config,model_tsc_sla_config,base.group_system,1,1,1,1
+access_tsc_voffice_config_admin,tsc.voffice.config.admin,model_tsc_voffice_config,base.group_system,1,1,1,1
+access_tsc_voffice_config_user,tsc.voffice.config.user,model_tsc_voffice_config,base.group_user,1,0,0,0
+access_tsc_voffice_sign_admin,tsc.voffice.sign.admin,model_tsc_voffice_sign,base.group_system,1,1,1,1
+access_tsc_voffice_sign_user,tsc.voffice.sign.user,model_tsc_voffice_sign,base.group_user,1,1,1,0

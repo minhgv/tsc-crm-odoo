@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="tsc_voffice_config_view_form" model="ir.ui.view">
+        <field name="name">tsc.voffice.config.form</field>
+        <field name="model">tsc.voffice.config</field>
+        <field name="arch" type="xml">
+            <form string="VOffice Configuration">
+                <header>
+                    <button name="test_connection" string="Test Connection" type="object" class="oe_highlight"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1><field name="name"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="api_url"/>
+                            <field name="api_user"/>
+                        </group>
+                        <group>
+                            <field name="api_password" password="True"/>
+                            <field name="active"/>
+                        </group>
+                    </group>
+                    <group string="Default Document Settings">
+                        <group>
+                            <field name="default_type_id"/>
+                            <field name="default_area_id"/>
+                        </group>
+                        <group>
+                            <field name="default_place"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="tsc_voffice_config_view_tree" model="ir.ui.view">
+        <field name="name">tsc.voffice.config.tree</field>
+        <field name="model">tsc.voffice.config</field>
+        <field name="arch" type="xml">
+            <list string="VOffice Configurations">
+                <field name="name"/>
+                <field name="api_url"/>
+                <field name="api_user"/>
+                <field name="active"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="tsc_voffice_config_action" model="ir.actions.act_window">
+        <field name="name">VOffice Configuration</field>
+        <field name="res_model">tsc.voffice.config</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+    <record id="tsc_voffice_sign_view_form" model="ir.ui.view">
+        <field name="name">tsc.voffice.sign.form</field>
+        <field name="model">tsc.voffice.sign</field>
+        <field name="arch" type="xml">
+            <form string="VOffice Signing Record">
+                <header>
+                    <button name="action_upload_and_send" string="Upload &amp; Send" type="object" class="oe_highlight" invisible="status not in ('draft',)"/>
+                    <button name="action_check_status" string="Check Status" type="object" invisible="status not in ('sent', 'signing', 'uploaded')"/>
+                    <field name="status" widget="statusbar" statusbar_visible="draft,uploaded,sent,signed"/>
+                </header>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="contract_id"/>
+                            <field name="voffice_config_id"/>
+                            <field name="doc_id"/>
+                            <field name="trans_code"/>
+                        </group>
+                        <group>
+                            <field name="signed_file_path"/>
+                            <field name="signed_file_data" widget="binary"/>
+                            <field name="error_message" readonly="1"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Upload Response" name="upload">
+                            <field name="upload_response" widget="text" readonly="1" colspan="2"/>
+                        </page>
+                        <page string="Sign Response" name="sign">
+                            <field name="sign_response" widget="text" readonly="1" colspan="2"/>
+                        </page>
+                        <page string="Detail Response" name="detail">
+                            <field name="detail_response" widget="text" readonly="1" colspan="2"/>
+                        </page>
+                        <page string="Notes" name="notes">
+                            <field name="notes" colspan="2"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="tsc_voffice_sign_view_tree" model="ir.ui.view">
+        <field name="name">tsc.voffice.sign.tree</field>
+        <field name="model">tsc.voffice.sign</field>
+        <field name="arch" type="xml">
+            <list string="VOffice Signing Records">
+                <field name="contract_id"/>
+                <field name="doc_id"/>
+                <field name="status" widget="badge"/>
+                <field name="error_message"/>
+                <field name="create_date"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="tsc_voffice_sign_action" model="ir.actions.act_window">
+        <field name="name">VOffice Signing Records</field>
+        <field name="res_model">tsc.voffice.sign</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>
