@@ -30,7 +30,7 @@ addons/
 ### Login & Signup
 | | |
 |---|---|
-| ![Login](docs/screenshots/01-login-page-fixed.png) | ![Signup](docs/screenshots/signup-page-fixed.png) |
+| ![Login](docs/screenshots/01-login-page.png) | ![Signup](docs/screenshots/signup-page-fixed.png) |
 
 ### Dashboard & Core
 | | |
@@ -47,6 +47,7 @@ addons/
 | | | |
 |---|---|---|
 | ![Contracts](docs/screenshots/10-contracts.png) | ![Invoices](docs/screenshots/11-invoices.png) | ![Payments](docs/screenshots/12-payments.png) |
+| ![Technical Tasks](docs/screenshots/20-technical-task.png) | ![Configuration](docs/screenshots/21-configuration.png) | |
 
 ### Commission
 | | |
@@ -328,7 +329,7 @@ Xem chi tiết tại [`docs/user-stories.md`](docs/user-stories.md) — 29 user 
 | i18n files | 19 |
 | Models | 41 custom + 4 extended |
 | Test files | 30 |
-| Screenshots | 21 |
+| Screenshots | 22 |
 
 ## Known Issues
 
