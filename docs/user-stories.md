@@ -498,12 +498,12 @@ TC-8.1.3: Kiểm tra .pot có đầy đủ strings
 
 | Module | User Stories | Test Cases |
 |--------|-------------|------------|
-| tsc_crm | 6 | 22 |
-| tsc_crm_auth | 4 | 16 |
-| tsc_crm_service | 5 | 18 |
+| tsc_crm | 6 | 21 |
+| tsc_crm_auth | 4 | 14 |
+| tsc_crm_service | 5 | 16 |
 | tsc_crm_workflow | 5 | 22 |
 | tsc_crm_commission | 2 | 7 |
 | tsc_crm_admin | 2 | 6 |
 | tsc_crm_integration | 4 | 10 |
 | i18n | 1 | 3 |
-| **Total** | **29** | **104** |
+| **Total** | **29** | **99** |

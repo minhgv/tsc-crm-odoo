@@ -317,7 +317,7 @@ docker compose exec odoo odoo -d tsc_crm \
 
 ## User Stories
 
-Xem chi tiết tại [`docs/user-stories.md`](docs/user-stories.md) — 29 user stories, 104 test cases.
+Xem chi tiết tại [`docs/user-stories.md`](docs/user-stories.md) — 29 user stories, 99 test cases.
 
 ## Project Stats
 
