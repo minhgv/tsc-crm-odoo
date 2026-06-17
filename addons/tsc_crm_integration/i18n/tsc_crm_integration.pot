@@ -1,16 +1,19 @@
-# Translation file for $mod
+# Translation file for tsc_crm_integration
 # Generated automatically
 
 msgid "BCCS3"
 msgstr ""
 
-msgid "Contract Signed"
+msgid "Configurations"
 msgstr ""
 
 msgid "Datalake"
 msgstr ""
 
 msgid "Email"
+msgstr ""
+
+msgid "External Systems"
 msgstr ""
 
 msgid "Failed"
@@ -25,10 +28,22 @@ msgstr ""
 msgid "Integration Log"
 msgstr ""
 
-msgid "Invoice Created"
+msgid "Integration Logs"
+msgstr ""
+
+msgid "Integration"
+msgstr ""
+
+msgid "Landing Page"
 msgstr ""
 
 msgid "Landing Page Configuration"
+msgstr ""
+
+msgid "Landing Pages"
+msgstr ""
+
+msgid "Logs"
 msgstr ""
 
 msgid "New Order"
@@ -38,6 +53,12 @@ msgid "Notification Log"
 msgstr ""
 
 msgid "Notification Template"
+msgstr ""
+
+msgid "Notification Templates"
+msgstr ""
+
+msgid "Notifications"
 msgstr ""
 
 msgid "Order Assigned"
@@ -52,16 +73,10 @@ msgstr ""
 msgid "Outbound"
 msgstr ""
 
-msgid "Payment Received"
-msgstr ""
-
 msgid "Pending"
 msgstr ""
 
 msgid "Push Notification"
-msgstr ""
-
-msgid "Sent"
 msgstr ""
 
 msgid "SMS"
@@ -70,7 +85,25 @@ msgstr ""
 msgid "SMS Gateway"
 msgstr ""
 
+msgid "SEO Description"
+msgstr ""
+
+msgid "SEO Title"
+msgstr ""
+
+msgid "Sent"
+msgstr ""
+
+msgid "Services"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
 msgid "Success"
+msgstr ""
+
+msgid "Trigger Event"
 msgstr ""
 
 msgid "Unipay"
@@ -79,3 +112,17 @@ msgstr ""
 msgid "Voffice"
 msgstr ""
 
+msgid "Contract Signed"
+msgstr ""
+
+msgid "Invoice Created"
+msgstr ""
+
+msgid "Payment Received"
+msgstr ""
+
+msgid "API Key"
+msgstr ""
+
+msgid "API URL"
+msgstr ""

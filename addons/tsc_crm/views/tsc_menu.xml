@@ -12,15 +12,69 @@
               action="tsc_dashboard_action"
               sequence="5"/>
 
+    <!-- Orders -->
+    <menuitem id="tsc_menu_orders"
+              name="Orders"
+              parent="tsc_menu_root"
+              sequence="10"/>
+
+    <menuitem id="tsc_menu_orders_kanban"
+              name="Orders by Stage"
+              parent="tsc_menu_orders"
+              action="tsc_orders_kanban_action"
+              sequence="10"/>
+
+    <menuitem id="tsc_menu_orders_by_region"
+              name="Orders by Region"
+              parent="tsc_menu_orders"
+              action="tsc_orders_by_region_action"
+              sequence="20"/>
+
+    <menuitem id="tsc_menu_orders_list"
+              name="All Orders"
+              parent="tsc_menu_orders"
+              action="tsc_lead_action"
+              sequence="30"/>
+
+    <menuitem id="tsc_menu_order_assignments"
+              name="Assignment Log"
+              parent="tsc_menu_orders"
+              action="tsc_order_assignment_action"
+              sequence="40"/>
+
+    <!-- Technical Tasks -->
+    <menuitem id="tsc_menu_tech_tasks"
+              name="Technical Tasks"
+              parent="tsc_menu_root"
+              sequence="15"/>
+
+    <menuitem id="tsc_menu_tech_tasks_list"
+              name="All Tasks"
+              parent="tsc_menu_tech_tasks"
+              action="tsc_technical_task_action"
+              sequence="10"/>
+
     <!-- Regions -->
     <menuitem id="tsc_menu_regions"
               name="Regions"
               parent="tsc_menu_root"
-              sequence="10"/>
+              sequence="20"/>
 
     <menuitem id="tsc_menu_regions_list"
               name="Regions"
               parent="tsc_menu_regions"
               action="tsc_region_action"
+              sequence="10"/>
+
+    <!-- Configuration -->
+    <menuitem id="tsc_menu_config"
+              name="Configuration"
+              parent="tsc_menu_root"
+              sequence="50"/>
+
+    <menuitem id="tsc_menu_sla_config"
+              name="SLA Configuration"
+              parent="tsc_menu_config"
+              action="tsc_sla_config_action"
               sequence="10"/>
 </odoo>

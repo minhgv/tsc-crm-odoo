@@ -1,0 +1,89 @@
+# Translation file for tsc_crm_admin
+# Generated automatically
+
+msgid "Administration"
+msgstr ""
+
+msgid "Business"
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "Customer Care"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "District"
+msgstr ""
+
+msgid "Division"
+msgstr ""
+
+msgid "Manager"
+msgstr ""
+
+msgid "Model"
+msgstr ""
+
+msgid "Organization Name"
+msgstr ""
+
+msgid "Organization Type"
+msgstr ""
+
+msgid "Organizations"
+msgstr ""
+
+msgid "Operation"
+msgstr ""
+
+msgid "Parent"
+msgstr ""
+
+msgid "Permission"
+msgstr ""
+
+msgid "Permission Name"
+msgstr ""
+
+msgid "Permissions"
+msgstr ""
+
+msgid "Province"
+msgstr ""
+
+msgid "Read"
+msgstr ""
+
+msgid "Role"
+msgstr ""
+
+msgid "Role Name"
+msgstr ""
+
+msgid "Role-Permission Mapping"
+msgstr ""
+
+msgid "Roles"
+msgstr ""
+
+msgid "TSC (Headquarters)"
+msgstr ""
+
+msgid "Technical"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Village"
+msgstr ""
+
+msgid "Children"
+msgstr ""

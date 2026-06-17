@@ -6,5 +6,7 @@
     <menuitem id="tsc_menu_packages" name="Packages" parent="tsc_menu_services" action="tsc_package_action" sequence="20"/>
     <menuitem id="tsc_menu_combos" name="Combos" parent="tsc_menu_services" action="tsc_combo_action" sequence="30"/>
     <menuitem id="tsc_menu_discounts" name="Discounts" parent="tsc_menu_services" action="tsc_discount_action" sequence="40"/>
+    <menuitem id="tsc_menu_promotions" name="Promotions" parent="tsc_menu_services" action="tsc_promotion_action" sequence="45"/>
+    <menuitem id="tsc_menu_discount_policies" name="Discount Policies" parent="tsc_menu_services" action="tsc_discount_policy_action" sequence="48"/>
     <menuitem id="tsc_menu_agencies" name="Agencies" parent="tsc_menu_services" action="tsc_agency_action" sequence="50"/>
 </odoo>

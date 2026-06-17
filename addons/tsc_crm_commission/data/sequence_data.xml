@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="seq_tsc_commission" model="ir.sequence">
+        <field name="name">TSC Commission</field>
+        <field name="code">tsc.commission</field>
+        <field name="prefix">COM</field>
+        <field name="padding">4</field>
+        <field name="company_id" eval="False"/>
+    </record>
+</odoo>

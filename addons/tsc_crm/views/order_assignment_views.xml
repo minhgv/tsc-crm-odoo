@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Order Assignment Form View -->
+    <record id="tsc_order_assignment_view_form" model="ir.ui.view">
+        <field name="name">tsc.order.assignment.form</field>
+        <field name="model">tsc.order.assignment</field>
+        <field name="arch" type="xml">
+            <form string="Order Assignment">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="lead_id"/>
+                            <field name="assigned_from"/>
+                            <field name="assigned_to"/>
+                        </group>
+                        <group>
+                            <field name="assigned_by"/>
+                            <field name="reason"/>
+                            <field name="notes"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Order Assignment Tree View -->
+    <record id="tsc_order_assignment_view_tree" model="ir.ui.view">
+        <field name="name">tsc.order.assignment.tree</field>
+        <field name="model">tsc.order.assignment</field>
+        <field name="arch" type="xml">
+            <list string="Order Assignments">
+                <field name="create_date"/>
+                <field name="lead_id"/>
+                <field name="assigned_from"/>
+                <field name="assigned_to"/>
+                <field name="reason"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- Order Assignment Search View -->
+    <record id="tsc_order_assignment_view_search" model="ir.ui.view">
+        <field name="name">tsc.order.assignment.search</field>
+        <field name="model">tsc.order.assignment</field>
+        <field name="arch" type="xml">
+            <search string="Search Assignments">
+                <field name="lead_id"/>
+                <field name="assigned_to"/>
+                <filter name="filter_auto" string="Auto Assignment" domain="[('reason', '=', 'auto')]"/>
+                <filter name="filter_manual" string="Manual" domain="[('reason', '=', 'manual')]"/>
+                <group expand="0" string="Group By">
+                    <filter string="Assigned To" name="group_assigned_to" context="{'group_by': 'assigned_to'}"/>
+                    <filter string="Reason" name="group_reason" context="{'group_by': 'reason'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Order Assignment Action -->
+    <record id="tsc_order_assignment_action" model="ir.actions.act_window">
+        <field name="name">Assignment Log</field>
+        <field name="res_model">tsc.order.assignment</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

@@ -6,25 +6,99 @@
         <field name="model">crm.lead</field>
         <field name="inherit_id" ref="crm.crm_lead_view_form"/>
         <field name="arch" type="xml">
-            <xpath expr="//field[@name='user_id']" position="after">
+            <!-- Override stage bar to use TSC stages -->
+            <xpath expr="//field[@name='stage_id']" position="replace">
+                <field name="stage_id" widget="statusbar_duration"
+                       options="{'clickable': '0', 'fold_field': 'fold'}"
+                       invisible="not active or type == 'lead'"/>
+            </xpath>
+
+            <!-- Add TSC fields in the opportunity group (after date_deadline/priority) -->
+            <xpath expr="//field[@name='date_deadline']" position="after">
                 <field name="tsc_order_id"/>
                 <field name="tsc_service_type"/>
                 <field name="tsc_customer_type"/>
                 <field name="tsc_source"/>
                 <field name="tsc_region_id"/>
             </xpath>
-            <xpath expr="//field[@name='expected_revenue']" position="after">
+
+            <!-- Add SLA fields after priority -->
+            <xpath expr="//field[@name='priority']" position="after">
                 <field name="tsc_sla_deadline"/>
                 <field name="tsc_is_overdue" readonly="1"/>
                 <field name="tsc_order_total" readonly="1"/>
             </xpath>
-            <xpath expr="//sheet" position="inside">
-                <notebook>
-                    <page string="Order Lines" name="tsc_order_lines">
-                        <field name="tsc_order_line_ids"/>
-                    </page>
-                </notebook>
+
+            <!-- Add Order Lines notebook -->
+            <xpath expr="//page[@name='internal_notes']" position="before">
+                <page string="Order Lines" name="tsc_order_lines">
+                    <field name="tsc_order_line_ids"/>
+                </page>
+                <page string="Technical Tasks" name="tsc_tech_tasks">
+                    <field name="tsc_technical_task_ids"/>
+                </page>
+                <page string="Assignment Log" name="tsc_assignments">
+                    <field name="tsc_assigned_to"/>
+                    <field name="tsc_assignment_ids"/>
+                </page>
             </xpath>
         </field>
+    </record>
+
+    <!-- CRM Lead TSC Extension - Tree (Opportunity) -->
+    <record id="tsc_crm_lead_view_tree" model="ir.ui.view">
+        <field name="name">crm.lead.tsc.tree</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.crm_case_tree_view_oppor"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="tsc_order_id"/>
+                <field name="tsc_service_type"/>
+                <field name="tsc_customer_type"/>
+                <field name="tsc_region_id"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- CRM Lead TSC Extension - Kanban -->
+    <record id="tsc_crm_lead_view_kanban" model="ir.ui.view">
+        <field name="name">crm.lead.tsc.kanban</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.crm_case_kanban_view_leads"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="tsc_order_id"/>
+                <field name="tsc_service_type"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- CRM Lead TSC Extension - Search -->
+    <record id="tsc_crm_lead_view_search" model="ir.ui.view">
+        <field name="name">crm.lead.tsc.search</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.view_crm_case_leads_filter"/>
+        <field name="arch" type="xml">
+            <xpath expr="//filter[@name='lost']" position="after">
+                <filter name="tsc_overdue" string="Overdue" domain="[('tsc_is_overdue', '=', True)]"/>
+                <separator/>
+                <filter name="tsc_direct" string="Direct Sale" domain="[('tsc_service_type', '=', 'direct')]"/>
+                <filter name="tsc_project" string="Project" domain="[('tsc_service_type', '=', 'project')]"/>
+            </xpath>
+            <xpath expr="//group[@name='groupby']" position="inside">
+                <filter string="Service Type" name="group_service_type" context="{'group_by': 'tsc_service_type'}"/>
+                <filter string="Customer Type" name="group_customer_type" context="{'group_by': 'tsc_customer_type'}"/>
+                <filter string="Region" name="group_region" context="{'group_by': 'tsc_region_id'}"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Lead Action -->
+    <record id="tsc_lead_action" model="ir.actions.act_window">
+        <field name="name">Orders</field>
+        <field name="res_model">crm.lead</field>
+        <field name="view_mode">kanban,list,form</field>
+        <field name="domain">[('tsc_order_id', '!=', False)]</field>
+        <field name="context">{'group_by': 'stage_id'}</field>
     </record>
 </odoo>

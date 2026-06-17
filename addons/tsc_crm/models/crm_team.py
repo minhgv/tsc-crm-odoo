@@ -8,5 +8,6 @@ class CrmTeam(models.Model):
     tsc_team_type = fields.Selection([
         ('business', _('Business')),
         ('technical', _('Technical')),
+        ('cc', _('Customer Care')),
     ], string=_('Team Type'))
     tsc_manager_id = fields.Many2one('hr.employee', string=_('Team Manager'))

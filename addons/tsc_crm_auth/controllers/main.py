@@ -118,3 +118,24 @@ class TscAuthController(http.Controller):
         except Exception as e:
             return {'error': str(e)}
         return {'success': True, 'message': 'Registration successful'}
+
+    @http.route('/api/auth/logout', type='json', auth='user', methods=['POST'])
+    def logout(self, **kwargs):
+        request.session.logout()
+        return {'success': True, 'message': 'Logged out'}
+
+    @http.route('/api/auth/me', type='json', auth='user', methods=['POST'])
+    def me(self, **kwargs):
+        user = request.env.user
+        return {
+            'success': True,
+            'user': {
+                'id': user.id,
+                'name': user.name,
+                'login': user.login,
+                'email': user.email,
+                'tsc_user_type': user.tsc_user_type,
+                'tsc_phone': user.tsc_phone,
+                'tsc_lao_id': user.tsc_lao_id,
+            },
+        }

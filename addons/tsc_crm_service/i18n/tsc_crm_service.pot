@@ -1,5 +1,8 @@
-# Translation file for $mod
+# Translation file for tsc_crm_service
 # Generated automatically
+
+msgid "Active"
+msgstr ""
 
 msgid "Agency"
 msgstr ""
@@ -7,7 +10,10 @@ msgstr ""
 msgid "Both"
 msgstr ""
 
-msgid "Business"
+msgid "By Order Count"
+msgstr ""
+
+msgid "By Revenue"
 msgstr ""
 
 msgid "Combo"
@@ -16,19 +22,31 @@ msgstr ""
 msgid "Combo Line"
 msgstr ""
 
-msgid "Commission"
+msgid "Contact Name"
 msgstr ""
 
-msgid "Cycle"
+msgid "Currency"
 msgstr ""
 
-msgid "Direct Sale"
+msgid "Deployment Fee"
+msgstr ""
+
+msgid "Description"
 msgstr ""
 
 msgid "Discount"
 msgstr ""
 
-msgid "Government"
+msgid "Discount Mode"
+msgstr ""
+
+msgid "Discount Policy"
+msgstr ""
+
+msgid "Discount Type"
+msgstr ""
+
+msgid "Fixed Amount"
 msgstr ""
 
 msgid "Individual"
@@ -49,16 +67,55 @@ msgstr ""
 msgid "Package Level"
 msgstr ""
 
-msgid "Per Use"
+msgid "Package Name"
 msgstr ""
 
-msgid "Project"
+msgid "Package Type"
+msgstr ""
+
+msgid "Percentage"
+msgstr ""
+
+msgid "Per Order Line"
+msgstr ""
+
+msgid "Per Package"
+msgstr ""
+
+msgid "Per Service"
+msgstr ""
+
+msgid "Per Use"
 msgstr ""
 
 msgid "Promotion"
 msgstr ""
 
+msgid "Promotion Type"
+msgstr ""
+
+msgid "Revenue Tier"
+msgstr ""
+
+msgid "Scope"
+msgstr ""
+
 msgid "Service"
+msgstr ""
+
+msgid "Service Name"
+msgstr ""
+
+msgid "Service Type"
+msgstr ""
+
+msgid "Services"
+msgstr ""
+
+msgid "Specific Agent"
+msgstr ""
+
+msgid "Target Customer"
 msgstr ""
 
 msgid "Tier 1"
@@ -70,3 +127,53 @@ msgstr ""
 msgid "Tier 3"
 msgstr ""
 
+msgid "Trial Days"
+msgstr ""
+
+msgid "Valid"
+msgstr ""
+
+msgid "Validity Days"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Video URL"
+msgstr ""
+
+msgid "Government"
+msgstr ""
+
+msgid "Business"
+msgstr ""
+
+msgid "All Agents"
+msgstr ""
+
+msgid "Start Date"
+msgstr ""
+
+msgid "End Date"
+msgstr ""
+
+msgid "Cycle"
+msgstr ""
+
+msgid "Code"
+msgstr ""
+
+msgid "Direct Sale"
+msgstr ""
+
+msgid "Project"
+msgstr ""
+
+msgid "Policy"
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+msgid "Value Proposition"
+msgstr ""

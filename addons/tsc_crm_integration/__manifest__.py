@@ -17,6 +17,7 @@
         'views/tsc_notification_views.xml',
         'views/tsc_integration_views.xml',
         'views/tsc_landing_page_views.xml',
+        'views/tsc_templates.xml',
         'views/tsc_menu.xml',
     ],
     'installable': True,

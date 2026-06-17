@@ -7,5 +7,9 @@ access_tsc_package_level_admin,tsc.package.level.admin,model_tsc_package_level,b
 access_tsc_combo_admin,tsc.combo.admin,model_tsc_combo,base.group_system,1,1,1,1
 access_tsc_combo_line_admin,tsc.combo.line.admin,model_tsc_combo_line,base.group_system,1,1,1,1
 access_tsc_discount_admin,tsc.discount.admin,model_tsc_discount,base.group_system,1,1,1,1
+access_tsc_promotion_admin,tsc.promotion.admin,model_tsc_promotion,base.group_system,1,1,1,1
+access_tsc_promotion_user,tsc.promotion.user,model_tsc_promotion,base.group_user,1,0,0,0
+access_tsc_discount_policy_admin,tsc.discount.policy.admin,model_tsc_discount_policy,base.group_system,1,1,1,1
+access_tsc_discount_policy_user,tsc.discount.policy.user,model_tsc_discount_policy,base.group_user,1,0,0,0
 access_tsc_agency_admin,tsc.agency.admin,model_tsc_agency,base.group_system,1,1,1,1
 access_tsc_agency_user,tsc.agency.user,model_tsc_agency,base.group_user,1,0,0,0

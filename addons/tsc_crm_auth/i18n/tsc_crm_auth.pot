@@ -1,4 +1,4 @@
-# Translation file for $mod
+# Translation file for tsc_crm_auth
 # Generated automatically
 
 msgid "Backend"
@@ -28,6 +28,9 @@ msgstr ""
 msgid "Login"
 msgstr ""
 
+msgid "Login Count"
+msgstr ""
+
 msgid "Login Log"
 msgstr ""
 
@@ -40,6 +43,9 @@ msgstr ""
 msgid "Pending"
 msgstr ""
 
+msgid "Phone"
+msgstr ""
+
 msgid "Register"
 msgstr ""
 
@@ -49,6 +55,14 @@ msgstr ""
 msgid "Success"
 msgstr ""
 
-msgid "Verified"
+msgid "TSC Active"
 msgstr ""
 
+msgid "Last Login"
+msgstr ""
+
+msgid "User Type"
+msgstr ""
+
+msgid "Verified"
+msgstr ""

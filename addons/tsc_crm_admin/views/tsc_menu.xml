@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="tsc_menu_admin" name="Administration" parent="tsc_crm.tsc_menu_root" sequence="60"/>
+    <menuitem id="tsc_menu_organizations" name="Organizations" parent="tsc_menu_admin" action="tsc_organization_action" sequence="10"/>
+    <menuitem id="tsc_menu_roles" name="Roles" parent="tsc_menu_admin" action="tsc_role_action" sequence="20"/>
+    <menuitem id="tsc_menu_permissions" name="Permissions" parent="tsc_menu_admin" action="tsc_permission_action" sequence="30"/>
+</odoo>

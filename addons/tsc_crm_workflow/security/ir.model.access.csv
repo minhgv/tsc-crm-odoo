@@ -14,3 +14,7 @@ access_tsc_voffice_config_admin,tsc.voffice.config.admin,model_tsc_voffice_confi
 access_tsc_voffice_config_user,tsc.voffice.config.user,model_tsc_voffice_config,base.group_user,1,0,0,0
 access_tsc_voffice_sign_admin,tsc.voffice.sign.admin,model_tsc_voffice_sign,base.group_system,1,1,1,1
 access_tsc_voffice_sign_user,tsc.voffice.sign.user,model_tsc_voffice_sign,base.group_user,1,1,1,0
+access_tsc_contract_template_admin,tsc.contract.template.admin,model_tsc_contract_template,base.group_system,1,1,1,1
+access_tsc_contract_template_user,tsc.contract.template.user,model_tsc_contract_template,base.group_user,1,0,0,0
+access_tsc_contract_audit_admin,tsc.contract.audit.admin,model_tsc_contract_audit,base.group_system,1,1,1,1
+access_tsc_contract_audit_user,tsc.contract.audit.user,model_tsc_contract_audit,base.group_user,1,0,0,0

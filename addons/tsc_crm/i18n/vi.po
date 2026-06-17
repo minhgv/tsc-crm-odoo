@@ -1,140 +1,248 @@
 # Language: vi
-# Translation file for $mod
-# Generated automatically
+# Translation file for tsc_crm
+
+msgid "Accept"
+msgstr "Chấp nhận"
+
+msgid "Accepted"
+msgstr "Đã chấp nhận"
+
+msgid "Admin Override"
+msgstr "Admin ưu tiên"
+
+msgid "All Orders"
+msgstr "Tất cả đơn hàng"
+
+msgid "All Tasks"
+msgstr "Tất cả công việc"
+
+msgid "Assign"
+msgstr "Giao việc"
+
+msgid "Assigned"
+msgstr "Đã giao"
+
+msgid "Assigned By"
+msgstr "Giao bởi"
+
+msgid "Assigned From"
+msgstr "Giao từ"
+
+msgid "Assigned To"
+msgstr "Giao cho"
+
+msgid "Assignment Log"
+msgstr "Nhật ký giao việc"
+
+msgid "Auto Assignment"
+msgstr "Tự động giao"
 
 msgid "Business"
-msgstr ""
+msgstr "Doanh nghiệp"
 
 msgid "CMS CRM"
-msgstr ""
-
-msgid "Confirmed"
-msgstr ""
-
-msgid "Delivered"
-msgstr ""
-
-msgid "Direct Sale"
-msgstr ""
-
-msgid "Draft"
-msgstr ""
-
-msgid "Government"
-msgstr ""
-
-msgid "Individual"
-msgstr ""
-
-msgid "Manager"
-msgstr ""
-
-msgid "Miniapp"
-msgstr ""
-
-msgid "Order Line"
-msgstr ""
-
-msgid "Project"
-msgstr ""
-
-msgid "Region"
-msgstr ""
-
-msgid "Staff"
-msgstr ""
-
-msgid "Technical"
-msgstr ""
-
-
-# Vietnamese translations
-msgid "Service"
-msgstr "Dịch vụ"
-
-msgid "Package"
-msgstr "Gói cước"
-
-msgid "Order"
-msgstr "Đơn hàng"
-
-msgid "Contract"
-msgstr "Hợp đồng"
-
-msgid "Invoice"
-msgstr "Hóa đơn"
-
-msgid "Payment"
-msgstr "Thanh toán"
-
-msgid "Region"
-msgstr "Khu vực"
-
-msgid "Customer"
-msgstr "Khách hàng"
-
-msgid "Employee"
-msgstr "Nhân viên"
-
-msgid "Draft"
-msgstr "Nháp"
-
-msgid "Confirmed"
-msgstr "Đã xác nhận"
-
-msgid "Active"
-msgstr "Hoạt động"
-
-msgid "Pending"
-msgstr "Chờ xử lý"
-
-msgid "Success"
-msgstr "Thành công"
-
-msgid "Failed"
-msgstr "Thất bại"
+msgstr "CMS CRM"
 
 msgid "Cancel"
 msgstr "Hủy"
 
-msgid "Save"
-msgstr "Lưu"
+msgid "Cancelled"
+msgstr "Đã hủy"
 
-msgid "Search"
-msgstr "Tìm kiếm"
+msgid "Confirm"
+msgstr "Xác nhận"
 
-msgid "Create"
-msgstr "Tạo"
+msgid "Confirm Order"
+msgstr "Xác nhận đơn hàng"
 
-msgid "Edit"
-msgstr "Sửa"
+msgid "Confirmed"
+msgstr "Đã xác nhận"
 
-msgid "Delete"
-msgstr "Xóa"
+msgid "Configuration"
+msgstr "Cấu hình"
 
-msgid "Name"
-msgstr "Tên"
+msgid "Contract Signing"
+msgstr "Ký hợp đồng"
 
-msgid "Description"
-msgstr "Mô tả"
+msgid "Created"
+msgstr "Đã tạo"
 
-msgid "Price"
-msgstr "Giá"
+msgid "Customer Code"
+msgstr "Mã khách hàng"
 
-msgid "Total"
-msgstr "Tổng cộng"
+msgid "Customer Care"
+msgstr "Chăm sóc khách hàng"
+
+msgid "Customer Type"
+msgstr "Loại khách hàng"
+
+msgid "Delivered"
+msgstr "Đã giao"
+
+msgid "Direct Sale"
+msgstr "Bán trực tiếp"
+
+msgid "Done"
+msgstr "Hoàn thành"
+
+msgid "Draft"
+msgstr "Nháp"
+
+msgid "Government"
+msgstr "Chính phủ"
+
+msgid "Group Type"
+msgstr "Loại nhóm"
+
+msgid "Implementation"
+msgstr "Triển khai"
+
+msgid "In Progress"
+msgstr "Đang thực hiện"
+
+msgid "Individual/Household"
+msgstr "Cá nhân/Hộ kinh doanh"
+
+msgid "Maintenance"
+msgstr "Bảo trì"
+
+msgid "Manager"
+msgstr "Quản lý"
+
+msgid "Manual Assignment"
+msgstr "Giao thủ công"
+
+msgid "Mark Done"
+msgstr "Đánh dấu hoàn thành"
+
+msgid "Max Hours"
+msgstr "Số giờ tối đa"
+
+msgid "Miniapp"
+msgstr "Miniapp"
+
+msgid "New Order"
+msgstr "Đơn hàng mới"
+
+msgid "Notes"
+msgstr "Ghi chú"
+
+msgid "Order"
+msgstr "Đơn hàng"
+
+msgid "Order Assignment Log"
+msgstr "Nhật ký giao việc"
+
+msgid "Order Line"
+msgstr "Dòng đơn hàng"
+
+msgid "Order Lines"
+msgstr "Chi tiết đơn hàng"
+
+msgid "Order Reference"
+msgstr "Mã đơn hàng"
+
+msgid "Order Total"
+msgstr "Tổng đơn hàng"
+
+msgid "Overdue"
+msgstr "Quá hạn"
+
+msgid "Overdue Orders"
+msgstr "Đơn hàng quá hạn"
+
+msgid "Overdue Tasks"
+msgstr "Công việc quá hạn"
+
+msgid "Payment"
+msgstr "Thanh toán"
+
+msgid "Payment SLA"
+msgstr "SLA Thanh toán"
+
+msgid "Project"
+msgstr "Dự án"
+
+msgid "Reason"
+msgstr "Lý do"
+
+msgid "Reassignment"
+msgstr "Giao lại"
+
+msgid "Reception/Assignment"
+msgstr "Tiếp nhận/Giao việc"
+
+msgid "Reception/Assignment SLA"
+msgstr "SLA Tiếp nhận"
+
+msgid "Region"
+msgstr "Khu vực"
+
+msgid "Region Manager"
+msgstr "Quản lý khu vực"
+
+msgid "Regions"
+msgstr "Khu vực"
+
+msgid "Renewal Reminder"
+msgstr "Nhắc nhở gia hạn"
+
+msgid "Reset to Draft"
+msgstr "Đặt lại nháp"
+
+msgid "SLA Configuration"
+msgstr "Cấu hình SLA"
+
+msgid "SLA Deadline"
+msgstr "Hạn SLA"
+
+msgid "Service Type"
+msgstr "Loại dịch vụ"
+
+msgid "Staff"
+msgstr "Nhân viên"
+
+msgid "Staff Customer Care"
+msgstr "Nhân viên CSKH"
+
+msgid "Start"
+msgstr "Bắt đầu"
 
 msgid "Status"
 msgstr "Trạng thái"
 
-msgid "Date"
-msgstr "Ngày"
+msgid "Survey"
+msgstr "Khảo sát"
 
-msgid "Email"
-msgstr "Email"
+msgid "Survey / Consultation"
+msgstr "Khảo sát / Tư vấn"
 
-msgid "Phone"
-msgstr "Điện thoại"
+msgid "Survey/Consultation"
+msgstr "Khảo sát/Tư vấn"
 
-msgid "Address"
-msgstr "Địa chỉ"
+msgid "Survey/Consultation SLA"
+msgstr "SLA Khảo sát"
+
+msgid "Task Name"
+msgstr "Tên công việc"
+
+msgid "Task Type"
+msgstr "Loại công việc"
+
+msgid "Technical Tasks"
+msgstr "Công việc kỹ thuật"
+
+msgid "Technical"
+msgstr "Kỹ thuật"
+
+msgid "TSC Role"
+msgstr "Vai trò TSC"
+
+msgid "Total"
+msgstr "Tổng cộng"
+
+msgid "Unit Price"
+msgstr "Đơn giá"
+
+msgid "Confirmation Deadline"
+msgstr "Hạn xác nhận"

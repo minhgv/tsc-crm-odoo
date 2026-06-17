@@ -9,17 +9,29 @@
                 <div class="oe_title">
                     <h1><field name="name"/></h1>
                 </div>
-                <group>
-                    <group string="Orders">
-                        <button name="action_view_orders" type="object" class="btn btn-primary" string="View All Orders" icon="fa-list"/>
-                        <button name="action_view_overdue" type="object" class="btn btn-danger" string="View Overdue Orders" icon="fa-exclamation-triangle"/>
-                    </group>
-                    <group string="Contracts &amp; Invoices">
-                        <button name="action_view_contracts" type="object" class="btn btn-primary" string="View Contracts" icon="fa-file-text-o"/>
-                        <button name="action_view_invoices" type="object" class="btn btn-primary" string="View Invoices" icon="fa-money"/>
-                        <button name="action_view_payments" type="object" class="btn btn-primary" string="View Payments" icon="fa-credit-card"/>
-                    </group>
-                </group>
+
+                <!-- Quick Actions -->
+                <div class="d-flex gap-2 mb-4">
+                    <button name="action_open_kanban" type="object" class="btn btn-primary btn-lg" icon="fa-th">
+                        Kanban View
+                    </button>
+                    <button name="action_view_orders" type="object" class="btn btn-outline-primary btn-lg" icon="fa-list">
+                        All Orders
+                    </button>
+                    <button name="action_view_overdue" type="object" class="btn btn-danger btn-lg" icon="fa-exclamation-triangle">
+                        Overdue Orders
+                    </button>
+                </div>
+
+                <!-- Technical Tasks -->
+                <div class="d-flex gap-2 mb-4">
+                    <button name="action_view_tech_tasks" type="object" class="btn btn-info btn-lg" icon="fa-wrench">
+                        Technical Tasks
+                    </button>
+                    <button name="action_view_overdue_tasks" type="object" class="btn btn-warning btn-lg" icon="fa-clock-o">
+                        Overdue Tasks
+                    </button>
+                </div>
             </form>
         </field>
     </record>
@@ -30,5 +42,23 @@
         <field name="res_model">tsc.dashboard</field>
         <field name="view_mode">form</field>
         <field name="context">{'default_name': 'TSC CRM Dashboard'}</field>
+    </record>
+
+    <!-- Orders Kanban by Stage -->
+    <record id="tsc_orders_kanban_action" model="ir.actions.act_window">
+        <field name="name">Orders by Stage</field>
+        <field name="res_model">crm.lead</field>
+        <field name="view_mode">kanban</field>
+        <field name="domain">[('tsc_order_id', '!=', False)]</field>
+        <field name="context">{'group_by': 'stage_id'}</field>
+    </record>
+
+    <!-- Orders by Region -->
+    <record id="tsc_orders_by_region_action" model="ir.actions.act_window">
+        <field name="name">Orders by Region</field>
+        <field name="res_model">crm.lead</field>
+        <field name="view_mode">kanban</field>
+        <field name="domain">[('tsc_order_id', '!=', False)]</field>
+        <field name="context">{'group_by': 'tsc_region_id'}</field>
     </record>
 </odoo>

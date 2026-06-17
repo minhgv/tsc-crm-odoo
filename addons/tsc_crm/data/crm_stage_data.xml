@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="tsc_stage_new" model="crm.stage">
+        <field name="name">Created</field>
+        <field name="sequence">1</field>
+        <field name="is_won" eval="False"/>
+        <field name="team_id" eval="False"/>
+    </record>
+
+    <record id="tsc_stage_assigned" model="crm.stage">
+        <field name="name">Assigned</field>
+        <field name="sequence">2</field>
+        <field name="is_won" eval="False"/>
+        <field name="team_id" eval="False"/>
+    </record>
+
+    <record id="tsc_stage_accepted" model="crm.stage">
+        <field name="name">Accepted</field>
+        <field name="sequence">3</field>
+        <field name="is_won" eval="False"/>
+        <field name="team_id" eval="False"/>
+    </record>
+
+    <record id="tsc_stage_survey" model="crm.stage">
+        <field name="name">Survey / Consultation</field>
+        <field name="sequence">4</field>
+        <field name="is_won" eval="False"/>
+        <field name="team_id" eval="False"/>
+    </record>
+
+    <record id="tsc_stage_confirm" model="crm.stage">
+        <field name="name">Confirm</field>
+        <field name="sequence">5</field>
+        <field name="is_won" eval="False"/>
+        <field name="team_id" eval="False"/>
+    </record>
+
+    <record id="tsc_stage_contract" model="crm.stage">
+        <field name="name">Contract Signing</field>
+        <field name="sequence">6</field>
+        <field name="is_won" eval="False"/>
+        <field name="team_id" eval="False"/>
+    </record>
+
+    <record id="tsc_stage_payment" model="crm.stage">
+        <field name="name">Payment</field>
+        <field name="sequence">7</field>
+        <field name="is_won" eval="False"/>
+        <field name="team_id" eval="False"/>
+    </record>
+
+    <record id="tsc_stage_won" model="crm.stage">
+        <field name="name">Completed</field>
+        <field name="sequence">8</field>
+        <field name="is_won" eval="True"/>
+        <field name="team_id" eval="False"/>
+    </record>
+</odoo>

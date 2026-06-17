@@ -33,3 +33,25 @@ class TscCommission(models.Model):
 
     def action_pay(self):
         self.write({'state': 'paid'})
+
+    @api.model
+    def compute_commission(self, invoice):
+        if invoice.state != 'paid':
+            return
+        rules = self.env['tsc.commission.rule'].search([
+            ('active', '=', True),
+        ])
+        for rule in rules:
+            if rule.commission_type == 'percentage':
+                amount = invoice.subtotal * rule.rate / 100
+            else:
+                amount = rule.rate
+            if amount <= 0:
+                continue
+            self.create({
+                'invoice_id': invoice.id,
+                'lead_id': invoice.lead_id.id if invoice.lead_id else False,
+                'rule_id': rule.id,
+                'amount': amount,
+                'agency_id': rule.agency_id.id if rule.agency_id else False,
+            })

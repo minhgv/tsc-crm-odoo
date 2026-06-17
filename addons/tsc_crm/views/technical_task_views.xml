@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Technical Task Form View -->
+    <record id="tsc_technical_task_view_form" model="ir.ui.view">
+        <field name="name">tsc.technical.task.form</field>
+        <field name="model">tsc.technical.task</field>
+        <field name="arch" type="xml">
+            <form string="Technical Task">
+                <header>
+                    <button name="action_assign" string="Assign" type="object"
+                            class="oe_highlight" invisible="state != 'draft'"/>
+                    <button name="action_accept" string="Accept" type="object"
+                            class="oe_highlight" invisible="state != 'assigned'"/>
+                    <button name="action_start" string="Start" type="object"
+                            class="oe_highlight" invisible="state != 'accepted'"/>
+                    <button name="action_done" string="Mark Done" type="object"
+                            class="oe_highlight" invisible="state not in ('in_progress','accepted')"/>
+                    <button name="action_cancel" string="Cancel" type="object"
+                            invisible="state in ('done','cancelled')"/>
+                    <button name="action_reset" string="Reset to Draft" type="object"
+                            invisible="state not in ('cancelled',)"/>
+                    <field name="state" widget="statusbar"/>
+                </header>
+                <sheet>
+                    <widget name="web_ribbon" title="Overdue" bg_color="text-bg-danger"
+                            invisible="not is_overdue"/>
+                    <div class="oe_title">
+                        <h1><field name="name" placeholder="Task Name"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="lead_id"/>
+                            <field name="task_type"/>
+                            <field name="deadline"/>
+                        </group>
+                        <group>
+                            <field name="assigned_by"/>
+                            <field name="assigned_to"/>
+                            <field name="is_overdue" readonly="1"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Notes" name="notes">
+                            <field name="notes" placeholder="Task details..."/>
+                        </page>
+                    </notebook>
+                </sheet>
+                <chatter/>
+            </form>
+        </field>
+    </record>
+
+    <!-- Technical Task Tree View -->
+    <record id="tsc_technical_task_view_tree" model="ir.ui.view">
+        <field name="name">tsc.technical.task.tree</field>
+        <field name="model">tsc.technical.task</field>
+        <field name="arch" type="xml">
+            <list string="Technical Tasks">
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="lead_id"/>
+                <field name="task_type"/>
+                <field name="assigned_to"/>
+                <field name="deadline"/>
+                <field name="state"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- Technical Task Search View -->
+    <record id="tsc_technical_task_view_search" model="ir.ui.view">
+        <field name="name">tsc.technical.task.search</field>
+        <field name="model">tsc.technical.task</field>
+        <field name="arch" type="xml">
+            <search string="Search Technical Tasks">
+                <field name="name"/>
+                <field name="lead_id"/>
+                <field name="assigned_to"/>
+                <filter name="filter_draft" string="Draft" domain="[('state', '=', 'draft')]"/>
+                <filter name="filter_assigned" string="Assigned" domain="[('state', '=', 'assigned')]"/>
+                <filter name="filter_in_progress" string="In Progress" domain="[('state', '=', 'in_progress')]"/>
+                <filter name="filter_overdue" string="Overdue" domain="[('is_overdue', '=', True)]"/>
+                <group expand="0" string="Group By">
+                    <filter string="Status" name="group_state" context="{'group_by': 'state'}"/>
+                    <filter string="Task Type" name="group_type" context="{'group_by': 'task_type'}"/>
+                    <filter string="Assigned To" name="group_assigned" context="{'group_by': 'assigned_to'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Technical Task Action -->
+    <record id="tsc_technical_task_action" model="ir.actions.act_window">
+        <field name="name">Technical Tasks</field>
+        <field name="res_model">tsc.technical.task</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

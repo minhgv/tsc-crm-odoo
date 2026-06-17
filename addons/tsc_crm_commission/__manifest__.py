@@ -13,6 +13,7 @@
     ],
     'data': [
         'security/ir.model.access.csv',
+        'data/sequence_data.xml',
         'views/tsc_commission_views.xml',
         'views/tsc_menu.xml',
     ],

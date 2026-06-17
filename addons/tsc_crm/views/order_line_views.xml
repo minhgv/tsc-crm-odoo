@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Order Line Form View -->
+    <record id="tsc_order_line_view_form" model="ir.ui.view">
+        <field name="name">tsc.order.line.form</field>
+        <field name="model">tsc.order.line</field>
+        <field name="arch" type="xml">
+            <form string="Order Line">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="lead_id"/>
+                            <field name="service_id"/>
+                            <field name="package_id"/>
+                            <field name="package_level_id"/>
+                        </group>
+                        <group>
+                            <field name="quantity"/>
+                            <field name="unit_price"/>
+                            <field name="discount_amount"/>
+                            <field name="total_price"/>
+                            <field name="state"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Order Line Tree View -->
+    <record id="tsc_order_line_view_tree" model="ir.ui.view">
+        <field name="name">tsc.order.line.tree</field>
+        <field name="model">tsc.order.line</field>
+        <field name="arch" type="xml">
+            <list string="Order Lines">
+                <field name="sequence" widget="handle"/>
+                <field name="lead_id"/>
+                <field name="service_id"/>
+                <field name="package_id"/>
+                <field name="quantity"/>
+                <field name="unit_price"/>
+                <field name="discount_amount"/>
+                <field name="total_price"/>
+                <field name="state"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- Order Line Search View -->
+    <record id="tsc_order_line_view_search" model="ir.ui.view">
+        <field name="name">tsc.order.line.search</field>
+        <field name="model">tsc.order.line</field>
+        <field name="arch" type="xml">
+            <search string="Search Order Lines">
+                <field name="lead_id"/>
+                <field name="service_id"/>
+                <field name="package_id"/>
+                <group expand="0" string="Group By">
+                    <filter string="Service" name="group_service" context="{'group_by': 'service_id'}"/>
+                    <filter string="Status" name="group_state" context="{'group_by': 'state'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+</odoo>

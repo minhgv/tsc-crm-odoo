@@ -1,6 +1,41 @@
 # Language: lo
-# Translation file for $mod
-# Generated automatically
+# Translation file for tsc_crm
+
+msgid "Accept"
+msgstr ""
+
+msgid "Accepted"
+msgstr ""
+
+msgid "Admin Override"
+msgstr ""
+
+msgid "All Orders"
+msgstr ""
+
+msgid "All Tasks"
+msgstr ""
+
+msgid "Assign"
+msgstr ""
+
+msgid "Assigned"
+msgstr ""
+
+msgid "Assigned By"
+msgstr ""
+
+msgid "Assigned From"
+msgstr ""
+
+msgid "Assigned To"
+msgstr ""
+
+msgid "Assignment Log"
+msgstr ""
+
+msgid "Auto Assignment"
+msgstr ""
 
 msgid "Business"
 msgstr ""
@@ -8,7 +43,37 @@ msgstr ""
 msgid "CMS CRM"
 msgstr ""
 
+msgid "Cancel"
+msgstr ""
+
+msgid "Cancelled"
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+msgid "Confirm Order"
+msgstr ""
+
 msgid "Confirmed"
+msgstr ""
+
+msgid "Configuration"
+msgstr ""
+
+msgid "Contract Signing"
+msgstr ""
+
+msgid "Created"
+msgstr ""
+
+msgid "Customer Code"
+msgstr ""
+
+msgid "Customer Care"
+msgstr ""
+
+msgid "Customer Type"
 msgstr ""
 
 msgid "Delivered"
@@ -17,33 +82,167 @@ msgstr ""
 msgid "Direct Sale"
 msgstr ""
 
+msgid "Done"
+msgstr ""
+
 msgid "Draft"
 msgstr ""
 
 msgid "Government"
 msgstr ""
 
-msgid "Individual"
+msgid "Group Type"
+msgstr ""
+
+msgid "Implementation"
+msgstr ""
+
+msgid "In Progress"
+msgstr ""
+
+msgid "Individual/Household"
+msgstr ""
+
+msgid "Maintenance"
 msgstr ""
 
 msgid "Manager"
 msgstr ""
 
+msgid "Manual Assignment"
+msgstr ""
+
+msgid "Mark Done"
+msgstr ""
+
+msgid "Max Hours"
+msgstr ""
+
 msgid "Miniapp"
+msgstr ""
+
+msgid "New Order"
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Order Assignment Log"
 msgstr ""
 
 msgid "Order Line"
 msgstr ""
 
+msgid "Order Lines"
+msgstr ""
+
+msgid "Order Reference"
+msgstr ""
+
+msgid "Order Total"
+msgstr ""
+
+msgid "Overdue"
+msgstr ""
+
+msgid "Overdue Orders"
+msgstr ""
+
+msgid "Overdue Tasks"
+msgstr ""
+
+msgid "Payment"
+msgstr ""
+
+msgid "Payment SLA"
+msgstr ""
+
 msgid "Project"
+msgstr ""
+
+msgid "Reason"
+msgstr ""
+
+msgid "Reassignment"
+msgstr ""
+
+msgid "Reception/Assignment"
+msgstr ""
+
+msgid "Reception/Assignment SLA"
 msgstr ""
 
 msgid "Region"
 msgstr ""
 
+msgid "Region Manager"
+msgstr ""
+
+msgid "Regions"
+msgstr ""
+
+msgid "Renewal Reminder"
+msgstr ""
+
+msgid "Reset to Draft"
+msgstr ""
+
+msgid "SLA Configuration"
+msgstr ""
+
+msgid "SLA Deadline"
+msgstr ""
+
+msgid "Service Type"
+msgstr ""
+
 msgid "Staff"
+msgstr ""
+
+msgid "Staff Customer Care"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Survey"
+msgstr ""
+
+msgid "Survey / Consultation"
+msgstr ""
+
+msgid "Survey/Consultation"
+msgstr ""
+
+msgid "Survey/Consultation SLA"
+msgstr ""
+
+msgid "Task Name"
+msgstr ""
+
+msgid "Task Type"
+msgstr ""
+
+msgid "Technical Tasks"
 msgstr ""
 
 msgid "Technical"
 msgstr ""
 
+msgid "TSC Role"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Unit Price"
+msgstr ""
+
+msgid "Confirmation Deadline"
+msgstr ""

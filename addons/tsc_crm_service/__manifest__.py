@@ -15,6 +15,8 @@
         'views/tsc_package_views.xml',
         'views/tsc_combo_views.xml',
         'views/tsc_discount_views.xml',
+        'views/tsc_promotion_views.xml',
+        'views/tsc_discount_policy_views.xml',
         'views/tsc_agency_views.xml',
         'views/tsc_menu.xml',
     ],

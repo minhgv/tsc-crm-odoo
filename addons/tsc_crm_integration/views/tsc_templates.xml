@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="services_page" name="Services Page">
+        <t t-call="web.layout">
+            <t t-set="head">
+                <title>Services</title>
+            </t>
+            <div class="container mt-4">
+                <h1>Our Services</h1>
+                <div class="row">
+                    <t t-foreach="services" t-as="service">
+                        <div class="col-md-4 mb-3">
+                            <div class="card">
+                                <t t-if="service.logo">
+                                    <img t-att-src="image_data_uri(service.logo)" class="card-img-top" alt="Logo"/>
+                                </t>
+                                <div class="card-body">
+                                    <h5 class="card-title" t-field="service.name"/>
+                                    <p class="card-text" t-field="service.description"/>
+                                    <a t-attf-href="/services/#{service.id}" class="btn btn-primary">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </div>
+            </div>
+        </t>
+    </template>
+
+    <template id="service_detail_page" name="Service Detail Page">
+        <t t-call="web.layout">
+            <t t-set="head">
+                <t t-esc="service.name"/>
+            </t>
+            <div class="container mt-4">
+                <h1 t-field="service.name"/>
+                <t t-if="service.slogan">
+                    <p class="lead" t-field="service.slogan"/>
+                </t>
+                <div class="row">
+                    <div class="col-md-8">
+                        <t t-if="service.description">
+                            <div t-field="service.description"/>
+                        </t>
+                        <t t-if="service.value_proposition">
+                            <h3>Benefits</h3>
+                            <p t-field="service.value_proposition"/>
+                        </t>
+                        <t t-if="service.policy">
+                            <h3>Policy</h3>
+                            <div t-field="service.policy"/>
+                        </t>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>Packages</h5>
+                                <t t-foreach="service.package_ids" t-as="pkg">
+                                    <div class="mb-2">
+                                        <strong t-field="pkg.name"/>
+                                        <t t-if="pkg.level_ids">
+                                            <ul>
+                                                <t t-foreach="pkg.level_ids" t-as="level">
+                                                    <li>
+                                                        <span t-field="level.name"/>
+                                                        - <span t-field="level.price"/>
+                                                    </li>
+                                                </t>
+                                            </ul>
+                                        </t>
+                                    </div>
+                                </t>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="/services" class="btn btn-secondary mt-3">Back to Services</a>
+            </div>
+        </t>
+    </template>
+
+    <template id="order_create_page" name="Order Create Page">
+        <t t-call="web.layout">
+            <t t-set="head">
+                <title>Create Order</title>
+            </t>
+            <div class="container mt-4">
+                <h1>Create Order</h1>
+                <form action="/order/create" method="post">
+                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                    <div class="mb-3">
+                        <label class="form-label">Service</label>
+                        <select name="service_id" class="form-select" required="required">
+                            <option value="">Select a service</option>
+                            <t t-foreach="services" t-as="service">
+                                <option t-att-value="service.id" t-esc="service.name"/>
+                            </t>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Region</label>
+                        <select name="region_id" class="form-select">
+                            <option value="">Select a region</option>
+                            <t t-foreach="regions" t-as="region">
+                                <option t-att-value="region.id" t-esc="region.name"/>
+                            </t>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Notes</label>
+                        <textarea name="notes" class="form-control" rows="3"/>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Order</button>
+                </form>
+            </div>
+        </t>
+    </template>
+
+    <template id="order_status_page" name="Order Status Page">
+        <t t-call="web.layout">
+            <t t-set="head">
+                <title>Order Status</title>
+            </t>
+            <div class="container mt-4">
+                <h1>Order Status</h1>
+                <div class="card">
+                    <div class="card-body">
+                        <h5>Order: <span t-field="order.tsc_order_id"/></h5>
+                        <p><strong>Name:</strong> <span t-field="order.name"/></p>
+                        <p><strong>Status:</strong> <span t-field="order.stage_id"/></p>
+                        <p><strong>Region:</strong> <span t-field="order.tsc_region_id"/></p>
+                        <p><strong>Total:</strong> <span t-field="order.tsc_order_total"/></p>
+                    </div>
+                </div>
+                <a href="/services" class="btn btn-secondary mt-3">Back to Services</a>
+            </div>
+        </t>
+    </template>
+
+    <template id="invoice_view_page" name="Invoice View Page">
+        <t t-call="web.layout">
+            <t t-set="head">
+                <title>Invoice</title>
+            </t>
+            <div class="container mt-4">
+                <h1>Invoice: <span t-field="invoice.name"/></h1>
+                <div class="card">
+                    <div class="card-body">
+                        <p><strong>Customer:</strong> <span t-field="invoice.partner_id"/></p>
+                        <p><strong>Date:</strong> <span t-field="invoice.invoice_date"/></p>
+                        <p><strong>Due Date:</strong> <span t-field="invoice.due_date"/></p>
+                        <p><strong>Status:</strong> <span t-field="invoice.state"/></p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Description</th>
+                                    <th>Qty</th>
+                                    <th>Unit Price</th>
+                                    <th>Amount</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <t t-foreach="invoice.line_ids" t-as="line">
+                                    <tr>
+                                        <td t-field="line.description"/>
+                                        <td t-field="line.quantity"/>
+                                        <td t-field="line.unit_price"/>
+                                        <td t-field="line.amount"/>
+                                    </tr>
+                                </t>
+                            </tbody>
+                        </table>
+                        <p><strong>Subtotal:</strong> <span t-field="invoice.subtotal"/></p>
+                        <p><strong>VAT:</strong> <span t-field="invoice.vat_amount"/></p>
+                        <p><strong>WHT:</strong> <span t-field="invoice.wht_amount"/></p>
+                        <p><strong>Total:</strong> <span t-field="invoice.total"/></p>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>

@@ -32,6 +32,13 @@ class TscExchangeRate(models.Model):
     sell_rate = fields.Float(required=True, string=_('Sell Rate'))
     source = fields.Char(default='BCEL')
 
+    @api.model
+    def get_rate_for_date(self, target_date):
+        rate = self.search([('date', '<=', target_date)], order='date desc', limit=1)
+        if rate:
+            return rate
+        return self.search([], order='date desc', limit=1)
+
 
 class TscSlaConfig(models.Model):
     _name = 'tsc.sla.config'

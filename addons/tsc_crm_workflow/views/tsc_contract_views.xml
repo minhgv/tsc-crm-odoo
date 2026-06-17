@@ -23,11 +23,27 @@
                         <group>
                             <field name="lead_id"/>
                             <field name="partner_id"/>
-                            <field name="contract_date"/>
+                            <field name="service_id"/>
+                            <field name="package_id"/>
                         </group>
                         <group>
+                            <field name="contract_date"/>
                             <field name="effective_date"/>
                             <field name="expiry_date"/>
+                            <field name="template_id"/>
+                        </group>
+                    </group>
+                    <group>
+                        <group>
+                            <field name="contract_value"/>
+                            <field name="currency_id"/>
+                            <field name="billing_cycle"/>
+                        </group>
+                        <group>
+                            <field name="performance_state"/>
+                            <field name="created_by"/>
+                            <field name="approved_by"/>
+                            <field name="approved_date"/>
                             <field name="voffice_doc_id"/>
                             <field name="voffice_status" widget="badge" decoration-danger="voffice_status == 'rejected'" decoration-success="voffice_status == 'signed'" decoration-warning="voffice_status == 'sent'"/>
                         </group>
@@ -47,6 +63,9 @@
                                     <field name="create_date"/>
                                 </list>
                             </field>
+                        </page>
+                        <page string="Audit Log" name="audit">
+                            <field name="audit_log_ids" readonly="1"/>
                         </page>
                         <page string="Notes" name="notes">
                             <field name="notes" placeholder="Notes..."/>

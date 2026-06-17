@@ -68,3 +68,35 @@ class TestTscConfig(TransactionCase):
         })
         self.assertEqual(sla.apply_type, 'working_hours')
         self.assertEqual(sla.working_hours_from, 8.0)
+
+    def test_exchange_rate_weekend_logic(self):
+        from datetime import date
+        self.env['tsc.exchange.rate'].create({
+            'date': date(2024, 6, 14),
+            'buy_rate': 24500.0,
+            'sell_rate': 25000.0,
+        })
+        self.env['tsc.exchange.rate'].create({
+            'date': date(2024, 6, 17),
+            'buy_rate': 24600.0,
+            'sell_rate': 25100.0,
+        })
+        weekend_date = date(2024, 6, 15)
+        rate = self.env['tsc.exchange.rate'].get_rate_for_date(weekend_date)
+        self.assertEqual(rate.date, date(2024, 6, 14))
+        self.assertEqual(rate.buy_rate, 24500.0)
+
+    def test_exchange_rate_get_latest(self):
+        from datetime import date
+        self.env['tsc.exchange.rate'].create({
+            'date': date(2024, 6, 10),
+            'buy_rate': 24000.0,
+            'sell_rate': 24500.0,
+        })
+        self.env['tsc.exchange.rate'].create({
+            'date': date(2024, 6, 17),
+            'buy_rate': 24600.0,
+            'sell_rate': 25100.0,
+        })
+        rate = self.env['tsc.exchange.rate'].get_rate_for_date(date(2024, 6, 20))
+        self.assertEqual(rate.date, date(2024, 6, 17))

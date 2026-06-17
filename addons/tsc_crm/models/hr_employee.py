@@ -11,6 +11,7 @@ class HrEmployee(models.Model):
     tsc_group_type = fields.Selection([
         ('business', _('Business')),
         ('technical', _('Technical')),
+        ('cc', _('Customer Care')),
     ], string=_('Group Type'))
     tsc_lao_id = fields.Char(string=_('LaoID'))
     tsc_max_order = fields.Integer(string=_('Max Concurrent Orders'), default=0)

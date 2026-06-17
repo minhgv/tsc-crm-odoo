@@ -3,3 +3,7 @@ from . import test_order_line
 from . import test_crm_lead
 from . import test_crm_team
 from . import test_hr_employee
+from . import test_res_partner
+from . import test_order_assignment
+from . import test_technical_task
+from . import test_sla_config
