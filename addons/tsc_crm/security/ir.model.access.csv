@@ -12,6 +12,4 @@ access_tsc_technical_task_admin,tsc.technical.task.admin,model_tsc_technical_tas
 access_tsc_technical_task_manager,tsc.technical.task.manager,model_tsc_technical_task,group_tsc_manager,1,1,1,0
 access_tsc_technical_task_staff_b,tsc.technical.task.staff_b,model_tsc_technical_task,group_tsc_staff_business,1,1,1,0
 access_tsc_technical_task_staff_t,tsc.technical.task.staff_t,model_tsc_technical_task,group_tsc_staff_technical,1,1,0,0
-access_tsc_sla_config_admin,tsc.sla.config.admin,model_tsc_sla_config,base.group_system,1,1,1,1
-access_tsc_sla_config_manager,tsc.sla.config.manager,model_tsc_sla_config,group_tsc_manager,1,1,0,0
 access_tsc_dashboard,tsc.dashboard,model_tsc_dashboard,base.group_system,1,1,1,1

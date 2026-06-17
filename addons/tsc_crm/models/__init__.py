@@ -6,5 +6,4 @@ from . import region
 from . import order_line
 from . import order_assignment
 from . import technical_task
-from . import sla_config
 from . import tsc_dashboard
