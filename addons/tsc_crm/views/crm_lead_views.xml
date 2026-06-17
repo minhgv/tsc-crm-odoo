@@ -78,17 +78,13 @@
         <field name="name">crm.lead.tsc.search</field>
         <field name="model">crm.lead</field>
         <field name="inherit_id" ref="crm.view_crm_case_leads_filter"/>
+        <field name="priority" eval="99"/>
         <field name="arch" type="xml">
             <xpath expr="//filter[@name='lost']" position="after">
                 <filter name="tsc_overdue" string="Overdue" domain="[('tsc_is_overdue', '=', True)]"/>
                 <separator/>
                 <filter name="tsc_direct" string="Direct Sale" domain="[('tsc_service_type', '=', 'direct')]"/>
                 <filter name="tsc_project" string="Project" domain="[('tsc_service_type', '=', 'project')]"/>
-            </xpath>
-            <xpath expr="//group[@name='groupby']" position="inside">
-                <filter string="Service Type" name="group_service_type" context="{'group_by': 'tsc_service_type'}"/>
-                <filter string="Customer Type" name="group_customer_type" context="{'group_by': 'tsc_customer_type'}"/>
-                <filter string="Region" name="group_region" context="{'group_by': 'tsc_region_id'}"/>
             </xpath>
         </field>
     </record>

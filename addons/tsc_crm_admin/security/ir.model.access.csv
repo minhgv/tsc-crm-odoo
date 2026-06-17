@@ -1,9 +1,9 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_tsc_organization_admin,tsc.organization.admin,model_tsc_organization,base.group_system,1,1,1,1
-access_tsc_organization_manager,tsc.organization.manager,model_tsc_organization,group_tsc_manager,1,1,0,0
-access_tsc_organization_staff,tsc.organization.staff,model_tsc_organization,group_tsc_staff_business,1,0,0,0
+access_tsc_organization_manager,tsc.organization.manager,model_tsc_organization,tsc_crm.group_tsc_manager,1,1,0,0
+access_tsc_organization_staff,tsc.organization.staff,model_tsc_organization,tsc_crm.group_tsc_staff_business,1,0,0,0
 access_tsc_role_admin,tsc.role.admin,model_tsc_role,base.group_system,1,1,1,1
-access_tsc_role_manager,tsc.role.manager,model_tsc_role,group_tsc_manager,1,0,0,0
+access_tsc_role_manager,tsc.role.manager,model_tsc_role,tsc_crm.group_tsc_manager,1,0,0,0
 access_tsc_permission_admin,tsc.permission.admin,model_tsc_permission,base.group_system,1,1,1,1
-access_tsc_permission_manager,tsc.permission.manager,model_tsc_permission,group_tsc_manager,1,0,0,0
+access_tsc_permission_manager,tsc.permission.manager,model_tsc_permission,tsc_crm.group_tsc_manager,1,0,0,0
 access_tsc_role_permission_admin,tsc.role.permission.admin,model_tsc_role_permission,base.group_system,1,1,1,1
