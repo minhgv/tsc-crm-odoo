@@ -221,7 +221,7 @@ odoo shell -d tsc_crm
 ```
 ┌─────────────────────────────────────────────────────┐
 │                PRESENTATION LAYER                    │
-│  Odoo Backend │ Miniapp/Web │ Landing Page           │
+│  Web Admin/Staff │ Miniapp/Web │ Landing Page           │
 ├─────────────────────────────────────────────────────┤
 │                BUSINESS LOGIC LAYER                  │
 │  tsc_crm │ tsc_crm_auth │ tsc_crm_service           │
