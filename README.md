@@ -237,7 +237,7 @@ odoo shell -d tsc_crm
 │                DATA ACCESS LAYER                     │
 │  Odoo ORM → PostgreSQL                               │
 │  crm.lead │ crm.team │ res.partner │ hr.employee     │
-│  + 41 custom models                                  │
+│  + 30 custom models (20 new + 11 extended)              │
 └─────────────────────────────────────────────────────┘
 ```
 
@@ -312,14 +312,14 @@ docker compose exec odoo odoo -d tsc_crm \
 
 | Module | Test Files | Test Cases |
 |--------|-----------|------------|
-| tsc_crm | 18 | 77 |
+| tsc_crm | 19 | 77 |
 | tsc_crm_auth | 4 | ~15 |
 | tsc_crm_service | 7 | ~25 |
 | tsc_crm_workflow | 5 | ~25 |
 | tsc_crm_commission | 1 | ~8 |
 | tsc_crm_admin | 2 | ~8 |
 | tsc_crm_integration | 3 | ~12 |
-| **Total** | **40** | **~170** |
+| **Total** | **41** | **~170** |
 
 ## User Stories
 
@@ -329,13 +329,18 @@ Xem chi tiết tại [`docs/user-stories.md`](docs/user-stories.md) — 29 user 
 
 | Metric | Count |
 |--------|-------|
-| Python files | 96 |
-| XML files | 43 |
-| CSV files | 7 |
-| i18n files | 19 |
-| Models | 41 custom + 4 extended |
-| Test files | 40 |
-| Test cases | ~170 |
+| Python files | 43 |
+| XML files | 21 |
+| CSV files | 1 |
+| i18n files | 2 |
+| Model files | 20 |
+| New models | 30 |
+| Extended models | 11 |
+| View files | 18 |
+| Test files | 19 |
+| Test cases | 77 |
+| ACL entries | 54 |
+| Record rules | 8 |
 | Screenshots | 22 |
 
 ## Known Issues

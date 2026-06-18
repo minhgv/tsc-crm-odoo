@@ -64,7 +64,7 @@ addons/tsc_crm/
 ├── data/
 │   ├── crm_stage_data.xml   # CRM stages
 │   └── notification_templates.xml  # 5 email templates
-├── tests/                   # 18 test files, 77 tests
+├── tests/                   # 19 test files, 77 tests
 └── i18n/                    # Translations
 ```
 
