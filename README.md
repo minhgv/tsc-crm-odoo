@@ -329,14 +329,16 @@ Xem chi tiết tại [`docs/user-stories.md`](docs/user-stories.md) — 29 user 
 
 | Metric | Count |
 |--------|-------|
+| Total files in module | 68 |
 | Python files | 43 |
 | XML files | 21 |
 | CSV files | 1 |
-| i18n files | 2 |
+| i18n files | 3 |
 | Model files | 20 |
 | New models | 30 |
 | Extended models | 11 |
 | View files | 18 |
+| Data files | 2 |
 | Test files | 19 |
 | Test cases | 77 |
 | ACL entries | 54 |
