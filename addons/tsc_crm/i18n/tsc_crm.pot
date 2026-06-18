@@ -1,5 +1,18 @@
 # Translation file for tsc_crm
-# Generated automatically
+# Generated from code analysis
+
+msgid ""
+msgstr ""
+"Project-Id-Version: tsc_crm 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-19 00:00+0000\n"
+"PO-Revision-Date: 2026-06-19 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
 
 msgid "Accept"
 msgstr ""
@@ -7,13 +20,28 @@ msgstr ""
 msgid "Accepted"
 msgstr ""
 
-msgid "Admin Override"
+msgid "Action Taken"
 msgstr ""
 
-msgid "All Orders"
+msgid "Activate"
 msgstr ""
 
-msgid "All Tasks"
+msgid "Active"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Amount"
+msgstr ""
+
+msgid "Amount Paid"
+msgstr ""
+
+msgid "Appendix"
+msgstr ""
+
+msgid "Archive"
 msgstr ""
 
 msgid "Assign"
@@ -37,6 +65,15 @@ msgstr ""
 msgid "Auto Assignment"
 msgstr ""
 
+msgid "Bank Transfer"
+msgstr ""
+
+msgid "Banner"
+msgstr ""
+
+msgid "Both"
+msgstr ""
+
 msgid "Business"
 msgstr ""
 
@@ -49,37 +86,151 @@ msgstr ""
 msgid "Cancelled"
 msgstr ""
 
+msgid "Cannot post invoice without lines"
+msgstr ""
+
+msgid "Cash"
+msgstr ""
+
+msgid "Channel"
+msgstr ""
+
+msgid "Check Status"
+msgstr ""
+
+msgid "Child Regions"
+msgstr ""
+
+msgid "Combo"
+msgstr ""
+
+msgid "Combo Package"
+msgstr ""
+
+msgid "Combo Services"
+msgstr ""
+
+msgid "Company"
+msgstr ""
+
 msgid "Confirm"
 msgstr ""
 
-msgid "Confirm Order"
+msgid "Confirmation Deadline"
 msgstr ""
 
 msgid "Confirmed"
 msgstr ""
 
-msgid "Configuration"
+msgid "Contract"
 msgstr ""
 
-msgid "Contract Signing"
+msgid "Contract Date"
+msgstr ""
+
+msgid "Contract Information"
+msgstr ""
+
+msgid "Contract Number"
+msgstr ""
+
+msgid "Contract activated"
+msgstr ""
+
+msgid "Contract cancelled"
+msgstr ""
+
+msgid "Contract expired"
+msgstr ""
+
+msgid "Contract must be pending signing"
+msgstr ""
+
+msgid "Contract must be signed to activate"
+msgstr ""
+
+msgid "Contract number must be unique!"
+msgstr ""
+
+msgid "Contract reset to draft"
+msgstr ""
+
+msgid "Contract signed"
+msgstr ""
+
+msgid "Contract submitted for signing"
+msgstr ""
+
+msgid "Contracts"
 msgstr ""
 
 msgid "Created"
 msgstr ""
 
-msgid "Customer Code"
+msgid "Currency"
+msgstr ""
+
+msgid "Current Orders"
+msgstr ""
+
+msgid "Customer"
 msgstr ""
 
 msgid "Customer Care"
 msgstr ""
 
+msgid "Customer Code"
+msgstr ""
+
 msgid "Customer Type"
+msgstr ""
+
+msgid "Customer code must be unique!"
+msgstr ""
+
+msgid "Cycle"
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Deadline"
 msgstr ""
 
 msgid "Delivered"
 msgstr ""
 
+msgid "Description"
+msgstr ""
+
 msgid "Direct Sale"
+msgstr ""
+
+msgid "Discount"
+msgstr ""
+
+msgid "Discount (%)"
+msgstr ""
+
+msgid "Distribution Channel"
+msgstr ""
+
+msgid "Document Information"
+msgstr ""
+
+msgid "Document Type"
+msgstr ""
+
+msgid "Document published"
+msgstr ""
+
+msgid "Document rejected"
+msgstr ""
+
+msgid "Document signed"
+msgstr ""
+
+msgid "Documents"
 msgstr ""
 
 msgid "Done"
@@ -88,10 +239,40 @@ msgstr ""
 msgid "Draft"
 msgstr ""
 
+msgid "Due Date"
+msgstr ""
+
+msgid "End Date"
+msgstr ""
+
+msgid "Error Message"
+msgstr ""
+
+msgid "Expired"
+msgstr ""
+
+msgid "Expired contracts cannot be cancelled"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+msgid "Financial"
+msgstr ""
+
+msgid "General Information"
+msgstr ""
+
 msgid "Government"
 msgstr ""
 
+msgid "Group By"
+msgstr ""
+
 msgid "Group Type"
+msgstr ""
+
+msgid "Images"
 msgstr ""
 
 msgid "Implementation"
@@ -100,7 +281,52 @@ msgstr ""
 msgid "In Progress"
 msgstr ""
 
+msgid "Individual"
+msgstr ""
+
 msgid "Individual/Household"
+msgstr ""
+
+msgid "Invoice"
+msgstr ""
+
+msgid "Invoice Date"
+msgstr ""
+
+msgid "Invoice Information"
+msgstr ""
+
+msgid "Invoice Lines"
+msgstr ""
+
+msgid "Invoice Number"
+msgstr ""
+
+msgid "Invoice cancelled"
+msgstr ""
+
+msgid "Invoice number must be unique!"
+msgstr ""
+
+msgid "Invoice posted"
+msgstr ""
+
+msgid "Invoice refunded"
+msgstr ""
+
+msgid "Invoice reset to draft"
+msgstr ""
+
+msgid "Invoices"
+msgstr ""
+
+msgid "LaoID"
+msgstr ""
+
+msgid "Level"
+msgstr ""
+
+msgid "Logo"
 msgstr ""
 
 msgid "Maintenance"
@@ -109,28 +335,94 @@ msgstr ""
 msgid "Manager"
 msgstr ""
 
-msgid "Manual Assignment"
+msgid "Manual"
 msgstr ""
 
 msgid "Mark Done"
 msgstr ""
 
-msgid "Max Hours"
+msgid "Mark Expired"
+msgstr ""
+
+msgid "Mark Failed"
+msgstr ""
+
+msgid "Mark Published"
+msgstr ""
+
+msgid "Mark Rejected"
+msgstr ""
+
+msgid "Mark Signed"
+msgstr ""
+
+msgid "Mark as Signed"
+msgstr ""
+
+msgid "Max Concurrent Orders"
+msgstr ""
+
+msgid "Media"
 msgstr ""
 
 msgid "Miniapp"
 msgstr ""
 
-msgid "New Order"
+msgid "New SLA Violation"
+msgstr ""
+
+msgid "New Signing"
+msgstr ""
+
+msgid "Not Sent"
 msgstr ""
 
 msgid "Notes"
 msgstr ""
 
+msgid "Offline"
+msgstr ""
+
+msgid "One Time"
+msgstr ""
+
+msgid "Online"
+msgstr ""
+
+msgid "Only cancelled invoices can be reset to draft"
+msgstr ""
+
+msgid "Only confirmed payments can be refunded"
+msgstr ""
+
+msgid "Only draft contracts can be submitted"
+msgstr ""
+
+msgid "Only draft invoices can be posted"
+msgstr ""
+
+msgid "Only draft payments can be submitted"
+msgstr ""
+
+msgid "Only pending or cancelled contracts can be reset to draft"
+msgstr ""
+
+msgid "Only pending payments can be confirmed"
+msgstr ""
+
+msgid "Only posted or paid invoices can be refunded"
+msgstr ""
+
 msgid "Order"
 msgstr ""
 
+msgid "Order Assignment"
+msgstr ""
+
 msgid "Order Assignment Log"
+msgstr ""
+
+msgid "Order Assignments"
 msgstr ""
 
 msgid "Order Line"
@@ -145,6 +437,27 @@ msgstr ""
 msgid "Order Total"
 msgstr ""
 
+msgid "Order accepted by %s"
+msgstr ""
+
+msgid "Order assigned to %s"
+msgstr ""
+
+msgid "Order confirmed"
+msgstr ""
+
+msgid "Order moved to survey phase"
+msgstr ""
+
+msgid "Orders"
+msgstr ""
+
+msgid "Orders Kanban"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
 msgid "Overdue"
 msgstr ""
 
@@ -154,25 +467,109 @@ msgstr ""
 msgid "Overdue Tasks"
 msgstr ""
 
+msgid "Package"
+msgstr ""
+
+msgid "Package Type"
+msgstr ""
+
+msgid "Package code must be unique!"
+msgstr ""
+
+msgid "Packages"
+msgstr ""
+
+msgid "Paid"
+msgstr ""
+
+msgid "Paid invoices cannot be cancelled"
+msgstr ""
+
+msgid "Parent Region"
+msgstr ""
+
+msgid "Partial payment received"
+msgstr ""
+
 msgid "Payment"
 msgstr ""
 
-msgid "Payment SLA"
+msgid "Payment Date"
+msgstr ""
+
+msgid "Payment Information"
+msgstr ""
+
+msgid "Payment Method"
+msgstr ""
+
+msgid "Payment Reference"
+msgstr ""
+
+msgid "Payment confirmed"
+msgstr ""
+
+msgid "Payment failed"
+msgstr ""
+
+msgid "Payment reference must be unique!"
+msgstr ""
+
+msgid "Payment refunded"
+msgstr ""
+
+msgid "Payment submitted for processing"
+msgstr ""
+
+msgid "Payments"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Pending Signing"
+msgstr ""
+
+msgid "Please select an assignee"
+msgstr ""
+
+msgid "Please select an employee"
+msgstr ""
+
+msgid "Policies"
+msgstr ""
+
+msgid "Post"
+msgstr ""
+
+msgid "Posted"
+msgstr ""
+
+msgid "Price (Kip/month)"
+msgstr ""
+
+msgid "Price Levels"
+msgstr ""
+
+msgid "Pricing"
 msgstr ""
 
 msgid "Project"
 msgstr ""
 
+msgid "Published"
+msgstr ""
+
+msgid "Quantity"
+msgstr ""
+
 msgid "Reason"
 msgstr ""
 
-msgid "Reassignment"
+msgid "Refund"
 msgstr ""
 
-msgid "Reception/Assignment"
-msgstr ""
-
-msgid "Reception/Assignment SLA"
+msgid "Refunded"
 msgstr ""
 
 msgid "Region"
@@ -181,74 +578,341 @@ msgstr ""
 msgid "Region Manager"
 msgstr ""
 
+msgid "Region code must be unique!"
+msgstr ""
+
 msgid "Regions"
 msgstr ""
 
-msgid "Renewal Reminder"
+msgid "Rejected"
+msgstr ""
+
+msgid "Reopen"
 msgstr ""
 
 msgid "Reset to Draft"
 msgstr ""
 
-msgid "SLA Configuration"
+msgid "Resolution"
+msgstr ""
+
+msgid "Resolve"
+msgstr ""
+
+msgid "Resolved"
+msgstr ""
+
+msgid "Resolved Date"
+msgstr ""
+
+msgid "SLA Config"
 msgstr ""
 
 msgid "SLA Deadline"
 msgstr ""
 
-msgid "Save"
+msgid "SLA Violation"
 msgstr ""
 
-msgid "Search"
+msgid "SLA Violations"
+msgstr ""
+
+msgid "SLA violated - auto action triggered"
+msgstr ""
+
+msgid "Scan Filename"
+msgstr ""
+
+msgid "Scanned Contract"
+msgstr ""
+
+msgid "Search Assignments"
+msgstr ""
+
+msgid "Search Contracts"
+msgstr ""
+
+msgid "Search Invoices"
+msgstr ""
+
+msgid "Search Order Lines"
+msgstr ""
+
+msgid "Search Packages"
+msgstr ""
+
+msgid "Search Payments"
+msgstr ""
+
+msgid "Search Regions"
+msgstr ""
+
+msgid "Search Services"
+msgstr ""
+
+msgid "Search Signing Records"
+msgstr ""
+
+msgid "Search Technical Tasks"
+msgstr ""
+
+msgid "Send to VOffice"
+msgstr ""
+
+msgid "Sent to VOffice for signing"
+msgstr ""
+
+msgid "Service"
 msgstr ""
 
 msgid "Service Type"
 msgstr ""
 
+msgid "Service code must be at least 2 characters"
+msgstr ""
+
+msgid "Service code must be unique!"
+msgstr ""
+
+msgid "Services"
+msgstr ""
+
+msgid "Setup Fee"
+msgstr ""
+
+msgid "Sign Date"
+msgstr ""
+
+msgid "Signed"
+msgstr ""
+
+msgid "Signed Document"
+msgstr ""
+
+msgid "Signed File"
+msgstr ""
+
+msgid "Signed Filename"
+msgstr ""
+
+msgid "Signing Record"
+msgstr ""
+
+msgid "Signing Records"
+msgstr ""
+
+msgid "Signing cancelled"
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
 msgid "Staff"
 msgstr ""
 
-msgid "Staff Customer Care"
+msgid "Stage Key"
 msgstr ""
 
 msgid "Start"
 msgstr ""
 
+msgid "Start Date"
+msgstr ""
+
 msgid "Status"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Submit for Signing"
 msgstr ""
 
 msgid "Survey"
 msgstr ""
 
-msgid "Survey / Consultation"
+msgid "Surveying"
 msgstr ""
 
-msgid "Survey/Consultation"
+msgid "TSC CRM Dashboard"
 msgstr ""
 
-msgid "Survey/Consultation SLA"
+msgid "TSC Contract"
 msgstr ""
 
-msgid "Task Name"
+msgid "TSC Invoice"
 msgstr ""
 
-msgid "Task Type"
+msgid "TSC Invoice Line"
 msgstr ""
 
-msgid "Technical Tasks"
+msgid "TSC Package"
 msgstr ""
 
-msgid "Technical"
+msgid "TSC Package Level"
+msgstr ""
+
+msgid "TSC Payment"
 msgstr ""
 
 msgid "TSC Role"
 msgstr ""
 
+msgid "TSC SLA Violation"
+msgstr ""
+
+msgid "TSC Service"
+msgstr ""
+
+msgid "TSC Signing Record"
+msgstr ""
+
+msgid "TSC VAT Configuration"
+msgstr ""
+
+msgid "TSC WHT Configuration"
+msgstr ""
+
+msgid "Target Customer"
+msgstr ""
+
+msgid "Task Type"
+msgstr ""
+
+msgid "Task assigned to %s"
+msgstr ""
+
+msgid "Task completed"
+msgstr ""
+
+msgid "Tax"
+msgstr ""
+
+msgid "Tax Information"
+msgstr ""
+
+msgid "Team Manager"
+msgstr ""
+
+msgid "Team Type"
+msgstr ""
+
+msgid "Technical"
+msgstr ""
+
+msgid "Technical Task"
+msgstr ""
+
+msgid "Technical Tasks"
+msgstr ""
+
 msgid "Total"
+msgstr ""
+
+msgid "Total Amount"
+msgstr ""
+
+msgid "Totals"
+msgstr ""
+
+msgid "Transaction ID"
+msgstr ""
+
+msgid "Trial Days"
+msgstr ""
+
+msgid "Unarchive"
+msgstr ""
+
+msgid "Unipay"
 msgstr ""
 
 msgid "Unit Price"
 msgstr ""
 
-msgid "Confirmation Deadline"
+msgid "Untaxed Amount"
+msgstr ""
+
+msgid "VAT"
+msgstr ""
+
+msgid "VAT Amount"
+msgstr ""
+
+msgid "VAT Configuration"
+msgstr ""
+
+msgid "VAT Configurations"
+msgstr ""
+
+msgid "VAT Rate (%)"
+msgstr ""
+
+msgid "VAT rate must be between 0 and 100"
+msgstr ""
+
+msgid "VOffice Document ID"
+msgstr ""
+
+msgid "VOffice Information"
+msgstr ""
+
+msgid "VOffice Integration"
+msgstr ""
+
+msgid "VOffice Status"
+msgstr ""
+
+msgid "VOffice Transaction Code"
+msgstr ""
+
+msgid "Valid From"
+msgstr ""
+
+msgid "Valid From must be before Valid To"
+msgstr ""
+
+msgid "Valid To"
+msgstr ""
+
+msgid "Validity"
+msgstr ""
+
+msgid "Validity Days"
+msgstr ""
+
+msgid "Value Proposition"
+msgstr ""
+
+msgid "Video URL"
+msgstr ""
+
+msgid "Violation Date"
+msgstr ""
+
+msgid "Violation Details"
+msgstr ""
+
+msgid "WHT"
+msgstr ""
+
+msgid "WHT Amount"
+msgstr ""
+
+msgid "WHT Configuration"
+msgstr ""
+
+msgid "WHT Configurations"
+msgstr ""
+
+msgid "WHT Rate (%)"
+msgstr ""
+
+msgid "WHT rate must be between 0 and 100"
+msgstr ""
+
+msgid "Workflow Stage"
+msgstr ""
+
+msgid "uMoney"
 msgstr ""

@@ -1,20 +1,49 @@
-# Language: vi
-# Translation file for tsc_crm
+# Vietnamese translation for tsc_crm
+# Generated from code analysis
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tsc_crm 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-19 00:00+0000\n"
+"PO-Revision-Date: 2026-06-19 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Accept"
 msgstr "Chấp nhận"
 
 msgid "Accepted"
-msgstr "Đã chấp nhận"
+msgstr ""
 
-msgid "Admin Override"
-msgstr "Admin ưu tiên"
+msgid "Action Taken"
+msgstr "Hành động đã thực hiện"
 
-msgid "All Orders"
-msgstr "Tất cả đơn hàng"
+msgid "Activate"
+msgstr "Kích hoạt"
 
-msgid "All Tasks"
-msgstr "Tất cả công việc"
+msgid "Active"
+msgstr "Hoạt động"
+
+msgid "All"
+msgstr "Tất cả"
+
+msgid "Amount"
+msgstr "Số tiền"
+
+msgid "Amount Paid"
+msgstr "Đã thanh toán"
+
+msgid "Appendix"
+msgstr "Phụ lục"
+
+msgid "Archive"
+msgstr "Lưu trữ"
 
 msgid "Assign"
 msgstr "Giao việc"
@@ -35,7 +64,16 @@ msgid "Assignment Log"
 msgstr "Nhật ký giao việc"
 
 msgid "Auto Assignment"
-msgstr "Tự động giao"
+msgstr ""
+
+msgid "Bank Transfer"
+msgstr "Chuyển khoản"
+
+msgid "Banner"
+msgstr "Banner"
+
+msgid "Both"
+msgstr "Cả hai"
 
 msgid "Business"
 msgstr "Doanh nghiệp"
@@ -49,38 +87,152 @@ msgstr "Hủy"
 msgid "Cancelled"
 msgstr "Đã hủy"
 
+msgid "Cannot post invoice without lines"
+msgstr "Không thể phát hành hóa đơn không có dòng"
+
+msgid "Cash"
+msgstr "Tiền mặt"
+
+msgid "Channel"
+msgstr "Kênh"
+
+msgid "Check Status"
+msgstr "Kiểm tra trạng thái"
+
+msgid "Child Regions"
+msgstr "Khu vực con"
+
+msgid "Combo"
+msgstr "Combo"
+
+msgid "Combo Package"
+msgstr "Gói combo"
+
+msgid "Combo Services"
+msgstr "Dịch vụ combo"
+
+msgid "Company"
+msgstr "Công ty"
+
 msgid "Confirm"
 msgstr "Xác nhận"
 
-msgid "Confirm Order"
-msgstr "Xác nhận đơn hàng"
+msgid "Confirmation Deadline"
+msgstr "Hạn xác nhận"
 
 msgid "Confirmed"
 msgstr "Đã xác nhận"
 
-msgid "Configuration"
-msgstr "Cấu hình"
+msgid "Contract"
+msgstr "Hợp đồng"
 
-msgid "Contract Signing"
-msgstr "Ký hợp đồng"
+msgid "Contract Date"
+msgstr "Ngày hợp đồng"
+
+msgid "Contract Information"
+msgstr "Thông tin hợp đồng"
+
+msgid "Contract Number"
+msgstr "Số hợp đồng"
+
+msgid "Contract activated"
+msgstr "Hợp đồng đã kích hoạt"
+
+msgid "Contract cancelled"
+msgstr "Hợp đồng đã hủy"
+
+msgid "Contract expired"
+msgstr "Hợp đồng đã hết hạn"
+
+msgid "Contract must be pending signing"
+msgstr "Hợp đồng phải đang chờ ký"
+
+msgid "Contract must be signed to activate"
+msgstr "Hợp đồng phải được ký để kích hoạt"
+
+msgid "Contract number must be unique!"
+msgstr "Số hợp đồng phải là duy nhất!"
+
+msgid "Contract reset to draft"
+msgstr "Hợp đồng đặt lại nháp"
+
+msgid "Contract signed"
+msgstr "Hợp đồng đã ký"
+
+msgid "Contract submitted for signing"
+msgstr "Hợp đồng đã gửi ký"
+
+msgid "Contracts"
+msgstr "Hợp đồng"
 
 msgid "Created"
 msgstr "Đã tạo"
 
-msgid "Customer Code"
-msgstr "Mã khách hàng"
+msgid "Currency"
+msgstr "Tiền tệ"
+
+msgid "Current Orders"
+msgstr "Đơn hàng hiện tại"
+
+msgid "Customer"
+msgstr "Khách hàng"
 
 msgid "Customer Care"
 msgstr "Chăm sóc khách hàng"
 
+msgid "Customer Code"
+msgstr "Mã khách hàng"
+
 msgid "Customer Type"
 msgstr "Loại khách hàng"
+
+msgid "Customer code must be unique!"
+msgstr "Mã khách hàng phải là duy nhất!"
+
+msgid "Cycle"
+msgstr "Chu kỳ"
+
+msgid "Dashboard"
+msgstr "Bảng điều khiển"
+
+msgid "Deadline"
+msgstr "Hạn chót"
 
 msgid "Delivered"
 msgstr "Đã giao"
 
+msgid "Description"
+msgstr "Mô tả"
+
 msgid "Direct Sale"
 msgstr "Bán trực tiếp"
+
+msgid "Discount"
+msgstr "Giảm giá"
+
+msgid "Discount (%)"
+msgstr "Giảm giá (%)"
+
+msgid "Distribution Channel"
+msgstr "Kênh phân phối"
+
+msgid "Document Information"
+msgstr "Thông tin tài liệu"
+
+msgid "Document Type"
+msgstr "Loại tài liệu"
+
+msgid "Document published"
+msgstr "Tài liệu đã phát hành"
+
+msgid "Document rejected"
+msgstr "Tài liệu bị từ chối"
+
+msgid "Document signed"
+msgstr "Tài liệu đã ký"
+
+msgid "Documents"
+msgstr "Tài liệu"
 
 msgid "Done"
 msgstr "Hoàn thành"
@@ -88,11 +240,41 @@ msgstr "Hoàn thành"
 msgid "Draft"
 msgstr "Nháp"
 
+msgid "Due Date"
+msgstr "Ngày đến hạn"
+
+msgid "End Date"
+msgstr "Ngày kết thúc"
+
+msgid "Error Message"
+msgstr "Thông báo lỗi"
+
+msgid "Expired"
+msgstr "Hết hạn"
+
+msgid "Expired contracts cannot be cancelled"
+msgstr "Hợp đồng hết hạn không thể hủy"
+
+msgid "Failed"
+msgstr "Thất bại"
+
+msgid "Financial"
+msgstr "Tài chính"
+
+msgid "General Information"
+msgstr "Thông tin chung"
+
 msgid "Government"
 msgstr "Chính phủ"
 
+msgid "Group By"
+msgstr "Nhóm theo"
+
 msgid "Group Type"
 msgstr "Loại nhóm"
+
+msgid "Images"
+msgstr "Hình ảnh"
 
 msgid "Implementation"
 msgstr "Triển khai"
@@ -100,8 +282,53 @@ msgstr "Triển khai"
 msgid "In Progress"
 msgstr "Đang thực hiện"
 
+msgid "Individual"
+msgstr "Cá nhân"
+
 msgid "Individual/Household"
 msgstr "Cá nhân/Hộ kinh doanh"
+
+msgid "Invoice"
+msgstr "Hóa đơn"
+
+msgid "Invoice Date"
+msgstr "Ngày hóa đơn"
+
+msgid "Invoice Information"
+msgstr "Thông tin hóa đơn"
+
+msgid "Invoice Lines"
+msgstr "Dòng hóa đơn"
+
+msgid "Invoice Number"
+msgstr "Số hóa đơn"
+
+msgid "Invoice cancelled"
+msgstr "Hóa đơn đã hủy"
+
+msgid "Invoice number must be unique!"
+msgstr "Số hóa đơn phải là duy nhất!"
+
+msgid "Invoice posted"
+msgstr "Hóa đơn đã phát hành"
+
+msgid "Invoice refunded"
+msgstr "Hóa đơn đã hoàn tiền"
+
+msgid "Invoice reset to draft"
+msgstr "Hóa đơn đặt lại nháp"
+
+msgid "Invoices"
+msgstr "Hóa đơn"
+
+msgid "LaoID"
+msgstr "LaoID"
+
+msgid "Level"
+msgstr "Cấp"
+
+msgid "Logo"
+msgstr "Logo"
 
 msgid "Maintenance"
 msgstr "Bảo trì"
@@ -109,29 +336,95 @@ msgstr "Bảo trì"
 msgid "Manager"
 msgstr "Quản lý"
 
-msgid "Manual Assignment"
-msgstr "Giao thủ công"
+msgid "Manual"
+msgstr "Thủ công"
 
 msgid "Mark Done"
 msgstr "Đánh dấu hoàn thành"
 
-msgid "Max Hours"
-msgstr "Số giờ tối đa"
+msgid "Mark Expired"
+msgstr "Đánh dấu hết hạn"
+
+msgid "Mark Failed"
+msgstr "Đánh dấu thất bại"
+
+msgid "Mark Published"
+msgstr "Đánh dấu đã phát hành"
+
+msgid "Mark Rejected"
+msgstr "Đánh dấu bị từ chối"
+
+msgid "Mark Signed"
+msgstr "Đánh dấu đã ký"
+
+msgid "Mark as Signed"
+msgstr "Đánh dấu đã ký"
+
+msgid "Max Concurrent Orders"
+msgstr "Số đơn tối đa cùng lúc"
+
+msgid "Media"
+msgstr "Phương tiện"
 
 msgid "Miniapp"
 msgstr "Miniapp"
 
-msgid "New Order"
-msgstr "Đơn hàng mới"
+msgid "New SLA Violation"
+msgstr "Vi phạm SLA mới"
+
+msgid "New Signing"
+msgstr "Ký mới"
+
+msgid "Not Sent"
+msgstr "Chưa gửi"
 
 msgid "Notes"
 msgstr "Ghi chú"
 
+msgid "Offline"
+msgstr "Offline"
+
+msgid "One Time"
+msgstr "Một lần"
+
+msgid "Online"
+msgstr "Online"
+
+msgid "Only cancelled invoices can be reset to draft"
+msgstr "Chỉ hóa đơn đã hủy mới đặt lại nháp"
+
+msgid "Only confirmed payments can be refunded"
+msgstr "Chỉ thanh toán đã xác nhận mới hoàn tiền"
+
+msgid "Only draft contracts can be submitted"
+msgstr "Chỉ hợp đồng nháp mới gửi được"
+
+msgid "Only draft invoices can be posted"
+msgstr "Chỉ hóa đơn nháp mới phát hành được"
+
+msgid "Only draft payments can be submitted"
+msgstr "Chỉ thanh toán nháp mới gửi được"
+
+msgid "Only pending or cancelled contracts can be reset to draft"
+msgstr "Chỉ hợp đồng chờ/hủy mới đặt lại nháp"
+
+msgid "Only pending payments can be confirmed"
+msgstr "Chỉ thanh toán chờ mới xác nhận được"
+
+msgid "Only posted or paid invoices can be refunded"
+msgstr "Chỉ hóa đơn phát hành/đã thanh toán mới hoàn tiền"
+
 msgid "Order"
 msgstr "Đơn hàng"
 
+msgid "Order Assignment"
+msgstr "Phân công đơn hàng"
+
 msgid "Order Assignment Log"
 msgstr "Nhật ký giao việc"
+
+msgid "Order Assignments"
+msgstr "Phân công đơn hàng"
 
 msgid "Order Line"
 msgstr "Dòng đơn hàng"
@@ -145,6 +438,27 @@ msgstr "Mã đơn hàng"
 msgid "Order Total"
 msgstr "Tổng đơn hàng"
 
+msgid "Order accepted by %s"
+msgstr "Đơn hàng được chấp nhận bởi %s"
+
+msgid "Order assigned to %s"
+msgstr "Đơn hàng giao cho %s"
+
+msgid "Order confirmed"
+msgstr "Đơn hàng đã xác nhận"
+
+msgid "Order moved to survey phase"
+msgstr "Đơn hàng chuyển sang khảo sát"
+
+msgid "Orders"
+msgstr "Đơn hàng"
+
+msgid "Orders Kanban"
+msgstr "Kanban đơn hàng"
+
+msgid "Other"
+msgstr "Khác"
+
 msgid "Overdue"
 msgstr "Quá hạn"
 
@@ -154,26 +468,110 @@ msgstr "Đơn hàng quá hạn"
 msgid "Overdue Tasks"
 msgstr "Công việc quá hạn"
 
+msgid "Package"
+msgstr "Gói cước"
+
+msgid "Package Type"
+msgstr "Loại gói"
+
+msgid "Package code must be unique!"
+msgstr "Mã gói phải là duy nhất!"
+
+msgid "Packages"
+msgstr "Gói cước"
+
+msgid "Paid"
+msgstr "Đã thanh toán"
+
+msgid "Paid invoices cannot be cancelled"
+msgstr "Hóa đơn đã thanh toán không thể hủy"
+
+msgid "Parent Region"
+msgstr "Khu vực cha"
+
+msgid "Partial payment received"
+msgstr "Đã nhận thanh toán một phần"
+
 msgid "Payment"
 msgstr "Thanh toán"
 
-msgid "Payment SLA"
-msgstr "SLA Thanh toán"
+msgid "Payment Date"
+msgstr "Ngày thanh toán"
+
+msgid "Payment Information"
+msgstr "Thông tin thanh toán"
+
+msgid "Payment Method"
+msgstr "Phương thức thanh toán"
+
+msgid "Payment Reference"
+msgstr "Mã thanh toán"
+
+msgid "Payment confirmed"
+msgstr "Thanh toán đã xác nhận"
+
+msgid "Payment failed"
+msgstr "Thanh toán thất bại"
+
+msgid "Payment reference must be unique!"
+msgstr "Mã thanh toán phải là duy nhất!"
+
+msgid "Payment refunded"
+msgstr "Thanh toán đã hoàn tiền"
+
+msgid "Payment submitted for processing"
+msgstr "Thanh toán đã gửi xử lý"
+
+msgid "Payments"
+msgstr "Thanh toán"
+
+msgid "Pending"
+msgstr "Chờ xử lý"
+
+msgid "Pending Signing"
+msgstr "Chờ ký"
+
+msgid "Please select an assignee"
+msgstr "Vui lòng chọn người được giao"
+
+msgid "Please select an employee"
+msgstr "Vui lòng chọn nhân viên"
+
+msgid "Policies"
+msgstr "Chính sách"
+
+msgid "Post"
+msgstr "Phát hành"
+
+msgid "Posted"
+msgstr "Đã phát hành"
+
+msgid "Price (Kip/month)"
+msgstr "Giá (Kip/tháng)"
+
+msgid "Price Levels"
+msgstr "Mức giá"
+
+msgid "Pricing"
+msgstr "Định giá"
 
 msgid "Project"
 msgstr "Dự án"
 
+msgid "Published"
+msgstr "Đã phát hành"
+
+msgid "Quantity"
+msgstr "Số lượng"
+
 msgid "Reason"
 msgstr "Lý do"
 
-msgid "Reassignment"
-msgstr "Giao lại"
+msgid "Refund"
+msgstr "Hoàn tiền"
 
-msgid "Reception/Assignment"
-msgstr "Tiếp nhận/Giao việc"
-
-msgid "Reception/Assignment SLA"
-msgstr "SLA Tiếp nhận"
+msgid "Refunded"
+msgstr "Đã hoàn tiền"
 
 msgid "Region"
 msgstr "Khu vực"
@@ -181,68 +579,341 @@ msgstr "Khu vực"
 msgid "Region Manager"
 msgstr "Quản lý khu vực"
 
+msgid "Region code must be unique!"
+msgstr "Mã khu vực phải là duy nhất!"
+
 msgid "Regions"
 msgstr "Khu vực"
 
-msgid "Renewal Reminder"
-msgstr "Nhắc nhở gia hạn"
+msgid "Rejected"
+msgstr "Bị từ chối"
+
+msgid "Reopen"
+msgstr "Mở lại"
 
 msgid "Reset to Draft"
 msgstr "Đặt lại nháp"
 
-msgid "SLA Configuration"
+msgid "Resolution"
+msgstr "Giải quyết"
+
+msgid "Resolve"
+msgstr "Giải quyết"
+
+msgid "Resolved"
+msgstr "Đã xử lý"
+
+msgid "Resolved Date"
+msgstr "Ngày xử lý"
+
+msgid "SLA Config"
 msgstr "Cấu hình SLA"
 
 msgid "SLA Deadline"
 msgstr "Hạn SLA"
 
+msgid "SLA Violation"
+msgstr "Vi phạm SLA"
+
+msgid "SLA Violations"
+msgstr "Vi phạm SLA"
+
+msgid "SLA violated - auto action triggered"
+msgstr "Vi phạm SLA - đã kích hoạt tự động"
+
+msgid "Scan Filename"
+msgstr "Tên file scan"
+
+msgid "Scanned Contract"
+msgstr "Hợp đồng đã scan"
+
+msgid "Search Assignments"
+msgstr "Tìm kiếm phân công"
+
+msgid "Search Contracts"
+msgstr "Tìm kiếm hợp đồng"
+
+msgid "Search Invoices"
+msgstr "Tìm kiếm hóa đơn"
+
+msgid "Search Order Lines"
+msgstr "Tìm kiếm dòng đơn hàng"
+
+msgid "Search Packages"
+msgstr "Tìm kiếm gói cước"
+
+msgid "Search Payments"
+msgstr "Tìm kiếm thanh toán"
+
+msgid "Search Regions"
+msgstr "Tìm kiếm khu vực"
+
+msgid "Search Services"
+msgstr "Tìm kiếm dịch vụ"
+
+msgid "Search Signing Records"
+msgstr "Tìm kiếm phiên ký"
+
+msgid "Search Technical Tasks"
+msgstr "Tìm kiếm công việc kỹ thuật"
+
+msgid "Send to VOffice"
+msgstr "Gửi VOffice"
+
+msgid "Sent to VOffice for signing"
+msgstr "Đã gửi VOffice ký"
+
+msgid "Service"
+msgstr "Dịch vụ"
+
 msgid "Service Type"
 msgstr "Loại dịch vụ"
+
+msgid "Service code must be at least 2 characters"
+msgstr "Mã dịch vụ phải ít nhất 2 ký tự"
+
+msgid "Service code must be unique!"
+msgstr "Mã dịch vụ phải là duy nhất!"
+
+msgid "Services"
+msgstr "Dịch vụ"
+
+msgid "Setup Fee"
+msgstr "Phí lắp đặt"
+
+msgid "Sign Date"
+msgstr "Ngày ký"
+
+msgid "Signed"
+msgstr "Đã ký"
+
+msgid "Signed Document"
+msgstr "Hợp đồng đã ký"
+
+msgid "Signed File"
+msgstr "File đã ký"
+
+msgid "Signed Filename"
+msgstr "Tên file đã ký"
+
+msgid "Signing Record"
+msgstr "Phiên ký"
+
+msgid "Signing Records"
+msgstr "Phiên ký"
+
+msgid "Signing cancelled"
+msgstr "Ký đã hủy"
+
+msgid "Source"
+msgstr "Nguồn"
 
 msgid "Staff"
 msgstr "Nhân viên"
 
-msgid "Staff Customer Care"
-msgstr "Nhân viên CSKH"
+msgid "Stage Key"
+msgstr "Mã giai đoạn"
 
 msgid "Start"
 msgstr "Bắt đầu"
 
+msgid "Start Date"
+msgstr "Ngày bắt đầu"
+
 msgid "Status"
 msgstr "Trạng thái"
+
+msgid "Submit"
+msgstr "Gửi"
+
+msgid "Submit for Signing"
+msgstr "Gửi ký"
 
 msgid "Survey"
 msgstr "Khảo sát"
 
-msgid "Survey / Consultation"
-msgstr "Khảo sát / Tư vấn"
+msgid "Surveying"
+msgstr "Đang khảo sát"
 
-msgid "Survey/Consultation"
-msgstr "Khảo sát/Tư vấn"
+msgid "TSC CRM Dashboard"
+msgstr "Bảng điều khiển TSC CRM"
 
-msgid "Survey/Consultation SLA"
-msgstr "SLA Khảo sát"
+msgid "TSC Contract"
+msgstr "Hợp đồng TSC"
 
-msgid "Task Name"
-msgstr "Tên công việc"
+msgid "TSC Invoice"
+msgstr "Hóa đơn TSC"
 
-msgid "Task Type"
-msgstr "Loại công việc"
+msgid "TSC Invoice Line"
+msgstr "Dòng hóa đơn TSC"
 
-msgid "Technical Tasks"
-msgstr "Công việc kỹ thuật"
+msgid "TSC Package"
+msgstr "Gói cước TSC"
 
-msgid "Technical"
-msgstr "Kỹ thuật"
+msgid "TSC Package Level"
+msgstr "Mức gói cước TSC"
+
+msgid "TSC Payment"
+msgstr "Thanh toán TSC"
 
 msgid "TSC Role"
 msgstr "Vai trò TSC"
 
+msgid "TSC SLA Violation"
+msgstr "Vi phạm SLA TSC"
+
+msgid "TSC Service"
+msgstr "Dịch vụ TSC"
+
+msgid "TSC Signing Record"
+msgstr "Phiên ký TSC"
+
+msgid "TSC VAT Configuration"
+msgstr "Cấu hình VAT TSC"
+
+msgid "TSC WHT Configuration"
+msgstr "Cấu hình WHT TSC"
+
+msgid "Target Customer"
+msgstr ""
+
+msgid "Task Type"
+msgstr "Loại công việc"
+
+msgid "Task assigned to %s"
+msgstr "Công việc giao cho %s"
+
+msgid "Task completed"
+msgstr "Công việc hoàn thành"
+
+msgid "Tax"
+msgstr "Thuế"
+
+msgid "Tax Information"
+msgstr "Thông tin thuế"
+
+msgid "Team Manager"
+msgstr "Quản lý nhóm"
+
+msgid "Team Type"
+msgstr "Loại nhóm"
+
+msgid "Technical"
+msgstr "Kỹ thuật"
+
+msgid "Technical Task"
+msgstr "Công việc kỹ thuật"
+
+msgid "Technical Tasks"
+msgstr "Công việc kỹ thuật"
+
 msgid "Total"
 msgstr "Tổng cộng"
+
+msgid "Total Amount"
+msgstr "Tổng tiền"
+
+msgid "Totals"
+msgstr "Tổng cộng"
+
+msgid "Transaction ID"
+msgstr "Mã giao dịch"
+
+msgid "Trial Days"
+msgstr "Ngày dùng thử"
+
+msgid "Unarchive"
+msgstr "Bỏ lưu trữ"
+
+msgid "Unipay"
+msgstr "Unipay"
 
 msgid "Unit Price"
 msgstr "Đơn giá"
 
-msgid "Confirmation Deadline"
-msgstr "Hạn xác nhận"
+msgid "Untaxed Amount"
+msgstr "Thành tiền"
+
+msgid "VAT"
+msgstr "VAT"
+
+msgid "VAT Amount"
+msgstr "Tiền VAT"
+
+msgid "VAT Configuration"
+msgstr "Cấu hình VAT"
+
+msgid "VAT Configurations"
+msgstr "Cấu hình VAT"
+
+msgid "VAT Rate (%)"
+msgstr "Tỷ lệ VAT (%)"
+
+msgid "VAT rate must be between 0 and 100"
+msgstr "Tỷ lệ VAT phải từ 0 đến 100"
+
+msgid "VOffice Document ID"
+msgstr "Mã tài liệu VOffice"
+
+msgid "VOffice Information"
+msgstr "Thông tin VOffice"
+
+msgid "VOffice Integration"
+msgstr "Tích hợp VOffice"
+
+msgid "VOffice Status"
+msgstr "Trạng thái VOffice"
+
+msgid "VOffice Transaction Code"
+msgstr "Mã giao dịch VOffice"
+
+msgid "Valid From"
+msgstr "Có hiệu lực từ"
+
+msgid "Valid From must be before Valid To"
+msgstr "Ngày bắt đầu phải trước ngày kết thúc"
+
+msgid "Valid To"
+msgstr "Có hiệu lực đến"
+
+msgid "Validity"
+msgstr "Hiệu lực"
+
+msgid "Validity Days"
+msgstr "Số ngày hiệu lực"
+
+msgid "Value Proposition"
+msgstr "Giá trị mang lại"
+
+msgid "Video URL"
+msgstr "URL video"
+
+msgid "Violation Date"
+msgstr "Ngày vi phạm"
+
+msgid "Violation Details"
+msgstr "Chi tiết vi phạm"
+
+msgid "WHT"
+msgstr "WHT"
+
+msgid "WHT Amount"
+msgstr "Tiền WHT"
+
+msgid "WHT Configuration"
+msgstr "Cấu hình WHT"
+
+msgid "WHT Configurations"
+msgstr "Cấu hình WHT"
+
+msgid "WHT Rate (%)"
+msgstr "Tỷ lệ WHT (%)"
+
+msgid "WHT rate must be between 0 and 100"
+msgstr "Tỷ lệ WHT phải từ 0 đến 100"
+
+msgid "Workflow Stage"
+msgstr "Giai đoạn quy trình"
+
+msgid "uMoney"
+msgstr "uMoney"

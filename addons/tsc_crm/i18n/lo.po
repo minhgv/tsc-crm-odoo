@@ -1,248 +1,918 @@
-# Language: lo
-# Translation file for tsc_crm
+# Lao translation for tsc_crm
+# Generated from code analysis
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tsc_crm 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-19 00:00+0000\n"
+"PO-Revision-Date: 2026-06-19 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Lao\n"
+"Language: lo_LA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 msgid "Accept"
-msgstr ""
+msgstr "ຍອມຮັບ"
 
 msgid "Accepted"
 msgstr ""
 
-msgid "Admin Override"
-msgstr ""
+msgid "Action Taken"
+msgstr "ການດຳເນີນງານ"
 
-msgid "All Orders"
-msgstr ""
+msgid "Activate"
+msgstr "ເປີດໃຊ້ງານ"
 
-msgid "All Tasks"
-msgstr ""
+msgid "Active"
+msgstr "ສະໝັກ"
+
+msgid "All"
+msgstr "ທັງໝົດ"
+
+msgid "Amount"
+msgstr "ຈຳນວນ"
+
+msgid "Amount Paid"
+msgstr "ຈຳນວນທີ່ຈ່າຍແລ້ວ"
+
+msgid "Appendix"
+msgstr "ສະຫຼຸບ"
+
+msgid "Archive"
+msgstr "ບັນທຶກ"
 
 msgid "Assign"
-msgstr ""
+msgstr "ມອບໝາຍ"
 
 msgid "Assigned"
-msgstr ""
+msgstr "ມອບໝາຍແລ້ວ"
 
 msgid "Assigned By"
-msgstr ""
+msgstr "ມອບໝາຍໂດຍ"
 
 msgid "Assigned From"
-msgstr ""
+msgstr "ມອບໝາຍຈາກ"
 
 msgid "Assigned To"
-msgstr ""
+msgstr "ມອບໝາຍໃຫ້"
 
 msgid "Assignment Log"
-msgstr ""
+msgstr "ບັນທຶກການມອບໝາຍ"
 
 msgid "Auto Assignment"
 msgstr ""
 
+msgid "Bank Transfer"
+msgstr "ໂອນທະນາຄານ"
+
+msgid "Banner"
+msgstr "ແບນເນີ"
+
+msgid "Both"
+msgstr "ທັງສອງ"
+
 msgid "Business"
-msgstr ""
+msgstr "ທຸລະກິດ"
 
 msgid "CMS CRM"
-msgstr ""
+msgstr "CMS CRM"
 
 msgid "Cancel"
-msgstr ""
+msgstr "ຍົກເລີກ"
 
 msgid "Cancelled"
-msgstr ""
+msgstr "ຍົກເລີກແລ້ວ"
+
+msgid "Cannot post invoice without lines"
+msgstr "ບໍ່ສາມອອກບິນໂດຍບໍ່ມີລາຍການ"
+
+msgid "Cash"
+msgstr "ເງິນສົດ"
+
+msgid "Channel"
+msgstr "ຊ່ອງທາງ"
+
+msgid "Check Status"
+msgstr "ກວດສອບສະຖານະ"
+
+msgid "Child Regions"
+msgstr "ພື້ນທີ່ຍ່ອຍ"
+
+msgid "Combo"
+msgstr "ຄອມໂບ"
+
+msgid "Combo Package"
+msgstr "ແພັກເກີຄອມໂບ"
+
+msgid "Combo Services"
+msgstr "ບໍລິການຄອມໂບ"
+
+msgid "Company"
+msgstr "ບໍລິສັດ"
 
 msgid "Confirm"
-msgstr ""
+msgstr "ຢືນຢັນ"
 
-msgid "Confirm Order"
-msgstr ""
+msgid "Confirmation Deadline"
+msgstr "ກຳນົດຢືນຢັນ"
 
 msgid "Confirmed"
-msgstr ""
+msgstr "ຢືນຢັນແລ້ວ"
 
-msgid "Configuration"
-msgstr ""
+msgid "Contract"
+msgstr "ສັນຍາ"
 
-msgid "Contract Signing"
-msgstr ""
+msgid "Contract Date"
+msgstr "ວັນທີ່ສັນຍາ"
+
+msgid "Contract Information"
+msgstr "ຂໍ້ມູນສັນຍາ"
+
+msgid "Contract Number"
+msgstr "ເລກສັນຍາ"
+
+msgid "Contract activated"
+msgstr "ສັນຍາເປີດໃຊ້ແລ້ວ"
+
+msgid "Contract cancelled"
+msgstr "ສັນຍາຍົກເລີກແລ້ວ"
+
+msgid "Contract expired"
+msgstr "ສັນຍາໝົດອາຍຸ"
+
+msgid "Contract must be pending signing"
+msgstr "ສັນຍາຕ້ອງລໍຖ້າລົງນາມ"
+
+msgid "Contract must be signed to activate"
+msgstr "ສັນຍາຕ້ອງລົງນາມເພື່ອເປີດໃຊ້"
+
+msgid "Contract number must be unique!"
+msgstr "ເລກສັນຍາຕ້ອງເປັນເອກະລັດ!"
+
+msgid "Contract reset to draft"
+msgstr "ຕັ້ງສັນຍາເປັນຮ່າງ"
+
+msgid "Contract signed"
+msgstr "ສັນຍາລົງນາມແລ້ວ"
+
+msgid "Contract submitted for signing"
+msgstr "ສັນຍາສົ່ງລົງນາມແລ້ວ"
+
+msgid "Contracts"
+msgstr "ສັນຍາ"
 
 msgid "Created"
-msgstr ""
+msgstr "ສ້າງແລ້ວ"
 
-msgid "Customer Code"
-msgstr ""
+msgid "Currency"
+msgstr "ສະກຸນເງິນ"
+
+msgid "Current Orders"
+msgstr "ຄຳສັ່ງປັດຈຸບັນ"
+
+msgid "Customer"
+msgstr "ລູກຄ້າ"
 
 msgid "Customer Care"
-msgstr ""
+msgstr "ບໍລິການລູກຄ້າ"
+
+msgid "Customer Code"
+msgstr "ລະຫັດລູກຄ້າ"
 
 msgid "Customer Type"
-msgstr ""
+msgstr "ປະເພດລູກຄ້າ"
+
+msgid "Customer code must be unique!"
+msgstr "ລະຫັດລູກຄ້າຕ້ອງເປັນເອກະລັດ!"
+
+msgid "Cycle"
+msgstr "ວົງຈອນ"
+
+msgid "Dashboard"
+msgstr "ແຜງຄວບຄຸມ"
+
+msgid "Deadline"
+msgstr "ກຳນົດເວລາ"
 
 msgid "Delivered"
-msgstr ""
+msgstr "ຈັດສົ່ງແລ້ວ"
+
+msgid "Description"
+msgstr "ລາຍລະອຽດ"
 
 msgid "Direct Sale"
-msgstr ""
+msgstr "ຂາຍໂດຍກົງ"
+
+msgid "Discount"
+msgstr "ສ່ວນຫຼຸດ"
+
+msgid "Discount (%)"
+msgstr "ສ່ວນຫຼຸດ (%)"
+
+msgid "Distribution Channel"
+msgstr "ຊ່ອງການຈ່າຍແຈກ"
+
+msgid "Document Information"
+msgstr "ຂໍ້ມູນເອກະສານ"
+
+msgid "Document Type"
+msgstr "ປະເພດເອກະສານ"
+
+msgid "Document published"
+msgstr "ເອກະສານເຜີຍແຜ່ແລ້ວ"
+
+msgid "Document rejected"
+msgstr "ເອກະສານຖືກປະຕິເສດ"
+
+msgid "Document signed"
+msgstr "ເອກະສານລົງນາມແລ້ວ"
+
+msgid "Documents"
+msgstr "ເອກະສານ"
 
 msgid "Done"
-msgstr ""
+msgstr "ສຳເລັດ"
 
 msgid "Draft"
-msgstr ""
+msgstr "ຮ່າງ"
+
+msgid "Due Date"
+msgstr "ວັນຄົບກຳນົດ"
+
+msgid "End Date"
+msgstr "ວັນສິ້ນສຸດ"
+
+msgid "Error Message"
+msgstr "ຂໍ້ຄວາມຜິດພາດ"
+
+msgid "Expired"
+msgstr "ໝົດອາຍຸ"
+
+msgid "Expired contracts cannot be cancelled"
+msgstr "ສັນຍາໝົດອາຍຸບໍ່ສາມາດຍົກເລີກໄດ້"
+
+msgid "Failed"
+msgstr "ລົ້ມເຫຼວ"
+
+msgid "Financial"
+msgstr "ການເງິນ"
+
+msgid "General Information"
+msgstr "ຂໍ້ມູນທົ່ວໄປ"
 
 msgid "Government"
-msgstr ""
+msgstr "ລັດຖະບານ"
+
+msgid "Group By"
+msgstr "ຈັດກຸ່ມຕາມ"
 
 msgid "Group Type"
-msgstr ""
+msgstr "ປະເພດກຸ່ມ"
+
+msgid "Images"
+msgstr "ຮູບພາບ"
 
 msgid "Implementation"
-msgstr ""
+msgstr "ການຈັດຕັ້ງປະຕິບັດ"
 
 msgid "In Progress"
-msgstr ""
+msgstr "ກຳລັງດຳເນີນງານ"
+
+msgid "Individual"
+msgstr "ບຸກຄົນ"
 
 msgid "Individual/Household"
-msgstr ""
+msgstr "ບຸກຄົນ/ຄົວເຮືອນ"
+
+msgid "Invoice"
+msgstr "ບິນ"
+
+msgid "Invoice Date"
+msgstr "ວັນບິນ"
+
+msgid "Invoice Information"
+msgstr "ຂໍ້ມູນບິນ"
+
+msgid "Invoice Lines"
+msgstr "ລາຍການບິນ"
+
+msgid "Invoice Number"
+msgstr "ເລກບິນ"
+
+msgid "Invoice cancelled"
+msgstr "ບິນຍົກເລີກແລ້ວ"
+
+msgid "Invoice number must be unique!"
+msgstr "ເລກບິນຕ້ອງເປັນເອກະລັດ!"
+
+msgid "Invoice posted"
+msgstr "ບິນອອກແລ້ວ"
+
+msgid "Invoice refunded"
+msgstr "ບິນຄືນເງິນແລ້ວ"
+
+msgid "Invoice reset to draft"
+msgstr "ຕັ້ງບິນເປັນຮ່າງ"
+
+msgid "Invoices"
+msgstr "ບິນ"
+
+msgid "LaoID"
+msgstr "LaoID"
+
+msgid "Level"
+msgstr "ລະດັບ"
+
+msgid "Logo"
+msgstr "ໂລໂກ້"
 
 msgid "Maintenance"
-msgstr ""
+msgstr "ບຳລຸງຮັກສາ"
 
 msgid "Manager"
-msgstr ""
+msgstr "ຜູ້ຈັດການ"
 
-msgid "Manual Assignment"
-msgstr ""
+msgid "Manual"
+msgstr "ດ້ວຍມື"
 
 msgid "Mark Done"
-msgstr ""
+msgstr "ໝາຍວ່າສຳເລັດ"
 
-msgid "Max Hours"
-msgstr ""
+msgid "Mark Expired"
+msgstr "ໝາຍວ່າໝົດອາຍຸ"
+
+msgid "Mark Failed"
+msgstr "ໝາຍວ່າລົ້ມເຫຼວ"
+
+msgid "Mark Published"
+msgstr "ໝາຍວ່າເຜີຍແຜ່"
+
+msgid "Mark Rejected"
+msgstr "ໝາຍວ່າປະຕິເສດ"
+
+msgid "Mark Signed"
+msgstr "ໝາຍວ່າລົງນາມ"
+
+msgid "Mark as Signed"
+msgstr "ໝາຍວ່າລົງນາມ"
+
+msgid "Max Concurrent Orders"
+msgstr "ຈຳນວນຄຳສັ່ງສູງສຸດພ້ວມກັນ"
+
+msgid "Media"
+msgstr "ສື່"
 
 msgid "Miniapp"
-msgstr ""
+msgstr "Miniapp"
 
-msgid "New Order"
-msgstr ""
+msgid "New SLA Violation"
+msgstr "ລະເມີດ SLA ໃໝ່"
+
+msgid "New Signing"
+msgstr "ລົງນາມໃໝ່"
+
+msgid "Not Sent"
+msgstr "ຍັງບໍ່ໄດ້ສົ່ງ"
 
 msgid "Notes"
-msgstr ""
+msgstr "ໝາຍເຫດ"
+
+msgid "Offline"
+msgstr "ອັອບລາຍ"
+
+msgid "One Time"
+msgstr "ຄັ້ງດຽວ"
+
+msgid "Online"
+msgstr "ອອນລາຍ"
+
+msgid "Only cancelled invoices can be reset to draft"
+msgstr "ມີແຕ່ບິນທີ່ຍົກເລີກແລ້ວເທົ່ານັ້ນສາມາດຕັ້ງເປັນຮ່າງໄດ້"
+
+msgid "Only confirmed payments can be refunded"
+msgstr "ມີແຕ່ການຈ່າຍເງິນທີ່ຢືນຢັນແລ້ວເທົ່ານັ້ນສາມາດຄືນເງິນໄດ້"
+
+msgid "Only draft contracts can be submitted"
+msgstr "ມີແຕ່ສັນຍາຮ່າງເທົ່ານັ້ນສາມາດສົ່ງໄດ້"
+
+msgid "Only draft invoices can be posted"
+msgstr "ມີແຕ່ບິນຮ່າງເທົ່ານັ້ນສາມາດອອກໄດ້"
+
+msgid "Only draft payments can be submitted"
+msgstr "ມີແຕ່ການຈ່າຍເງິນຮ່າງເທົ່ານັ້ນສາມາດສົ່ງໄດ້"
+
+msgid "Only pending or cancelled contracts can be reset to draft"
+msgstr "ມີແຕ່ສັນຍາລໍຖ້າ/ຍົກເລີກເທົ່ານັ້ນສາມາດຕັ້ງເປັນຮ່າງໄດ້"
+
+msgid "Only pending payments can be confirmed"
+msgstr "ມີແຕ່ການຈ່າຍເງິນລໍຖ້າເທົ່ານັ້ນສາມາດຢືນຢັນໄດ້"
+
+msgid "Only posted or paid invoices can be refunded"
+msgstr "ມີແຕ່ບິນອອກ/ຈ່າຍແລ້ວເທົ່ານັ້ນສາມາດຄືນເງິນໄດ້"
 
 msgid "Order"
-msgstr ""
+msgstr "ຄຳສັ່ງ"
+
+msgid "Order Assignment"
+msgstr "ການມອບໝາຍຄຳສັ່ງ"
 
 msgid "Order Assignment Log"
-msgstr ""
+msgstr "ບັນທຶກການມອບໝາຍ"
+
+msgid "Order Assignments"
+msgstr "ການມອບໝາຍຄຳສັ່ງ"
 
 msgid "Order Line"
-msgstr ""
+msgstr "ລາຍການຄຳສັ່ງ"
 
 msgid "Order Lines"
-msgstr ""
+msgstr "ລາຍການຄຳສັ່ງ"
 
 msgid "Order Reference"
-msgstr ""
+msgstr "ລະຫັດຄຳສັ່ງ"
 
 msgid "Order Total"
-msgstr ""
+msgstr "ລວມຄຳສັ່ງ"
+
+msgid "Order accepted by %s"
+msgstr "ຄຳສັ່ງຍອມຮັບໂດຍ %s"
+
+msgid "Order assigned to %s"
+msgstr "ຄຳສັ່ງມອບໝາຍໃຫ້ %s"
+
+msgid "Order confirmed"
+msgstr "ຄຳສັ່ງຢືນຢັນແລ້ວ"
+
+msgid "Order moved to survey phase"
+msgstr "ຄຳສັ່ງຍ້າຍໄປຂັ້ນສຳຫຼວດ"
+
+msgid "Orders"
+msgstr "ຄຳສັ່ງ"
+
+msgid "Orders Kanban"
+msgstr "Kanban ຄຳສັ່ງ"
+
+msgid "Other"
+msgstr "ອື່ນໆ"
 
 msgid "Overdue"
-msgstr ""
+msgstr "ກົງກຳນົດ"
 
 msgid "Overdue Orders"
-msgstr ""
+msgstr "ຄຳສັ່ງກົງກຳນົດ"
 
 msgid "Overdue Tasks"
-msgstr ""
+msgstr "ວຽກກົງກຳນົດ"
+
+msgid "Package"
+msgstr "ແພັກເກີ"
+
+msgid "Package Type"
+msgstr "ປະເພດແພັກເກີ"
+
+msgid "Package code must be unique!"
+msgstr "ລະຫັດແພັກເກີຕ້ອງເປັນເອກະລັດ!"
+
+msgid "Packages"
+msgstr "ແພັກເກີ"
+
+msgid "Paid"
+msgstr "ຈ່າຍແລ້ວ"
+
+msgid "Paid invoices cannot be cancelled"
+msgstr "ບິນຈ່າຍແລ້ວບໍ່ສາມາດຍົກເລີກໄດ້"
+
+msgid "Parent Region"
+msgstr "ພື້ນທີ່ແມ່"
+
+msgid "Partial payment received"
+msgstr "ໄດ້ຮັບການຈ່າຍເງິນບາງສ່ວນ"
 
 msgid "Payment"
-msgstr ""
+msgstr "ການຈ່າຍເງິນ"
 
-msgid "Payment SLA"
-msgstr ""
+msgid "Payment Date"
+msgstr "ວັນຈ່າຍເງິນ"
+
+msgid "Payment Information"
+msgstr "ຂໍ້ມູນການຈ່າຍເງິນ"
+
+msgid "Payment Method"
+msgstr "ວິທີການຈ່າຍເງິນ"
+
+msgid "Payment Reference"
+msgstr "ລະຫັດການຈ່າຍເງິນ"
+
+msgid "Payment confirmed"
+msgstr "ການຈ່າຍເງິນຢືນຢັນແລ້ວ"
+
+msgid "Payment failed"
+msgstr "ການຈ່າຍເງິນລົ້ມເຫຼວ"
+
+msgid "Payment reference must be unique!"
+msgstr "ລະຫັດການຈ່າຍເງິນຕ້ອງເປັນເອກະລັດ!"
+
+msgid "Payment refunded"
+msgstr "ການຈ່າຍເງິນຄືນແລ້ວ"
+
+msgid "Payment submitted for processing"
+msgstr "ການຈ່າຍເງິນສົ່ງດຳເນີນການແລ້ວ"
+
+msgid "Payments"
+msgstr "ການຈ່າຍເງິນ"
+
+msgid "Pending"
+msgstr "ລໍຖ້າ"
+
+msgid "Pending Signing"
+msgstr "ລໍຖ້າລົງນາມ"
+
+msgid "Please select an assignee"
+msgstr "ກະລຸນາເລືອກຜູ້ຮັບຜິດຊອບ"
+
+msgid "Please select an employee"
+msgstr "ກະລຸນາເລືອກພະນັກງານ"
+
+msgid "Policies"
+msgstr "ນະໂຍບາຍ"
+
+msgid "Post"
+msgstr "ອອກບິນ"
+
+msgid "Posted"
+msgstr "ອອກບິນແລ້ວ"
+
+msgid "Price (Kip/month)"
+msgstr "ລາຄາ (ກີບ/ເດືອນ)"
+
+msgid "Price Levels"
+msgstr "ລະດັບລາຄາ"
+
+msgid "Pricing"
+msgstr "ການຕັ້ງລາຄາ"
 
 msgid "Project"
-msgstr ""
+msgstr "ໂຄງການ"
+
+msgid "Published"
+msgstr "ເຜີຍແຜ່ແລ້ວ"
+
+msgid "Quantity"
+msgstr "ຈຳນວນ"
 
 msgid "Reason"
-msgstr ""
+msgstr "ເຫດຜົນ"
 
-msgid "Reassignment"
-msgstr ""
+msgid "Refund"
+msgstr "ຄືນເງິນ"
 
-msgid "Reception/Assignment"
-msgstr ""
-
-msgid "Reception/Assignment SLA"
-msgstr ""
+msgid "Refunded"
+msgstr "ຄືນເງິນແລ້ວ"
 
 msgid "Region"
-msgstr ""
+msgstr "ພື້ນທີ່"
 
 msgid "Region Manager"
-msgstr ""
+msgstr "ຜູ້ຈັດການພື້ນທີ່"
+
+msgid "Region code must be unique!"
+msgstr "ລະຫັດພື້ນທີ່ຕ້ອງເປັນເອກະລັດ!"
 
 msgid "Regions"
-msgstr ""
+msgstr "ພື້ນທີ່"
 
-msgid "Renewal Reminder"
-msgstr ""
+msgid "Rejected"
+msgstr "ປະຕິເສດ"
+
+msgid "Reopen"
+msgstr "ເປີດໃໝ່"
 
 msgid "Reset to Draft"
-msgstr ""
+msgstr "ຕັ້ງເປັນຮ່າງ"
 
-msgid "SLA Configuration"
-msgstr ""
+msgid "Resolution"
+msgstr "ການແກ້ໄຂ"
+
+msgid "Resolve"
+msgstr "ແກ້ໄຂ"
+
+msgid "Resolved"
+msgstr "ແກ້ໄຂແລ້ວ"
+
+msgid "Resolved Date"
+msgstr "ວັນທີ່ແກ້ໄຂ"
+
+msgid "SLA Config"
+msgstr "ຕັ້ງຄ່າ SLA"
 
 msgid "SLA Deadline"
-msgstr ""
+msgstr "ກຳນົດ SLA"
+
+msgid "SLA Violation"
+msgstr "ລະເມີດ SLA"
+
+msgid "SLA Violations"
+msgstr "ການລະເມີດ SLA"
+
+msgid "SLA violated - auto action triggered"
+msgstr "ລະເມີດ SLA - ໄດ້ດຳເນີນການອັດຕະໂນມັດ"
+
+msgid "Scan Filename"
+msgstr "ຊື່ໄຟລ໌ສະແກນ"
+
+msgid "Scanned Contract"
+msgstr "ສັນຍາທີ່ສະແກນແລ້ວ"
+
+msgid "Search Assignments"
+msgstr "ຄົ້ນຫາການມອບໝາຍ"
+
+msgid "Search Contracts"
+msgstr "ຄົ້ນຫາສັນຍາ"
+
+msgid "Search Invoices"
+msgstr "ຄົ້ນຫາບິນ"
+
+msgid "Search Order Lines"
+msgstr "ຄົ້ນຫາລາຍການຄຳສັ່ງ"
+
+msgid "Search Packages"
+msgstr "ຄົ້ນຫາແພັກເກີ"
+
+msgid "Search Payments"
+msgstr "ຄົ້ນຫາການຈ່າຍເງິນ"
+
+msgid "Search Regions"
+msgstr "ຄົ້ນຫາພື້ນທີ່"
+
+msgid "Search Services"
+msgstr "ຄົ້ນຫາບໍລິການ"
+
+msgid "Search Signing Records"
+msgstr "ຄົ້ນຫາບັນທຶກລົງນາມ"
+
+msgid "Search Technical Tasks"
+msgstr "ຄົ້ນຫາວຽກເຕັກນິກ"
+
+msgid "Send to VOffice"
+msgstr "ສົ່ງໄປ VOffice"
+
+msgid "Sent to VOffice for signing"
+msgstr "ສົ່ງໄປ VOffice ສຳລັບລົງນາມ"
+
+msgid "Service"
+msgstr "ບໍລິການ"
 
 msgid "Service Type"
-msgstr ""
+msgstr "ປະເພດບໍລິການ"
+
+msgid "Service code must be at least 2 characters"
+msgstr "ລະຫັດບໍລິການຕ້ອງມີຢ່າງໜ້ອຍ 2 ຕົວອັກສອນ"
+
+msgid "Service code must be unique!"
+msgstr "ລະຫັດບໍລິການຕ້ອງເປັນເອກະລັດ!"
+
+msgid "Services"
+msgstr "ບໍລິການ"
+
+msgid "Setup Fee"
+msgstr "ຄ່າຕິດຕັ້ງ"
+
+msgid "Sign Date"
+msgstr "ວັນລົງນາມ"
+
+msgid "Signed"
+msgstr "ລົງນາມແລ້ວ"
+
+msgid "Signed Document"
+msgstr "ເອກະສານລົງນາມແລ້ວ"
+
+msgid "Signed File"
+msgstr "ໄຟລ໌ລົງນາມແລ້ວ"
+
+msgid "Signed Filename"
+msgstr "ຊື່ໄຟລ໌ລົງນາມ"
+
+msgid "Signing Record"
+msgstr "ບັນທຶກລົງນາມ"
+
+msgid "Signing Records"
+msgstr "ບັນທຶກລົງນາມ"
+
+msgid "Signing cancelled"
+msgstr "ລົງນາມຍົກເລີກ"
+
+msgid "Source"
+msgstr "ແຫຼ່ງ"
 
 msgid "Staff"
-msgstr ""
+msgstr "ພະນັກງານ"
 
-msgid "Staff Customer Care"
-msgstr ""
+msgid "Stage Key"
+msgstr "ລະຫັດຂັ້ນຕອນ"
 
 msgid "Start"
-msgstr ""
+msgstr "ເລີ່ມຕົ້ນ"
+
+msgid "Start Date"
+msgstr "ວັນເລີ່ມຕົ້ນ"
 
 msgid "Status"
-msgstr ""
+msgstr "ສະຖານະ"
+
+msgid "Submit"
+msgstr "ສົ່ງ"
+
+msgid "Submit for Signing"
+msgstr "ສົ່ງລົງນາມ"
 
 msgid "Survey"
-msgstr ""
+msgstr "ສຳຫຼວດ"
 
-msgid "Survey / Consultation"
-msgstr ""
+msgid "Surveying"
+msgstr "ກຳລັງສຳຫຼວດ"
 
-msgid "Survey/Consultation"
-msgstr ""
+msgid "TSC CRM Dashboard"
+msgstr "ແຜງຄວບຄຸມ TSC CRM"
 
-msgid "Survey/Consultation SLA"
-msgstr ""
+msgid "TSC Contract"
+msgstr "ສັນຍາ TSC"
 
-msgid "Task Name"
+msgid "TSC Invoice"
+msgstr "ບິນ TSC"
+
+msgid "TSC Invoice Line"
+msgstr "ລາຍການບິນ TSC"
+
+msgid "TSC Package"
+msgstr "ແພັກເກີ TSC"
+
+msgid "TSC Package Level"
+msgstr "ລະດັບແພັກເກີ TSC"
+
+msgid "TSC Payment"
+msgstr "ການຈ່າຍເງິນ TSC"
+
+msgid "TSC Role"
+msgstr "ບົດບາດ TSC"
+
+msgid "TSC SLA Violation"
+msgstr "ການລະເມີດ SLA TSC"
+
+msgid "TSC Service"
+msgstr "ບໍລິການ TSC"
+
+msgid "TSC Signing Record"
+msgstr "ບັນທຶກລົງນາມ TSC"
+
+msgid "TSC VAT Configuration"
+msgstr "ຕັ້ງຄ່າ VAT TSC"
+
+msgid "TSC WHT Configuration"
+msgstr "ຕັ້ງຄ່າ WHT TSC"
+
+msgid "Target Customer"
 msgstr ""
 
 msgid "Task Type"
-msgstr ""
+msgstr "ປະເພດວຽກ"
 
-msgid "Technical Tasks"
-msgstr ""
+msgid "Task assigned to %s"
+msgstr "ວຽກມອບໝາຍໃຫ້ %s"
+
+msgid "Task completed"
+msgstr "ວຽກສຳເລັດ"
+
+msgid "Tax"
+msgstr "ພາສີ"
+
+msgid "Tax Information"
+msgstr "ຂໍ້ມູນພາສີ"
+
+msgid "Team Manager"
+msgstr "ຜູ້ຈັດການທີມ"
+
+msgid "Team Type"
+msgstr "ປະເພດທີມ"
 
 msgid "Technical"
-msgstr ""
+msgstr "ເຕັກນິກ"
 
-msgid "TSC Role"
-msgstr ""
+msgid "Technical Task"
+msgstr "ວຽກເຕັກນິກ"
+
+msgid "Technical Tasks"
+msgstr "ວຽກເຕັກນິກ"
 
 msgid "Total"
-msgstr ""
+msgstr "ລວມ"
+
+msgid "Total Amount"
+msgstr "ຈຳນວນລວມ"
+
+msgid "Totals"
+msgstr "ລວມ"
+
+msgid "Transaction ID"
+msgstr "ລະຫັດທຸລະກຳ"
+
+msgid "Trial Days"
+msgstr "ມື້ລອງໃຊ້"
+
+msgid "Unarchive"
+msgstr "ຍົກເລີກການບັນທຶກ"
+
+msgid "Unipay"
+msgstr "Unipay"
 
 msgid "Unit Price"
-msgstr ""
+msgstr "ລາຄາໜ່ວຍ"
 
-msgid "Confirmation Deadline"
-msgstr ""
+msgid "Untaxed Amount"
+msgstr "ຈຳນວນບໍ່ລວມພາສີ"
+
+msgid "VAT"
+msgstr "VAT"
+
+msgid "VAT Amount"
+msgstr "ຈຳນວນ VAT"
+
+msgid "VAT Configuration"
+msgstr "ຕັ້ງຄ່າ VAT"
+
+msgid "VAT Configurations"
+msgstr "ຕັ້ງຄ່າ VAT"
+
+msgid "VAT Rate (%)"
+msgstr "ອັດຕາ VAT (%)"
+
+msgid "VAT rate must be between 0 and 100"
+msgstr "ອັດຕາ VAT ຕ້ອງລະຫວ່າງ 0 ແລະ 100"
+
+msgid "VOffice Document ID"
+msgstr "ລະຫັດເອກະສານ VOffice"
+
+msgid "VOffice Information"
+msgstr "ຂໍ້ມູນ VOffice"
+
+msgid "VOffice Integration"
+msgstr "ການເຊື່ອມຕໍ່ VOffice"
+
+msgid "VOffice Status"
+msgstr "ສະຖານະ VOffice"
+
+msgid "VOffice Transaction Code"
+msgstr "ລະຫັດທຸລະກຳ VOffice"
+
+msgid "Valid From"
+msgstr "ມີຜົນບັງຄັບບັນຊາຈາກ"
+
+msgid "Valid From must be before Valid To"
+msgstr "ວັນເລີ່ມຕ້ອງກ່ອນວັນສິ້ນສຸດ"
+
+msgid "Valid To"
+msgstr "ມີຜົນບັງຄັບບັນຊາຮອດ"
+
+msgid "Validity"
+msgstr "ຜົນບັງຄັບບັນຊາ"
+
+msgid "Validity Days"
+msgstr "ຈຳນວນມື້ຜົນບັງຄັບບັນຊາ"
+
+msgid "Value Proposition"
+msgstr "ຄ່າຄວາມ"
+
+msgid "Video URL"
+msgstr "URL ວິດີໂອ"
+
+msgid "Violation Date"
+msgstr "ວັນລະເມີດ"
+
+msgid "Violation Details"
+msgstr "ລາຍລະອຽດການລະເມີດ"
+
+msgid "WHT"
+msgstr "WHT"
+
+msgid "WHT Amount"
+msgstr "ຈຳນວນ WHT"
+
+msgid "WHT Configuration"
+msgstr "ຕັ້ງຄ່າ WHT"
+
+msgid "WHT Configurations"
+msgstr "ຕັ້ງຄ່າ WHT"
+
+msgid "WHT Rate (%)"
+msgstr "ອັດຕາ WHT (%)"
+
+msgid "WHT rate must be between 0 and 100"
+msgstr "ອັດຕາ WHT ຕ້ອງລະຫວ່າງ 0 ແລະ 100"
+
+msgid "Workflow Stage"
+msgstr "ຂັ້ນຕອນວຽກງານ"
+
+msgid "uMoney"
+msgstr "uMoney"
