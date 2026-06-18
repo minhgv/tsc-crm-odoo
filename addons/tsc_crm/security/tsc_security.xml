@@ -23,10 +23,11 @@
 
     <record id="group_tsc_admin" model="res.groups">
         <field name="name">TSC / Admin</field>
+        <field name="implied_ids" eval="[(4, ref('group_tsc_manager'))]"/>
         <field name="comment">Full access to all TSC CRM features</field>
     </record>
 
-    <!-- Record Rules: Branch isolation -->
+    <!-- Record Rules: Region isolation -->
     <record id="tsc_region_rule_manager" model="ir.rule">
         <field name="name">TSC Region: Manager sees all</field>
         <field name="model_id" ref="model_tsc_region"/>
@@ -41,6 +42,7 @@
         <field name="groups" eval="[(4, ref('group_tsc_staff_business'))]"/>
     </record>
 
+    <!-- Record Rules: Order Assignment -->
     <record id="tsc_order_assignment_rule_manager" model="ir.rule">
         <field name="name">TSC Order Assignment: Manager sees all</field>
         <field name="model_id" ref="model_tsc_order_assignment"/>
@@ -53,5 +55,35 @@
         <field name="model_id" ref="model_tsc_order_assignment"/>
         <field name="domain_force">[(1,'=',1)]</field>
         <field name="groups" eval="[(4, ref('group_tsc_staff_business'))]"/>
+    </record>
+
+    <!-- Record Rules: CRM Lead (Orders) -->
+    <record id="tsc_lead_rule_manager" model="ir.rule">
+        <field name="name">TSC Lead: Manager sees all orders</field>
+        <field name="model_id" ref="model_crm_lead"/>
+        <field name="domain_force">[('tsc_order_id', '!=', False)]</field>
+        <field name="groups" eval="[(4, ref('group_tsc_manager'))]"/>
+    </record>
+
+    <record id="tsc_lead_rule_staff" model="ir.rule">
+        <field name="name">TSC Lead: Staff sees assigned orders</field>
+        <field name="model_id" ref="model_crm_lead"/>
+        <field name="domain_force">[('tsc_order_id', '!=', False)]</field>
+        <field name="groups" eval="[(4, ref('group_tsc_staff_business'))]"/>
+    </record>
+
+    <!-- Record Rules: Technical Task -->
+    <record id="tsc_task_rule_manager" model="ir.rule">
+        <field name="name">TSC Task: Manager sees all</field>
+        <field name="model_id" ref="model_tsc_technical_task"/>
+        <field name="domain_force">[(1,'=',1)]</field>
+        <field name="groups" eval="[(4, ref('group_tsc_manager'))]"/>
+    </record>
+
+    <record id="tsc_task_rule_staff" model="ir.rule">
+        <field name="name">TSC Task: Staff sees assigned tasks</field>
+        <field name="model_id" ref="model_tsc_technical_task"/>
+        <field name="domain_force">[(1,'=',1)]</field>
+        <field name="groups" eval="[(4, ref('group_tsc_staff_technical'))]"/>
     </record>
 </odoo>

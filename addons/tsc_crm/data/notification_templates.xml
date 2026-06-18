@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Order Created Notification -->
+    <record id="mail_template_order_created" model="mail.template">
+        <field name="name">TSC: Order Created</field>
+        <field name="model_id" ref="model_crm_lead"/>
+        <field name="subject">New Order: {{ object.name or object.tsc_order_id }}</field>
+        <field name="email_from">{{ (object.user_id.email or '') }}</field>
+        <field name="email_to">{{ (object.tsc_assigned_to.work_email or '') }}</field>
+        <field name="body_html" type="html">
+            <p>Hello,</p>
+            <p>A new order has been created:</p>
+            <ul>
+                <li>Order: <strong>{{ object.name or object.tsc_order_id }}</strong></li>
+                <li>Customer: {{ object.partner_id.name or '' }}</li>
+                <li>Region: {{ object.tsc_region_id.name or '' }}</li>
+            </ul>
+            <p>Please review and assign as needed.</p>
+        </field>
+    </record>
+
+    <!-- Order Assigned Notification -->
+    <record id="mail_template_order_assigned" model="mail.template">
+        <field name="name">TSC: Order Assigned</field>
+        <field name="model_id" ref="model_crm_lead"/>
+        <field name="subject">Order Assigned: {{ object.name or object.tsc_order_id }}</field>
+        <field name="email_to">{{ (object.tsc_assigned_to.work_email or '') }}</field>
+        <field name="body_html" type="html">
+            <p>Hello {{ object.tsc_assigned_to.name or '' }},</p>
+            <p>An order has been assigned to you:</p>
+            <ul>
+                <li>Order: <strong>{{ object.name or object.tsc_order_id }}</strong></li>
+                <li>Customer: {{ object.partner_id.name or '' }}</li>
+                <li>Region: {{ object.tsc_region_id.name or '' }}</li>
+            </ul>
+            <p>Please confirm acceptance within the SLA timeframe.</p>
+        </field>
+    </record>
+
+    <!-- SLA Warning Notification -->
+    <record id="mail_template_sla_warning" model="mail.template">
+        <field name="name">TSC: SLA Warning</field>
+        <field name="model_id" ref="model_crm_lead"/>
+        <field name="subject">SLA Warning: {{ object.name or object.tsc_order_id }}</field>
+        <field name="email_to">{{ (object.tsc_assigned_to.work_email or '') }}</field>
+        <field name="body_html" type="html">
+            <p>Hello {{ object.tsc_assigned_to.name or '' }},</p>
+            <p>The following order is approaching SLA deadline:</p>
+            <ul>
+                <li>Order: <strong>{{ object.name or object.tsc_order_id }}</strong></li>
+                <li>Customer: {{ object.partner_id.name or '' }}</li>
+                <li>SLA Deadline: {{ object.tsc_sla_deadline or '' }}</li>
+            </ul>
+            <p>Please take action immediately.</p>
+        </field>
+    </record>
+
+    <!-- SLA Violated Notification -->
+    <record id="mail_template_sla_violated" model="mail.template">
+        <field name="name">TSC: SLA Violated</field>
+        <field name="model_id" ref="model_crm_lead"/>
+        <field name="subject">SLA Violated: {{ object.name or object.tsc_order_id }}</field>
+        <field name="email_to">{{ (object.company_id.email or '') }}</field>
+        <field name="body_html" type="html">
+            <p>Hello Admin,</p>
+            <p>The following order has violated SLA:</p>
+            <ul>
+                <li>Order: <strong>{{ object.name or object.tsc_order_id }}</strong></li>
+                <li>Customer: {{ object.partner_id.name or '' }}</li>
+                <li>Assigned To: {{ object.tsc_assigned_to.name or 'Unassigned' }}</li>
+                <li>SLA Deadline: {{ object.tsc_sla_deadline or '' }}</li>
+            </ul>
+            <p>Auto-action has been triggered as per SLA configuration.</p>
+        </field>
+    </record>
+
+    <!-- Task Assigned Notification -->
+    <record id="mail_template_task_assigned" model="mail.template">
+        <field name="name">TSC: Task Assigned</field>
+        <field name="model_id" ref="model_tsc_technical_task"/>
+        <field name="subject">Task Assigned: {{ object.name }}</field>
+        <field name="email_to">{{ (object.assigned_to.work_email or '') }}</field>
+        <field name="body_html" type="html">
+            <p>Hello {{ object.assigned_to.name or '' }},</p>
+            <p>A technical task has been assigned to you:</p>
+            <ul>
+                <li>Task: <strong>{{ object.name }}</strong></li>
+                <li>Type: {{ object.task_type }}</li>
+                <li>Order: {{ object.lead_id.name or object.lead_id.tsc_order_id }}</li>
+                <li>Deadline: {{ object.deadline or 'No deadline' }}</li>
+            </ul>
+        </field>
+    </record>
+</odoo>

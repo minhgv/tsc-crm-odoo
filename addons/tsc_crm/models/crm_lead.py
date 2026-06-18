@@ -112,3 +112,52 @@ class CrmLead(models.Model):
         if stage_survey:
             self.write({'stage_id': stage_survey.id})
         self.message_post(body=_('Order moved to survey phase'))
+
+    @api.model
+    def _cron_check_sla(self):
+        """Cron job to check SLA violations and send notifications"""
+        now = fields.Datetime.now()
+        overdue_leads = self.search([
+            ('tsc_sla_deadline', '<', now),
+            ('tsc_is_overdue', '=', True),
+            ('stage_id.is_won', '=', False),
+        ])
+        for lead in overdue_leads:
+            lead._handle_sla_violation()
+
+    def _handle_sla_violation(self):
+        """Handle SLA violation for a lead"""
+        self.ensure_one()
+        # Find applicable SLA config
+        sla_configs = self.env['tsc.sla.config'].search([
+            ('active', '=', True),
+        ])
+        sla_config = sla_configs.filtered(
+            lambda c: c.stage_key == self.tsc_stage_key or c.stage == self.tsc_stage_key
+        )[:1]
+
+        if not sla_config:
+            return
+
+        # Create violation record
+        self.env['tsc.sla.violation'].create({
+            'lead_id': self.id,
+            'sla_config_id': sla_config.id,
+            'stage_key': self.tsc_stage_key,
+            'violation_date': fields.Datetime.now(),
+        })
+
+        # Execute auto action
+        auto_action = getattr(sla_config, 'auto_action', 'notify')
+        if auto_action == 'auto_assign_admin':
+            admin_employee = self.env['hr.employee'].search([
+                ('tsc_role', '=', 'manager'),
+            ], limit=1)
+            if admin_employee:
+                self.action_assign_order(admin_employee)
+        elif auto_action == 'notify':
+            template = self.env.ref('tsc_crm.mail_template_sla_violated', raise_if_not_found=False)
+            if template:
+                template.send_mail(self.id, force_send=True)
+
+        self.message_post(body=_('SLA violated - auto action triggered'))

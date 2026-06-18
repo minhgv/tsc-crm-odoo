@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Payment Form View -->
+    <record id="tsc_payment_view_form" model="ir.ui.view">
+        <field name="name">tsc.payment.form</field>
+        <field name="model">tsc.payment</field>
+        <field name="arch" type="xml">
+            <form string="Payment">
+                <header>
+                    <button name="action_submit" string="Submit"
+                            type="object" class="oe_highlight"
+                            invisible="state != 'draft'"/>
+                    <button name="action_confirm" string="Confirm"
+                            type="object" class="oe_highlight"
+                            invisible="state != 'pending'"/>
+                    <button name="action_fail" string="Mark Failed"
+                            type="object"
+                            invisible="state not in ('pending',)"/>
+                    <button name="action_refund" string="Refund"
+                            type="object"
+                            invisible="state != 'confirmed'"/>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,pending,confirmed"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="action_view_invoice" type="object"
+                                class="oe_stat_button" icon="fa-file-text-o">
+                            <div class="o_field_widget o_stat_info">
+                                <span class="o_stat_text">View Invoice</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" readonly="1"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group string="Payment Information">
+                            <field name="invoice_id"/>
+                            <field name="contract_id"/>
+                            <field name="partner_id"/>
+                            <field name="payment_method"/>
+                            <field name="payment_date"/>
+                        </group>
+                        <group string="Amount">
+                            <field name="currency_id" invisible="1"/>
+                            <field name="amount" widget="monetary"/>
+                            <field name="transaction_id"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Notes" name="notes">
+                            <group>
+                                <field name="notes" placeholder="Payment notes..."/>
+                                <field name="error_message" placeholder="Error message..."/>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+                <chatter/>
+            </form>
+        </field>
+    </record>
+
+    <!-- Payment Tree View -->
+    <record id="tsc_payment_view_tree" model="ir.ui.view">
+        <field name="name">tsc.payment.tree</field>
+        <field name="model">tsc.payment</field>
+        <field name="arch" type="xml">
+            <list string="Payments">
+                <field name="name"/>
+                <field name="invoice_id"/>
+                <field name="partner_id"/>
+                <field name="amount" widget="monetary"/>
+                <field name="payment_method"/>
+                <field name="payment_date"/>
+                <field name="state"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- Payment Search View -->
+    <record id="tsc_payment_view_search" model="ir.ui.view">
+        <field name="name">tsc.payment.search</field>
+        <field name="model">tsc.payment</field>
+        <field name="arch" type="xml">
+            <search string="Search Payments">
+                <field name="name"/>
+                <field name="invoice_id"/>
+                <field name="partner_id"/>
+                <field name="transaction_id"/>
+                <filter name="filter_draft" string="Draft" domain="[('state','=','draft')]"/>
+                <filter name="filter_pending" string="Pending" domain="[('state','=','pending')]"/>
+                <filter name="filter_confirmed" string="Confirmed" domain="[('state','=','confirmed')]"/>
+                <group expand="0" string="Group By">
+                    <filter name="group_state" string="Status" context="{'group_by':'state'}"/>
+                    <filter name="group_method" string="Payment Method" context="{'group_by':'payment_method'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Payment Action -->
+    <record id="tsc_payment_action" model="ir.actions.act_window">
+        <field name="name">Payments</field>
+        <field name="res_model">tsc.payment</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="tsc_payment_view_search"/>
+    </record>
+</odoo>

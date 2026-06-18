@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- VAT Form View -->
+    <record id="tsc_vat_view_form" model="ir.ui.view">
+        <field name="name">tsc.vat.form</field>
+        <field name="model">tsc.vat</field>
+        <field name="arch" type="xml">
+            <form string="VAT Configuration">
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" placeholder="VAT Description"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group string="Tax Information">
+                            <field name="rate" widget="percentage"/>
+                            <field name="company_id" groups="base.group_multi_company"/>
+                        </group>
+                        <group string="Validity">
+                            <field name="date_from"/>
+                            <field name="date_to"/>
+                            <field name="active"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- VAT Tree View -->
+    <record id="tsc_vat_view_tree" model="ir.ui.view">
+        <field name="name">tsc.vat.tree</field>
+        <field name="model">tsc.vat</field>
+        <field name="arch" type="xml">
+            <list string="VAT Configurations">
+                <field name="name"/>
+                <field name="rate" widget="percentage"/>
+                <field name="date_from"/>
+                <field name="date_to"/>
+                <field name="active" widget="boolean_toggle"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- VAT Action -->
+    <record id="tsc_vat_action" model="ir.actions.act_window">
+        <field name="name">VAT Configurations</field>
+        <field name="res_model">tsc.vat</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

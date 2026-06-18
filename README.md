@@ -144,16 +144,22 @@ odoo shell -d tsc_crm
 
 ### 1. CRM Core (`tsc_crm`)
 
-**Models:** `crm.lead` (extend), `crm.team` (extend), `res.partner` (extend), `hr.employee` (extend), `tsc.region`, `tsc.order.line`, `tsc.order.assignment`, `tsc.technical.task`, `tsc.dashboard`
+**Models:** `crm.lead` (extend), `crm.team` (extend), `res.partner` (extend), `hr.employee` (extend), `tsc.region`, `tsc.service`, `tsc.package`, `tsc.package.level`, `tsc.order.line`, `tsc.order.assignment`, `tsc.technical.task`, `tsc.contract`, `tsc.sign`, `tsc.invoice`, `tsc.invoice.line`, `tsc.payment`, `tsc.vat`, `tsc.wht`, `tsc.sla.violation`, `tsc.dashboard`
 
 - **Order Management**: Auto-generated Order ID (`ORD-XXXX`), 7-state workflow (Created → Assigned → Accepted → Surveying → Confirm → Contract → Paid)
 - **Region Hierarchy**: 4 cấp (TSC → tỉnh → mường → bản), tự hiển thị `Parent / Child`
+- **Service/Package**: CRUD services with logos, packages with levels, combo packages
 - **Order Assignment**: Auto-assign theo region/team, audit log every assign/reassign
 - **Technical Task**: 6-state workflow (Draft → Assigned → Accepted → In Progress → Done → Cancelled), overdue tracking
-- **SLA Tracking**: 5 stages (Assignment, Survey, Implementation, Contract, Payment)
+- **Contract Management**: Workflow (Draft → Pending Sign → Signed → Active → Expired), VOffice stub, scan upload
+- **Invoice/Payment**: VAT/WHT auto-calculation, payment workflow (Draft → Pending → Confirmed → Refunded), Unipay/uMoney stubs
+- **VAT/WHT Config**: Time-based rates, `_get_current_rate(date)` lookup with fallback
+- **SLA Tracking**: Violation tracking, auto-assign admin on SLA breach, notification templates
+- **Notification Templates**: 5 email templates (Order Created/Assigned, SLA Warning/Violated, Task Assigned)
 - **Dashboard**: Total orders, overdue orders, stage stats, region stats, task stats
-- **Security Groups**: Admin, Manager, Staff Business, Staff Technical, Staff CC
-- **i18n**: English (default), Lao, Vietnamese
+- **Security Groups**: Admin (implies Manager), Manager (implies Staff Business), Staff Business, Staff Technical, Staff CC
+- **Record Rules**: Region isolation, lead/task scoping by role
+- **Tests**: 77 test cases covering all models and workflows
 
 ### 2. Authentication (`tsc_crm_auth`)
 
@@ -306,14 +312,14 @@ docker compose exec odoo odoo -d tsc_crm \
 
 | Module | Test Files | Test Cases |
 |--------|-----------|------------|
-| tsc_crm | 8 | ~35 |
+| tsc_crm | 18 | 77 |
 | tsc_crm_auth | 4 | ~15 |
 | tsc_crm_service | 7 | ~25 |
 | tsc_crm_workflow | 5 | ~25 |
 | tsc_crm_commission | 1 | ~8 |
 | tsc_crm_admin | 2 | ~8 |
 | tsc_crm_integration | 3 | ~12 |
-| **Total** | **30** | **~128** |
+| **Total** | **40** | **~170** |
 
 ## User Stories
 
@@ -328,7 +334,8 @@ Xem chi tiết tại [`docs/user-stories.md`](docs/user-stories.md) — 29 user 
 | CSV files | 7 |
 | i18n files | 19 |
 | Models | 41 custom + 4 extended |
-| Test files | 30 |
+| Test files | 40 |
+| Test cases | ~170 |
 | Screenshots | 22 |
 
 ## Known Issues

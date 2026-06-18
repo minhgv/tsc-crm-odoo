@@ -66,9 +66,86 @@
               action="tsc_region_action"
               sequence="10"/>
 
+    <!-- Contracts -->
+    <menuitem id="tsc_menu_contracts"
+              name="Contracts"
+              parent="tsc_menu_root"
+              sequence="25"/>
+
+    <menuitem id="tsc_menu_contracts_list"
+              name="All Contracts"
+              parent="tsc_menu_contracts"
+              action="tsc_contract_action"
+              sequence="10"/>
+
+    <menuitem id="tsc_menu_signs_list"
+              name="Signing Records"
+              parent="tsc_menu_contracts"
+              action="tsc_sign_action"
+              sequence="20"/>
+
+    <!-- Invoices & Payments -->
+    <menuitem id="tsc_menu_invoices"
+              name="Invoices"
+              parent="tsc_menu_root"
+              sequence="26"/>
+
+    <menuitem id="tsc_menu_invoices_list"
+              name="All Invoices"
+              parent="tsc_menu_invoices"
+              action="tsc_invoice_action"
+              sequence="10"/>
+
+    <menuitem id="tsc_menu_payments_list"
+              name="All Payments"
+              parent="tsc_menu_invoices"
+              action="tsc_payment_action"
+              sequence="20"/>
+
+    <!-- Services & Packages -->
+    <menuitem id="tsc_menu_services"
+              name="Services"
+              parent="tsc_menu_root"
+              sequence="40"/>
+
+    <menuitem id="tsc_menu_services_list"
+              name="All Services"
+              parent="tsc_menu_services"
+              action="tsc_service_action"
+              sequence="10"/>
+
+    <menuitem id="tsc_menu_packages_list"
+              name="All Packages"
+              parent="tsc_menu_services"
+              action="tsc_package_action"
+              sequence="20"/>
+
     <!-- Configuration -->
     <menuitem id="tsc_menu_config"
               name="Configuration"
               parent="tsc_menu_root"
               sequence="50"/>
+
+    <menuitem id="tsc_menu_config_tax"
+              name="Tax Configuration"
+              parent="tsc_menu_config"
+              sequence="10"/>
+
+    <menuitem id="tsc_menu_config_vat"
+              name="VAT"
+              parent="tsc_menu_config_tax"
+              action="tsc_vat_action"
+              sequence="10"/>
+
+    <menuitem id="tsc_menu_config_wht"
+              name="WHT"
+              parent="tsc_menu_config_tax"
+              action="tsc_wht_action"
+              sequence="20"/>
+
+    <menuitem id="tsc_menu_sla_violations"
+              name="SLA Violations"
+              parent="tsc_menu_root"
+              action="tsc_sla_violation_action"
+              sequence="45"/>
 </odoo>

@@ -9,12 +9,23 @@ class TestTscOrderLine(TransactionCase):
             'name': 'Test Order',
             'tsc_order_id': 'ORD-TEST-001',
         })
+        self.service = self.env['tsc.service'].create({
+            'name': 'Test Service',
+            'code': 'TS',
+            'service_type': 'direct',
+        })
+        self.package = self.env['tsc.package'].create({
+            'name': 'Test Package',
+            'code': 'TP',
+            'service_id': self.service.id,
+            'package_type': 'cycle',
+        })
 
     def test_order_line_total_computation(self):
         line = self.env['tsc.order.line'].create({
             'lead_id': self.lead.id,
-            'service_id': self.env.ref('base.module_sale').id,  # placeholder
-            'package_id': self.env.ref('base.module_sale').id,  # placeholder
+            'service_id': self.service.id,
+            'package_id': self.package.id,
             'quantity': 2,
             'unit_price': 1000.0,
             'discount_amount': 100.0,
@@ -24,8 +35,8 @@ class TestTscOrderLine(TransactionCase):
     def test_order_line_zero_quantity(self):
         line = self.env['tsc.order.line'].create({
             'lead_id': self.lead.id,
-            'service_id': self.env.ref('base.module_sale').id,
-            'package_id': self.env.ref('base.module_sale').id,
+            'service_id': self.service.id,
+            'package_id': self.package.id,
             'quantity': 0,
             'unit_price': 1000.0,
             'discount_amount': 0,

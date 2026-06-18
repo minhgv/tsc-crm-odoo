@@ -8,12 +8,16 @@ class TscRegion(models.Model):
     _rec_name = 'name'
 
     name = fields.Char(required=True, translate=True)
-    code = fields.Char(required=True, unique=True)
+    code = fields.Char(required=True)
     sequence = fields.Integer(default=10)
     parent_id = fields.Many2one('tsc.region', string=_('Parent Region'))
     child_ids = fields.One2many('tsc.region', 'parent_id', string=_('Child Regions'))
     manager_id = fields.Many2one('hr.employee', string=_('Region Manager'))
     active = fields.Boolean(default=True)
+
+    _sql_constraints = [
+        ('code_unique', 'UNIQUE(code)', _('Region code must be unique!')),
+    ]
 
     def name_get(self):
         result = []
