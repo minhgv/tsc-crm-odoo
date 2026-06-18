@@ -1,164 +1,165 @@
 # Language: vi
 # Translation file for $mod
 # Generated automatically
-
+#. module: tsc_crm_service
 msgid "Agency"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Both"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Business"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Combo"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Combo Line"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Commission"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Cycle"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Direct Sale"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Discount"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Government"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Individual"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Line Discount"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Offline"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Online"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Package"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Package Level"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Per Use"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Project"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Promotion"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Service"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Tier 1"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Tier 2"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Tier 3"
 msgstr ""
 
 
 # Vietnamese translations
+#. module: tsc_crm_service
 msgid "Service"
 msgstr "Dịch vụ"
-
+#. module: tsc_crm_service
 msgid "Package"
 msgstr "Gói cước"
-
+#. module: tsc_crm_service
 msgid "Order"
 msgstr "Đơn hàng"
-
+#. module: tsc_crm_service
 msgid "Contract"
 msgstr "Hợp đồng"
-
+#. module: tsc_crm_service
 msgid "Invoice"
 msgstr "Hóa đơn"
-
+#. module: tsc_crm_service
 msgid "Payment"
 msgstr "Thanh toán"
-
+#. module: tsc_crm_service
 msgid "Region"
 msgstr "Khu vực"
-
+#. module: tsc_crm_service
 msgid "Customer"
 msgstr "Khách hàng"
-
+#. module: tsc_crm_service
 msgid "Employee"
 msgstr "Nhân viên"
-
+#. module: tsc_crm_service
 msgid "Draft"
 msgstr "Nháp"
-
+#. module: tsc_crm_service
 msgid "Confirmed"
 msgstr "Đã xác nhận"
-
+#. module: tsc_crm_service
 msgid "Active"
 msgstr "Hoạt động"
-
+#. module: tsc_crm_service
 msgid "Pending"
 msgstr "Chờ xử lý"
-
+#. module: tsc_crm_service
 msgid "Success"
 msgstr "Thành công"
-
+#. module: tsc_crm_service
 msgid "Failed"
 msgstr "Thất bại"
-
+#. module: tsc_crm_service
 msgid "Cancel"
 msgstr "Hủy"
-
+#. module: tsc_crm_service
 msgid "Save"
 msgstr "Lưu"
-
+#. module: tsc_crm_service
 msgid "Search"
 msgstr "Tìm kiếm"
-
+#. module: tsc_crm_service
 msgid "Create"
 msgstr "Tạo"
-
+#. module: tsc_crm_service
 msgid "Edit"
 msgstr "Sửa"
-
+#. module: tsc_crm_service
 msgid "Delete"
 msgstr "Xóa"
-
+#. module: tsc_crm_service
 msgid "Name"
 msgstr "Tên"
-
+#. module: tsc_crm_service
 msgid "Description"
 msgstr "Mô tả"
-
+#. module: tsc_crm_service
 msgid "Price"
 msgstr "Giá"
-
+#. module: tsc_crm_service
 msgid "Total"
 msgstr "Tổng cộng"
-
+#. module: tsc_crm_service
 msgid "Status"
 msgstr "Trạng thái"
-
+#. module: tsc_crm_service
 msgid "Date"
 msgstr "Ngày"
-
+#. module: tsc_crm_service
 msgid "Email"
 msgstr "Email"
-
+#. module: tsc_crm_service
 msgid "Phone"
 msgstr "Điện thoại"
-
+#. module: tsc_crm_service
 msgid "Address"
 msgstr "Địa chỉ"

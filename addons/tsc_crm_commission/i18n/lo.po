@@ -1,37 +1,37 @@
 # Language: lo
 # Translation file for $mod
 # Generated automatically
-
+#. module: tsc_crm_commission
 msgid "Agency"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "AM Province"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "Approved"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "Commission"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "Commission Rule"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "Draft"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "Fixed Amount"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "Management"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "Paid"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "Percentage"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "Staff"
 msgstr ""
 

@@ -1,5 +1,4 @@
 # Lao translation for tsc_crm
-# Generated from code analysis
 #
 msgid ""
 msgstr ""
@@ -14,905 +13,1206 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. module: tsc_crm
 msgid "Accept"
 msgstr "ຍອມຮັບ"
 
+#. module: tsc_crm
 msgid "Accepted"
 msgstr ""
 
+#. module: tsc_crm
 msgid "Action Taken"
-msgstr "ການດຳເນີນງານ"
+msgstr ""
 
+#. module: tsc_crm
 msgid "Activate"
 msgstr "ເປີດໃຊ້ງານ"
 
+#. module: tsc_crm
 msgid "Active"
 msgstr "ສະໝັກ"
 
+#. module: tsc_crm
 msgid "All"
 msgstr "ທັງໝົດ"
 
+#. module: tsc_crm
 msgid "Amount"
 msgstr "ຈຳນວນ"
 
+#. module: tsc_crm
 msgid "Amount Paid"
 msgstr "ຈຳນວນທີ່ຈ່າຍແລ້ວ"
 
+#. module: tsc_crm
 msgid "Appendix"
 msgstr "ສະຫຼຸບ"
 
+#. module: tsc_crm
 msgid "Archive"
 msgstr "ບັນທຶກ"
 
+#. module: tsc_crm
 msgid "Assign"
 msgstr "ມອບໝາຍ"
 
+#. module: tsc_crm
 msgid "Assigned"
 msgstr "ມອບໝາຍແລ້ວ"
 
+#. module: tsc_crm
 msgid "Assigned By"
 msgstr "ມອບໝາຍໂດຍ"
 
+#. module: tsc_crm
 msgid "Assigned From"
 msgstr "ມອບໝາຍຈາກ"
 
+#. module: tsc_crm
 msgid "Assigned To"
 msgstr "ມອບໝາຍໃຫ້"
 
+#. module: tsc_crm
 msgid "Assignment Log"
 msgstr "ບັນທຶກການມອບໝາຍ"
 
+#. module: tsc_crm
 msgid "Auto Assignment"
 msgstr ""
 
+#. module: tsc_crm
 msgid "Bank Transfer"
 msgstr "ໂອນທະນາຄານ"
 
+#. module: tsc_crm
 msgid "Banner"
 msgstr "ແບນເນີ"
 
+#. module: tsc_crm
 msgid "Both"
 msgstr "ທັງສອງ"
 
+#. module: tsc_crm
 msgid "Business"
 msgstr "ທຸລະກິດ"
 
+#. module: tsc_crm
 msgid "CMS CRM"
 msgstr "CMS CRM"
 
+#. module: tsc_crm
 msgid "Cancel"
 msgstr "ຍົກເລີກ"
 
+#. module: tsc_crm
 msgid "Cancelled"
 msgstr "ຍົກເລີກແລ້ວ"
 
+#. module: tsc_crm
 msgid "Cannot post invoice without lines"
 msgstr "ບໍ່ສາມອອກບິນໂດຍບໍ່ມີລາຍການ"
 
+#. module: tsc_crm
 msgid "Cash"
 msgstr "ເງິນສົດ"
 
+#. module: tsc_crm
 msgid "Channel"
 msgstr "ຊ່ອງທາງ"
 
+#. module: tsc_crm
 msgid "Check Status"
 msgstr "ກວດສອບສະຖານະ"
 
+#. module: tsc_crm
 msgid "Child Regions"
 msgstr "ພື້ນທີ່ຍ່ອຍ"
 
+#. module: tsc_crm
 msgid "Combo"
 msgstr "ຄອມໂບ"
 
+#. module: tsc_crm
 msgid "Combo Package"
 msgstr "ແພັກເກີຄອມໂບ"
 
+#. module: tsc_crm
 msgid "Combo Services"
 msgstr "ບໍລິການຄອມໂບ"
 
+#. module: tsc_crm
 msgid "Company"
 msgstr "ບໍລິສັດ"
 
+#. module: tsc_crm
 msgid "Confirm"
 msgstr "ຢືນຢັນ"
 
+#. module: tsc_crm
 msgid "Confirmation Deadline"
 msgstr "ກຳນົດຢືນຢັນ"
 
+#. module: tsc_crm
 msgid "Confirmed"
 msgstr "ຢືນຢັນແລ້ວ"
 
+#. module: tsc_crm
 msgid "Contract"
 msgstr "ສັນຍາ"
 
+#. module: tsc_crm
 msgid "Contract Date"
 msgstr "ວັນທີ່ສັນຍາ"
 
+#. module: tsc_crm
 msgid "Contract Information"
 msgstr "ຂໍ້ມູນສັນຍາ"
 
+#. module: tsc_crm
 msgid "Contract Number"
 msgstr "ເລກສັນຍາ"
 
+#. module: tsc_crm
 msgid "Contract activated"
 msgstr "ສັນຍາເປີດໃຊ້ແລ້ວ"
 
+#. module: tsc_crm
 msgid "Contract cancelled"
 msgstr "ສັນຍາຍົກເລີກແລ້ວ"
 
+#. module: tsc_crm
 msgid "Contract expired"
 msgstr "ສັນຍາໝົດອາຍຸ"
 
+#. module: tsc_crm
 msgid "Contract must be pending signing"
 msgstr "ສັນຍາຕ້ອງລໍຖ້າລົງນາມ"
 
+#. module: tsc_crm
 msgid "Contract must be signed to activate"
 msgstr "ສັນຍາຕ້ອງລົງນາມເພື່ອເປີດໃຊ້"
 
+#. module: tsc_crm
 msgid "Contract number must be unique!"
 msgstr "ເລກສັນຍາຕ້ອງເປັນເອກະລັດ!"
 
+#. module: tsc_crm
 msgid "Contract reset to draft"
 msgstr "ຕັ້ງສັນຍາເປັນຮ່າງ"
 
+#. module: tsc_crm
 msgid "Contract signed"
 msgstr "ສັນຍາລົງນາມແລ້ວ"
 
+#. module: tsc_crm
 msgid "Contract submitted for signing"
 msgstr "ສັນຍາສົ່ງລົງນາມແລ້ວ"
 
+#. module: tsc_crm
 msgid "Contracts"
 msgstr "ສັນຍາ"
 
+#. module: tsc_crm
 msgid "Created"
 msgstr "ສ້າງແລ້ວ"
 
+#. module: tsc_crm
 msgid "Currency"
 msgstr "ສະກຸນເງິນ"
 
+#. module: tsc_crm
 msgid "Current Orders"
 msgstr "ຄຳສັ່ງປັດຈຸບັນ"
 
+#. module: tsc_crm
 msgid "Customer"
 msgstr "ລູກຄ້າ"
 
+#. module: tsc_crm
 msgid "Customer Care"
 msgstr "ບໍລິການລູກຄ້າ"
 
+#. module: tsc_crm
 msgid "Customer Code"
 msgstr "ລະຫັດລູກຄ້າ"
 
+#. module: tsc_crm
 msgid "Customer Type"
 msgstr "ປະເພດລູກຄ້າ"
 
+#. module: tsc_crm
 msgid "Customer code must be unique!"
 msgstr "ລະຫັດລູກຄ້າຕ້ອງເປັນເອກະລັດ!"
 
+#. module: tsc_crm
 msgid "Cycle"
 msgstr "ວົງຈອນ"
 
+#. module: tsc_crm
 msgid "Dashboard"
 msgstr "ແຜງຄວບຄຸມ"
 
+#. module: tsc_crm
 msgid "Deadline"
 msgstr "ກຳນົດເວລາ"
 
+#. module: tsc_crm
 msgid "Delivered"
 msgstr "ຈັດສົ່ງແລ້ວ"
 
+#. module: tsc_crm
 msgid "Description"
 msgstr "ລາຍລະອຽດ"
 
+#. module: tsc_crm
 msgid "Direct Sale"
 msgstr "ຂາຍໂດຍກົງ"
 
+#. module: tsc_crm
 msgid "Discount"
 msgstr "ສ່ວນຫຼຸດ"
 
+#. module: tsc_crm
 msgid "Discount (%)"
 msgstr "ສ່ວນຫຼຸດ (%)"
 
+#. module: tsc_crm
 msgid "Distribution Channel"
 msgstr "ຊ່ອງການຈ່າຍແຈກ"
 
+#. module: tsc_crm
 msgid "Document Information"
 msgstr "ຂໍ້ມູນເອກະສານ"
 
+#. module: tsc_crm
 msgid "Document Type"
 msgstr "ປະເພດເອກະສານ"
 
+#. module: tsc_crm
 msgid "Document published"
 msgstr "ເອກະສານເຜີຍແຜ່ແລ້ວ"
 
+#. module: tsc_crm
 msgid "Document rejected"
 msgstr "ເອກະສານຖືກປະຕິເສດ"
 
+#. module: tsc_crm
 msgid "Document signed"
 msgstr "ເອກະສານລົງນາມແລ້ວ"
 
+#. module: tsc_crm
 msgid "Documents"
 msgstr "ເອກະສານ"
 
+#. module: tsc_crm
 msgid "Done"
 msgstr "ສຳເລັດ"
 
+#. module: tsc_crm
 msgid "Draft"
 msgstr "ຮ່າງ"
 
+#. module: tsc_crm
 msgid "Due Date"
 msgstr "ວັນຄົບກຳນົດ"
 
+#. module: tsc_crm
 msgid "End Date"
 msgstr "ວັນສິ້ນສຸດ"
 
+#. module: tsc_crm
 msgid "Error Message"
 msgstr "ຂໍ້ຄວາມຜິດພາດ"
 
+#. module: tsc_crm
 msgid "Expired"
 msgstr "ໝົດອາຍຸ"
 
+#. module: tsc_crm
 msgid "Expired contracts cannot be cancelled"
 msgstr "ສັນຍາໝົດອາຍຸບໍ່ສາມາດຍົກເລີກໄດ້"
 
+#. module: tsc_crm
 msgid "Failed"
 msgstr "ລົ້ມເຫຼວ"
 
+#. module: tsc_crm
 msgid "Financial"
 msgstr "ການເງິນ"
 
+#. module: tsc_crm
 msgid "General Information"
 msgstr "ຂໍ້ມູນທົ່ວໄປ"
 
+#. module: tsc_crm
 msgid "Government"
 msgstr "ລັດຖະບານ"
 
+#. module: tsc_crm
 msgid "Group By"
 msgstr "ຈັດກຸ່ມຕາມ"
 
+#. module: tsc_crm
 msgid "Group Type"
 msgstr "ປະເພດກຸ່ມ"
 
+#. module: tsc_crm
 msgid "Images"
 msgstr "ຮູບພາບ"
 
+#. module: tsc_crm
 msgid "Implementation"
 msgstr "ການຈັດຕັ້ງປະຕິບັດ"
 
+#. module: tsc_crm
 msgid "In Progress"
 msgstr "ກຳລັງດຳເນີນງານ"
 
+#. module: tsc_crm
 msgid "Individual"
 msgstr "ບຸກຄົນ"
 
+#. module: tsc_crm
 msgid "Individual/Household"
 msgstr "ບຸກຄົນ/ຄົວເຮືອນ"
 
+#. module: tsc_crm
 msgid "Invoice"
 msgstr "ບິນ"
 
+#. module: tsc_crm
 msgid "Invoice Date"
 msgstr "ວັນບິນ"
 
+#. module: tsc_crm
 msgid "Invoice Information"
 msgstr "ຂໍ້ມູນບິນ"
 
+#. module: tsc_crm
 msgid "Invoice Lines"
 msgstr "ລາຍການບິນ"
 
+#. module: tsc_crm
 msgid "Invoice Number"
 msgstr "ເລກບິນ"
 
+#. module: tsc_crm
 msgid "Invoice cancelled"
 msgstr "ບິນຍົກເລີກແລ້ວ"
 
+#. module: tsc_crm
 msgid "Invoice number must be unique!"
 msgstr "ເລກບິນຕ້ອງເປັນເອກະລັດ!"
 
+#. module: tsc_crm
 msgid "Invoice posted"
 msgstr "ບິນອອກແລ້ວ"
 
+#. module: tsc_crm
 msgid "Invoice refunded"
 msgstr "ບິນຄືນເງິນແລ້ວ"
 
+#. module: tsc_crm
 msgid "Invoice reset to draft"
 msgstr "ຕັ້ງບິນເປັນຮ່າງ"
 
+#. module: tsc_crm
 msgid "Invoices"
 msgstr "ບິນ"
 
+#. module: tsc_crm
 msgid "LaoID"
 msgstr "LaoID"
 
+#. module: tsc_crm
 msgid "Level"
 msgstr "ລະດັບ"
 
+#. module: tsc_crm
 msgid "Logo"
 msgstr "ໂລໂກ້"
 
+#. module: tsc_crm
 msgid "Maintenance"
 msgstr "ບຳລຸງຮັກສາ"
 
+#. module: tsc_crm
 msgid "Manager"
 msgstr "ຜູ້ຈັດການ"
 
+#. module: tsc_crm
 msgid "Manual"
 msgstr "ດ້ວຍມື"
 
+#. module: tsc_crm
 msgid "Mark Done"
 msgstr "ໝາຍວ່າສຳເລັດ"
 
+#. module: tsc_crm
 msgid "Mark Expired"
 msgstr "ໝາຍວ່າໝົດອາຍຸ"
 
+#. module: tsc_crm
 msgid "Mark Failed"
 msgstr "ໝາຍວ່າລົ້ມເຫຼວ"
 
+#. module: tsc_crm
 msgid "Mark Published"
 msgstr "ໝາຍວ່າເຜີຍແຜ່"
 
+#. module: tsc_crm
 msgid "Mark Rejected"
 msgstr "ໝາຍວ່າປະຕິເສດ"
 
+#. module: tsc_crm
 msgid "Mark Signed"
 msgstr "ໝາຍວ່າລົງນາມ"
 
+#. module: tsc_crm
 msgid "Mark as Signed"
 msgstr "ໝາຍວ່າລົງນາມ"
 
+#. module: tsc_crm
 msgid "Max Concurrent Orders"
 msgstr "ຈຳນວນຄຳສັ່ງສູງສຸດພ້ວມກັນ"
 
+#. module: tsc_crm
 msgid "Media"
 msgstr "ສື່"
 
+#. module: tsc_crm
 msgid "Miniapp"
 msgstr "Miniapp"
 
+#. module: tsc_crm
 msgid "New SLA Violation"
 msgstr "ລະເມີດ SLA ໃໝ່"
 
+#. module: tsc_crm
 msgid "New Signing"
 msgstr "ລົງນາມໃໝ່"
 
+#. module: tsc_crm
 msgid "Not Sent"
 msgstr "ຍັງບໍ່ໄດ້ສົ່ງ"
 
+#. module: tsc_crm
 msgid "Notes"
 msgstr "ໝາຍເຫດ"
 
+#. module: tsc_crm
 msgid "Offline"
 msgstr "ອັອບລາຍ"
 
+#. module: tsc_crm
 msgid "One Time"
 msgstr "ຄັ້ງດຽວ"
 
+#. module: tsc_crm
 msgid "Online"
 msgstr "ອອນລາຍ"
 
+#. module: tsc_crm
 msgid "Only cancelled invoices can be reset to draft"
 msgstr "ມີແຕ່ບິນທີ່ຍົກເລີກແລ້ວເທົ່ານັ້ນສາມາດຕັ້ງເປັນຮ່າງໄດ້"
 
+#. module: tsc_crm
 msgid "Only confirmed payments can be refunded"
 msgstr "ມີແຕ່ການຈ່າຍເງິນທີ່ຢືນຢັນແລ້ວເທົ່ານັ້ນສາມາດຄືນເງິນໄດ້"
 
+#. module: tsc_crm
 msgid "Only draft contracts can be submitted"
 msgstr "ມີແຕ່ສັນຍາຮ່າງເທົ່ານັ້ນສາມາດສົ່ງໄດ້"
 
+#. module: tsc_crm
 msgid "Only draft invoices can be posted"
 msgstr "ມີແຕ່ບິນຮ່າງເທົ່ານັ້ນສາມາດອອກໄດ້"
 
+#. module: tsc_crm
 msgid "Only draft payments can be submitted"
 msgstr "ມີແຕ່ການຈ່າຍເງິນຮ່າງເທົ່ານັ້ນສາມາດສົ່ງໄດ້"
 
+#. module: tsc_crm
 msgid "Only pending or cancelled contracts can be reset to draft"
 msgstr "ມີແຕ່ສັນຍາລໍຖ້າ/ຍົກເລີກເທົ່ານັ້ນສາມາດຕັ້ງເປັນຮ່າງໄດ້"
 
+#. module: tsc_crm
 msgid "Only pending payments can be confirmed"
 msgstr "ມີແຕ່ການຈ່າຍເງິນລໍຖ້າເທົ່ານັ້ນສາມາດຢືນຢັນໄດ້"
 
+#. module: tsc_crm
 msgid "Only posted or paid invoices can be refunded"
 msgstr "ມີແຕ່ບິນອອກ/ຈ່າຍແລ້ວເທົ່ານັ້ນສາມາດຄືນເງິນໄດ້"
 
+#. module: tsc_crm
 msgid "Order"
 msgstr "ຄຳສັ່ງ"
 
+#. module: tsc_crm
 msgid "Order Assignment"
 msgstr "ການມອບໝາຍຄຳສັ່ງ"
 
+#. module: tsc_crm
 msgid "Order Assignment Log"
 msgstr "ບັນທຶກການມອບໝາຍ"
 
+#. module: tsc_crm
 msgid "Order Assignments"
 msgstr "ການມອບໝາຍຄຳສັ່ງ"
 
+#. module: tsc_crm
 msgid "Order Line"
 msgstr "ລາຍການຄຳສັ່ງ"
 
+#. module: tsc_crm
 msgid "Order Lines"
 msgstr "ລາຍການຄຳສັ່ງ"
 
+#. module: tsc_crm
 msgid "Order Reference"
 msgstr "ລະຫັດຄຳສັ່ງ"
 
+#. module: tsc_crm
 msgid "Order Total"
 msgstr "ລວມຄຳສັ່ງ"
 
+#. module: tsc_crm
 msgid "Order accepted by %s"
 msgstr "ຄຳສັ່ງຍອມຮັບໂດຍ %s"
 
+#. module: tsc_crm
 msgid "Order assigned to %s"
 msgstr "ຄຳສັ່ງມອບໝາຍໃຫ້ %s"
 
+#. module: tsc_crm
 msgid "Order confirmed"
 msgstr "ຄຳສັ່ງຢືນຢັນແລ້ວ"
 
+#. module: tsc_crm
 msgid "Order moved to survey phase"
 msgstr "ຄຳສັ່ງຍ້າຍໄປຂັ້ນສຳຫຼວດ"
 
+#. module: tsc_crm
 msgid "Orders"
 msgstr "ຄຳສັ່ງ"
 
+#. module: tsc_crm
 msgid "Orders Kanban"
 msgstr "Kanban ຄຳສັ່ງ"
 
+#. module: tsc_crm
 msgid "Other"
 msgstr "ອື່ນໆ"
 
+#. module: tsc_crm
 msgid "Overdue"
 msgstr "ກົງກຳນົດ"
 
+#. module: tsc_crm
 msgid "Overdue Orders"
 msgstr "ຄຳສັ່ງກົງກຳນົດ"
 
+#. module: tsc_crm
 msgid "Overdue Tasks"
 msgstr "ວຽກກົງກຳນົດ"
 
+#. module: tsc_crm
 msgid "Package"
 msgstr "ແພັກເກີ"
 
+#. module: tsc_crm
 msgid "Package Type"
 msgstr "ປະເພດແພັກເກີ"
 
+#. module: tsc_crm
 msgid "Package code must be unique!"
 msgstr "ລະຫັດແພັກເກີຕ້ອງເປັນເອກະລັດ!"
 
+#. module: tsc_crm
 msgid "Packages"
 msgstr "ແພັກເກີ"
 
+#. module: tsc_crm
 msgid "Paid"
 msgstr "ຈ່າຍແລ້ວ"
 
+#. module: tsc_crm
 msgid "Paid invoices cannot be cancelled"
 msgstr "ບິນຈ່າຍແລ້ວບໍ່ສາມາດຍົກເລີກໄດ້"
 
+#. module: tsc_crm
 msgid "Parent Region"
 msgstr "ພື້ນທີ່ແມ່"
 
+#. module: tsc_crm
 msgid "Partial payment received"
 msgstr "ໄດ້ຮັບການຈ່າຍເງິນບາງສ່ວນ"
 
+#. module: tsc_crm
 msgid "Payment"
 msgstr "ການຈ່າຍເງິນ"
 
+#. module: tsc_crm
 msgid "Payment Date"
 msgstr "ວັນຈ່າຍເງິນ"
 
+#. module: tsc_crm
 msgid "Payment Information"
 msgstr "ຂໍ້ມູນການຈ່າຍເງິນ"
 
+#. module: tsc_crm
 msgid "Payment Method"
 msgstr "ວິທີການຈ່າຍເງິນ"
 
+#. module: tsc_crm
 msgid "Payment Reference"
 msgstr "ລະຫັດການຈ່າຍເງິນ"
 
+#. module: tsc_crm
 msgid "Payment confirmed"
 msgstr "ການຈ່າຍເງິນຢືນຢັນແລ້ວ"
 
+#. module: tsc_crm
 msgid "Payment failed"
 msgstr "ການຈ່າຍເງິນລົ້ມເຫຼວ"
 
+#. module: tsc_crm
 msgid "Payment reference must be unique!"
 msgstr "ລະຫັດການຈ່າຍເງິນຕ້ອງເປັນເອກະລັດ!"
 
+#. module: tsc_crm
 msgid "Payment refunded"
 msgstr "ການຈ່າຍເງິນຄືນແລ້ວ"
 
+#. module: tsc_crm
 msgid "Payment submitted for processing"
 msgstr "ການຈ່າຍເງິນສົ່ງດຳເນີນການແລ້ວ"
 
+#. module: tsc_crm
 msgid "Payments"
 msgstr "ການຈ່າຍເງິນ"
 
+#. module: tsc_crm
 msgid "Pending"
 msgstr "ລໍຖ້າ"
 
+#. module: tsc_crm
 msgid "Pending Signing"
 msgstr "ລໍຖ້າລົງນາມ"
 
+#. module: tsc_crm
 msgid "Please select an assignee"
 msgstr "ກະລຸນາເລືອກຜູ້ຮັບຜິດຊອບ"
 
+#. module: tsc_crm
 msgid "Please select an employee"
 msgstr "ກະລຸນາເລືອກພະນັກງານ"
 
+#. module: tsc_crm
 msgid "Policies"
 msgstr "ນະໂຍບາຍ"
 
+#. module: tsc_crm
 msgid "Post"
 msgstr "ອອກບິນ"
 
+#. module: tsc_crm
 msgid "Posted"
 msgstr "ອອກບິນແລ້ວ"
 
+#. module: tsc_crm
 msgid "Price (Kip/month)"
 msgstr "ລາຄາ (ກີບ/ເດືອນ)"
 
+#. module: tsc_crm
 msgid "Price Levels"
 msgstr "ລະດັບລາຄາ"
 
+#. module: tsc_crm
 msgid "Pricing"
 msgstr "ການຕັ້ງລາຄາ"
 
+#. module: tsc_crm
 msgid "Project"
 msgstr "ໂຄງການ"
 
+#. module: tsc_crm
 msgid "Published"
 msgstr "ເຜີຍແຜ່ແລ້ວ"
 
+#. module: tsc_crm
 msgid "Quantity"
 msgstr "ຈຳນວນ"
 
+#. module: tsc_crm
 msgid "Reason"
 msgstr "ເຫດຜົນ"
 
+#. module: tsc_crm
 msgid "Refund"
 msgstr "ຄືນເງິນ"
 
+#. module: tsc_crm
 msgid "Refunded"
 msgstr "ຄືນເງິນແລ້ວ"
 
+#. module: tsc_crm
 msgid "Region"
 msgstr "ພື້ນທີ່"
 
+#. module: tsc_crm
 msgid "Region Manager"
 msgstr "ຜູ້ຈັດການພື້ນທີ່"
 
+#. module: tsc_crm
 msgid "Region code must be unique!"
 msgstr "ລະຫັດພື້ນທີ່ຕ້ອງເປັນເອກະລັດ!"
 
+#. module: tsc_crm
 msgid "Regions"
 msgstr "ພື້ນທີ່"
 
+#. module: tsc_crm
 msgid "Rejected"
 msgstr "ປະຕິເສດ"
 
+#. module: tsc_crm
 msgid "Reopen"
 msgstr "ເປີດໃໝ່"
 
+#. module: tsc_crm
 msgid "Reset to Draft"
 msgstr "ຕັ້ງເປັນຮ່າງ"
 
+#. module: tsc_crm
 msgid "Resolution"
 msgstr "ການແກ້ໄຂ"
 
+#. module: tsc_crm
 msgid "Resolve"
 msgstr "ແກ້ໄຂ"
 
+#. module: tsc_crm
 msgid "Resolved"
 msgstr "ແກ້ໄຂແລ້ວ"
 
+#. module: tsc_crm
 msgid "Resolved Date"
 msgstr "ວັນທີ່ແກ້ໄຂ"
 
+#. module: tsc_crm
 msgid "SLA Config"
 msgstr "ຕັ້ງຄ່າ SLA"
 
+#. module: tsc_crm
 msgid "SLA Deadline"
 msgstr "ກຳນົດ SLA"
 
+#. module: tsc_crm
 msgid "SLA Violation"
 msgstr "ລະເມີດ SLA"
 
+#. module: tsc_crm
 msgid "SLA Violations"
 msgstr "ການລະເມີດ SLA"
 
+#. module: tsc_crm
 msgid "SLA violated - auto action triggered"
 msgstr "ລະເມີດ SLA - ໄດ້ດຳເນີນການອັດຕະໂນມັດ"
 
+#. module: tsc_crm
 msgid "Scan Filename"
 msgstr "ຊື່ໄຟລ໌ສະແກນ"
 
+#. module: tsc_crm
 msgid "Scanned Contract"
 msgstr "ສັນຍາທີ່ສະແກນແລ້ວ"
 
+#. module: tsc_crm
 msgid "Search Assignments"
 msgstr "ຄົ້ນຫາການມອບໝາຍ"
 
+#. module: tsc_crm
 msgid "Search Contracts"
 msgstr "ຄົ້ນຫາສັນຍາ"
 
+#. module: tsc_crm
 msgid "Search Invoices"
 msgstr "ຄົ້ນຫາບິນ"
 
+#. module: tsc_crm
 msgid "Search Order Lines"
 msgstr "ຄົ້ນຫາລາຍການຄຳສັ່ງ"
 
+#. module: tsc_crm
 msgid "Search Packages"
 msgstr "ຄົ້ນຫາແພັກເກີ"
 
+#. module: tsc_crm
 msgid "Search Payments"
 msgstr "ຄົ້ນຫາການຈ່າຍເງິນ"
 
+#. module: tsc_crm
 msgid "Search Regions"
 msgstr "ຄົ້ນຫາພື້ນທີ່"
 
+#. module: tsc_crm
 msgid "Search Services"
 msgstr "ຄົ້ນຫາບໍລິການ"
 
+#. module: tsc_crm
 msgid "Search Signing Records"
 msgstr "ຄົ້ນຫາບັນທຶກລົງນາມ"
 
+#. module: tsc_crm
 msgid "Search Technical Tasks"
 msgstr "ຄົ້ນຫາວຽກເຕັກນິກ"
 
+#. module: tsc_crm
 msgid "Send to VOffice"
 msgstr "ສົ່ງໄປ VOffice"
 
+#. module: tsc_crm
 msgid "Sent to VOffice for signing"
 msgstr "ສົ່ງໄປ VOffice ສຳລັບລົງນາມ"
 
+#. module: tsc_crm
 msgid "Service"
 msgstr "ບໍລິການ"
 
+#. module: tsc_crm
 msgid "Service Type"
 msgstr "ປະເພດບໍລິການ"
 
+#. module: tsc_crm
 msgid "Service code must be at least 2 characters"
 msgstr "ລະຫັດບໍລິການຕ້ອງມີຢ່າງໜ້ອຍ 2 ຕົວອັກສອນ"
 
+#. module: tsc_crm
 msgid "Service code must be unique!"
 msgstr "ລະຫັດບໍລິການຕ້ອງເປັນເອກະລັດ!"
 
+#. module: tsc_crm
 msgid "Services"
 msgstr "ບໍລິການ"
 
+#. module: tsc_crm
 msgid "Setup Fee"
 msgstr "ຄ່າຕິດຕັ້ງ"
 
+#. module: tsc_crm
 msgid "Sign Date"
 msgstr "ວັນລົງນາມ"
 
+#. module: tsc_crm
 msgid "Signed"
 msgstr "ລົງນາມແລ້ວ"
 
+#. module: tsc_crm
 msgid "Signed Document"
 msgstr "ເອກະສານລົງນາມແລ້ວ"
 
+#. module: tsc_crm
 msgid "Signed File"
 msgstr "ໄຟລ໌ລົງນາມແລ້ວ"
 
+#. module: tsc_crm
 msgid "Signed Filename"
 msgstr "ຊື່ໄຟລ໌ລົງນາມ"
 
+#. module: tsc_crm
 msgid "Signing Record"
 msgstr "ບັນທຶກລົງນາມ"
 
+#. module: tsc_crm
 msgid "Signing Records"
 msgstr "ບັນທຶກລົງນາມ"
 
+#. module: tsc_crm
 msgid "Signing cancelled"
 msgstr "ລົງນາມຍົກເລີກ"
 
+#. module: tsc_crm
 msgid "Source"
 msgstr "ແຫຼ່ງ"
 
+#. module: tsc_crm
 msgid "Staff"
 msgstr "ພະນັກງານ"
 
+#. module: tsc_crm
 msgid "Stage Key"
 msgstr "ລະຫັດຂັ້ນຕອນ"
 
+#. module: tsc_crm
 msgid "Start"
 msgstr "ເລີ່ມຕົ້ນ"
 
+#. module: tsc_crm
 msgid "Start Date"
 msgstr "ວັນເລີ່ມຕົ້ນ"
 
+#. module: tsc_crm
 msgid "Status"
 msgstr "ສະຖານະ"
 
+#. module: tsc_crm
 msgid "Submit"
 msgstr "ສົ່ງ"
 
+#. module: tsc_crm
 msgid "Submit for Signing"
 msgstr "ສົ່ງລົງນາມ"
 
+#. module: tsc_crm
 msgid "Survey"
 msgstr "ສຳຫຼວດ"
 
+#. module: tsc_crm
 msgid "Surveying"
 msgstr "ກຳລັງສຳຫຼວດ"
 
+#. module: tsc_crm
 msgid "TSC CRM Dashboard"
 msgstr "ແຜງຄວບຄຸມ TSC CRM"
 
+#. module: tsc_crm
 msgid "TSC Contract"
 msgstr "ສັນຍາ TSC"
 
+#. module: tsc_crm
 msgid "TSC Invoice"
 msgstr "ບິນ TSC"
 
+#. module: tsc_crm
 msgid "TSC Invoice Line"
 msgstr "ລາຍການບິນ TSC"
 
+#. module: tsc_crm
 msgid "TSC Package"
 msgstr "ແພັກເກີ TSC"
 
+#. module: tsc_crm
 msgid "TSC Package Level"
 msgstr "ລະດັບແພັກເກີ TSC"
 
+#. module: tsc_crm
 msgid "TSC Payment"
 msgstr "ການຈ່າຍເງິນ TSC"
 
+#. module: tsc_crm
 msgid "TSC Role"
 msgstr "ບົດບາດ TSC"
 
+#. module: tsc_crm
 msgid "TSC SLA Violation"
 msgstr "ການລະເມີດ SLA TSC"
 
+#. module: tsc_crm
 msgid "TSC Service"
 msgstr "ບໍລິການ TSC"
 
+#. module: tsc_crm
 msgid "TSC Signing Record"
 msgstr "ບັນທຶກລົງນາມ TSC"
 
+#. module: tsc_crm
 msgid "TSC VAT Configuration"
 msgstr "ຕັ້ງຄ່າ VAT TSC"
 
+#. module: tsc_crm
 msgid "TSC WHT Configuration"
 msgstr "ຕັ້ງຄ່າ WHT TSC"
 
+#. module: tsc_crm
 msgid "Target Customer"
 msgstr ""
 
+#. module: tsc_crm
 msgid "Task Type"
 msgstr "ປະເພດວຽກ"
 
+#. module: tsc_crm
 msgid "Task assigned to %s"
 msgstr "ວຽກມອບໝາຍໃຫ້ %s"
 
+#. module: tsc_crm
 msgid "Task completed"
 msgstr "ວຽກສຳເລັດ"
 
+#. module: tsc_crm
 msgid "Tax"
 msgstr "ພາສີ"
 
+#. module: tsc_crm
 msgid "Tax Information"
 msgstr "ຂໍ້ມູນພາສີ"
 
+#. module: tsc_crm
 msgid "Team Manager"
 msgstr "ຜູ້ຈັດການທີມ"
 
+#. module: tsc_crm
 msgid "Team Type"
 msgstr "ປະເພດທີມ"
 
+#. module: tsc_crm
 msgid "Technical"
 msgstr "ເຕັກນິກ"
 
+#. module: tsc_crm
 msgid "Technical Task"
 msgstr "ວຽກເຕັກນິກ"
 
+#. module: tsc_crm
 msgid "Technical Tasks"
 msgstr "ວຽກເຕັກນິກ"
 
+#. module: tsc_crm
 msgid "Total"
 msgstr "ລວມ"
 
+#. module: tsc_crm
 msgid "Total Amount"
 msgstr "ຈຳນວນລວມ"
 
+#. module: tsc_crm
 msgid "Totals"
 msgstr "ລວມ"
 
+#. module: tsc_crm
 msgid "Transaction ID"
 msgstr "ລະຫັດທຸລະກຳ"
 
+#. module: tsc_crm
 msgid "Trial Days"
 msgstr "ມື້ລອງໃຊ້"
 
+#. module: tsc_crm
 msgid "Unarchive"
 msgstr "ຍົກເລີກການບັນທຶກ"
 
+#. module: tsc_crm
 msgid "Unipay"
 msgstr "Unipay"
 
+#. module: tsc_crm
 msgid "Unit Price"
 msgstr "ລາຄາໜ່ວຍ"
 
+#. module: tsc_crm
 msgid "Untaxed Amount"
 msgstr "ຈຳນວນບໍ່ລວມພາສີ"
 
+#. module: tsc_crm
 msgid "VAT"
 msgstr "VAT"
 
+#. module: tsc_crm
 msgid "VAT Amount"
 msgstr "ຈຳນວນ VAT"
 
+#. module: tsc_crm
 msgid "VAT Configuration"
 msgstr "ຕັ້ງຄ່າ VAT"
 
+#. module: tsc_crm
 msgid "VAT Configurations"
 msgstr "ຕັ້ງຄ່າ VAT"
 
+#. module: tsc_crm
 msgid "VAT Rate (%)"
 msgstr "ອັດຕາ VAT (%)"
 
+#. module: tsc_crm
 msgid "VAT rate must be between 0 and 100"
 msgstr "ອັດຕາ VAT ຕ້ອງລະຫວ່າງ 0 ແລະ 100"
 
+#. module: tsc_crm
 msgid "VOffice Document ID"
 msgstr "ລະຫັດເອກະສານ VOffice"
 
+#. module: tsc_crm
 msgid "VOffice Information"
 msgstr "ຂໍ້ມູນ VOffice"
 
+#. module: tsc_crm
 msgid "VOffice Integration"
 msgstr "ການເຊື່ອມຕໍ່ VOffice"
 
+#. module: tsc_crm
 msgid "VOffice Status"
 msgstr "ສະຖານະ VOffice"
 
+#. module: tsc_crm
 msgid "VOffice Transaction Code"
 msgstr "ລະຫັດທຸລະກຳ VOffice"
 
+#. module: tsc_crm
 msgid "Valid From"
 msgstr "ມີຜົນບັງຄັບບັນຊາຈາກ"
 
+#. module: tsc_crm
 msgid "Valid From must be before Valid To"
 msgstr "ວັນເລີ່ມຕ້ອງກ່ອນວັນສິ້ນສຸດ"
 
+#. module: tsc_crm
 msgid "Valid To"
 msgstr "ມີຜົນບັງຄັບບັນຊາຮອດ"
 
+#. module: tsc_crm
 msgid "Validity"
 msgstr "ຜົນບັງຄັບບັນຊາ"
 
+#. module: tsc_crm
 msgid "Validity Days"
 msgstr "ຈຳນວນມື້ຜົນບັງຄັບບັນຊາ"
 
+#. module: tsc_crm
 msgid "Value Proposition"
 msgstr "ຄ່າຄວາມ"
 
+#. module: tsc_crm
 msgid "Video URL"
 msgstr "URL ວິດີໂອ"
 
+#. module: tsc_crm
 msgid "Violation Date"
 msgstr "ວັນລະເມີດ"
 
+#. module: tsc_crm
 msgid "Violation Details"
 msgstr "ລາຍລະອຽດການລະເມີດ"
 
+#. module: tsc_crm
 msgid "WHT"
 msgstr "WHT"
 
+#. module: tsc_crm
 msgid "WHT Amount"
 msgstr "ຈຳນວນ WHT"
 
+#. module: tsc_crm
 msgid "WHT Configuration"
 msgstr "ຕັ້ງຄ່າ WHT"
 
+#. module: tsc_crm
 msgid "WHT Configurations"
 msgstr "ຕັ້ງຄ່າ WHT"
 
+#. module: tsc_crm
 msgid "WHT Rate (%)"
 msgstr "ອັດຕາ WHT (%)"
 
+#. module: tsc_crm
 msgid "WHT rate must be between 0 and 100"
 msgstr "ອັດຕາ WHT ຕ້ອງລະຫວ່າງ 0 ແລະ 100"
 
+#. module: tsc_crm
 msgid "Workflow Stage"
 msgstr "ຂັ້ນຕອນວຽກງານ"
 
+#. module: tsc_crm
 msgid "uMoney"
 msgstr "uMoney"

@@ -1,128 +1,128 @@
 # Translation file for tsc_crm_integration
 # Generated automatically
-
+#. module: tsc_crm_integration
 msgid "BCCS3"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Configurations"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Datalake"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Email"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "External Systems"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Failed"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Inbound"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Integration Configuration"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Integration Log"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Integration Logs"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Integration"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Landing Page"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Landing Page Configuration"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Landing Pages"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Logs"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "New Order"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Notification Log"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Notification Template"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Notification Templates"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Notifications"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Order Assigned"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Order Overdue"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Order Transferred"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Outbound"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Pending"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Push Notification"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "SMS"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "SMS Gateway"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "SEO Description"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "SEO Title"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Sent"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Services"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Subject"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Success"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Trigger Event"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Unipay"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Voffice"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Contract Signed"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Invoice Created"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Payment Received"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "API Key"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "API URL"
 msgstr ""

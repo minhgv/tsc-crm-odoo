@@ -1,128 +1,129 @@
 # Language: vi
 # Translation file for $mod
 # Generated automatically
-
+#. module: tsc_crm_commission
 msgid "Agency"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "AM Province"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "Approved"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "Commission"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "Commission Rule"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "Draft"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "Fixed Amount"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "Management"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "Paid"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "Percentage"
 msgstr ""
-
+#. module: tsc_crm_commission
 msgid "Staff"
 msgstr ""
 
 
 # Vietnamese translations
+#. module: tsc_crm_commission
 msgid "Service"
 msgstr "Dịch vụ"
-
+#. module: tsc_crm_commission
 msgid "Package"
 msgstr "Gói cước"
-
+#. module: tsc_crm_commission
 msgid "Order"
 msgstr "Đơn hàng"
-
+#. module: tsc_crm_commission
 msgid "Contract"
 msgstr "Hợp đồng"
-
+#. module: tsc_crm_commission
 msgid "Invoice"
 msgstr "Hóa đơn"
-
+#. module: tsc_crm_commission
 msgid "Payment"
 msgstr "Thanh toán"
-
+#. module: tsc_crm_commission
 msgid "Region"
 msgstr "Khu vực"
-
+#. module: tsc_crm_commission
 msgid "Customer"
 msgstr "Khách hàng"
-
+#. module: tsc_crm_commission
 msgid "Employee"
 msgstr "Nhân viên"
-
+#. module: tsc_crm_commission
 msgid "Draft"
 msgstr "Nháp"
-
+#. module: tsc_crm_commission
 msgid "Confirmed"
 msgstr "Đã xác nhận"
-
+#. module: tsc_crm_commission
 msgid "Active"
 msgstr "Hoạt động"
-
+#. module: tsc_crm_commission
 msgid "Pending"
 msgstr "Chờ xử lý"
-
+#. module: tsc_crm_commission
 msgid "Success"
 msgstr "Thành công"
-
+#. module: tsc_crm_commission
 msgid "Failed"
 msgstr "Thất bại"
-
+#. module: tsc_crm_commission
 msgid "Cancel"
 msgstr "Hủy"
-
+#. module: tsc_crm_commission
 msgid "Save"
 msgstr "Lưu"
-
+#. module: tsc_crm_commission
 msgid "Search"
 msgstr "Tìm kiếm"
-
+#. module: tsc_crm_commission
 msgid "Create"
 msgstr "Tạo"
-
+#. module: tsc_crm_commission
 msgid "Edit"
 msgstr "Sửa"
-
+#. module: tsc_crm_commission
 msgid "Delete"
 msgstr "Xóa"
-
+#. module: tsc_crm_commission
 msgid "Name"
 msgstr "Tên"
-
+#. module: tsc_crm_commission
 msgid "Description"
 msgstr "Mô tả"
-
+#. module: tsc_crm_commission
 msgid "Price"
 msgstr "Giá"
-
+#. module: tsc_crm_commission
 msgid "Total"
 msgstr "Tổng cộng"
-
+#. module: tsc_crm_commission
 msgid "Status"
 msgstr "Trạng thái"
-
+#. module: tsc_crm_commission
 msgid "Date"
 msgstr "Ngày"
-
+#. module: tsc_crm_commission
 msgid "Email"
 msgstr "Email"
-
+#. module: tsc_crm_commission
 msgid "Phone"
 msgstr "Điện thoại"
-
+#. module: tsc_crm_commission
 msgid "Address"
 msgstr "Địa chỉ"

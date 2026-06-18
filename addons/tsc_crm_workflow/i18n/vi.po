@@ -1,200 +1,201 @@
 # Language: vi
 # Translation file for $mod
 # Generated automatically
-
+#. module: tsc_crm_workflow
 msgid "24 Hours"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Active"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Assignment"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Cancelled"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Cash"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Confirmed"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Contract"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Days"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Draft"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Exchange Rate"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Expired"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Failed"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Hours"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Invoice"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Invoice Line"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Minutes"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Mobile Balance"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Paid"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Payment"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Pending"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Pending Signature"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Posted"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "QR Payment"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Refunded"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Scanned"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Signed"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "SLA Configuration"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Survey"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Terminated"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "uMoney"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Unipay Bank Transfer"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Unipay Wallet"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "VAT Configuration"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "WHT Configuration"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Working Hours"
 msgstr ""
 
 
 # Vietnamese translations
+#. module: tsc_crm_workflow
 msgid "Service"
 msgstr "Dịch vụ"
-
+#. module: tsc_crm_workflow
 msgid "Package"
 msgstr "Gói cước"
-
+#. module: tsc_crm_workflow
 msgid "Order"
 msgstr "Đơn hàng"
-
+#. module: tsc_crm_workflow
 msgid "Contract"
 msgstr "Hợp đồng"
-
+#. module: tsc_crm_workflow
 msgid "Invoice"
 msgstr "Hóa đơn"
-
+#. module: tsc_crm_workflow
 msgid "Payment"
 msgstr "Thanh toán"
-
+#. module: tsc_crm_workflow
 msgid "Region"
 msgstr "Khu vực"
-
+#. module: tsc_crm_workflow
 msgid "Customer"
 msgstr "Khách hàng"
-
+#. module: tsc_crm_workflow
 msgid "Employee"
 msgstr "Nhân viên"
-
+#. module: tsc_crm_workflow
 msgid "Draft"
 msgstr "Nháp"
-
+#. module: tsc_crm_workflow
 msgid "Confirmed"
 msgstr "Đã xác nhận"
-
+#. module: tsc_crm_workflow
 msgid "Active"
 msgstr "Hoạt động"
-
+#. module: tsc_crm_workflow
 msgid "Pending"
 msgstr "Chờ xử lý"
-
+#. module: tsc_crm_workflow
 msgid "Success"
 msgstr "Thành công"
-
+#. module: tsc_crm_workflow
 msgid "Failed"
 msgstr "Thất bại"
-
+#. module: tsc_crm_workflow
 msgid "Cancel"
 msgstr "Hủy"
-
+#. module: tsc_crm_workflow
 msgid "Save"
 msgstr "Lưu"
-
+#. module: tsc_crm_workflow
 msgid "Search"
 msgstr "Tìm kiếm"
-
+#. module: tsc_crm_workflow
 msgid "Create"
 msgstr "Tạo"
-
+#. module: tsc_crm_workflow
 msgid "Edit"
 msgstr "Sửa"
-
+#. module: tsc_crm_workflow
 msgid "Delete"
 msgstr "Xóa"
-
+#. module: tsc_crm_workflow
 msgid "Name"
 msgstr "Tên"
-
+#. module: tsc_crm_workflow
 msgid "Description"
 msgstr "Mô tả"
-
+#. module: tsc_crm_workflow
 msgid "Price"
 msgstr "Giá"
-
+#. module: tsc_crm_workflow
 msgid "Total"
 msgstr "Tổng cộng"
-
+#. module: tsc_crm_workflow
 msgid "Status"
 msgstr "Trạng thái"
-
+#. module: tsc_crm_workflow
 msgid "Date"
 msgstr "Ngày"
-
+#. module: tsc_crm_workflow
 msgid "Email"
 msgstr "Email"
-
+#. module: tsc_crm_workflow
 msgid "Phone"
 msgstr "Điện thoại"
-
+#. module: tsc_crm_workflow
 msgid "Address"
 msgstr "Địa chỉ"

@@ -1,146 +1,147 @@
 # Language: vi
 # Translation file for $mod
 # Generated automatically
-
+#. module: tsc_crm_auth
 msgid "Backend"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Backend User"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Customer"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Customer Registration"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Employee"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Expired"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Failed"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "LaoID"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Login"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Login Log"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "OTP"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "OTP Code"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Pending"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Register"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Reset Password"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Success"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Verified"
 msgstr ""
 
 
 # Vietnamese translations
+#. module: tsc_crm_auth
 msgid "Service"
 msgstr "Dịch vụ"
-
+#. module: tsc_crm_auth
 msgid "Package"
 msgstr "Gói cước"
-
+#. module: tsc_crm_auth
 msgid "Order"
 msgstr "Đơn hàng"
-
+#. module: tsc_crm_auth
 msgid "Contract"
 msgstr "Hợp đồng"
-
+#. module: tsc_crm_auth
 msgid "Invoice"
 msgstr "Hóa đơn"
-
+#. module: tsc_crm_auth
 msgid "Payment"
 msgstr "Thanh toán"
-
+#. module: tsc_crm_auth
 msgid "Region"
 msgstr "Khu vực"
-
+#. module: tsc_crm_auth
 msgid "Customer"
 msgstr "Khách hàng"
-
+#. module: tsc_crm_auth
 msgid "Employee"
 msgstr "Nhân viên"
-
+#. module: tsc_crm_auth
 msgid "Draft"
 msgstr "Nháp"
-
+#. module: tsc_crm_auth
 msgid "Confirmed"
 msgstr "Đã xác nhận"
-
+#. module: tsc_crm_auth
 msgid "Active"
 msgstr "Hoạt động"
-
+#. module: tsc_crm_auth
 msgid "Pending"
 msgstr "Chờ xử lý"
-
+#. module: tsc_crm_auth
 msgid "Success"
 msgstr "Thành công"
-
+#. module: tsc_crm_auth
 msgid "Failed"
 msgstr "Thất bại"
-
+#. module: tsc_crm_auth
 msgid "Cancel"
 msgstr "Hủy"
-
+#. module: tsc_crm_auth
 msgid "Save"
 msgstr "Lưu"
-
+#. module: tsc_crm_auth
 msgid "Search"
 msgstr "Tìm kiếm"
-
+#. module: tsc_crm_auth
 msgid "Create"
 msgstr "Tạo"
-
+#. module: tsc_crm_auth
 msgid "Edit"
 msgstr "Sửa"
-
+#. module: tsc_crm_auth
 msgid "Delete"
 msgstr "Xóa"
-
+#. module: tsc_crm_auth
 msgid "Name"
 msgstr "Tên"
-
+#. module: tsc_crm_auth
 msgid "Description"
 msgstr "Mô tả"
-
+#. module: tsc_crm_auth
 msgid "Price"
 msgstr "Giá"
-
+#. module: tsc_crm_auth
 msgid "Total"
 msgstr "Tổng cộng"
-
+#. module: tsc_crm_auth
 msgid "Status"
 msgstr "Trạng thái"
-
+#. module: tsc_crm_auth
 msgid "Date"
 msgstr "Ngày"
-
+#. module: tsc_crm_auth
 msgid "Email"
 msgstr "Email"
-
+#. module: tsc_crm_auth
 msgid "Phone"
 msgstr "Điện thoại"
-
+#. module: tsc_crm_auth
 msgid "Address"
 msgstr "Địa chỉ"

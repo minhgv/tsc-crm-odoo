@@ -1,109 +1,109 @@
 # Language: lo
 # Translation file for $mod
 # Generated automatically
-
+#. module: tsc_crm_workflow
 msgid "24 Hours"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Active"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Assignment"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Cancelled"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Cash"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Confirmed"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Contract"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Days"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Draft"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Exchange Rate"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Expired"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Failed"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Hours"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Invoice"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Invoice Line"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Minutes"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Mobile Balance"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Paid"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Payment"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Pending"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Pending Signature"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Posted"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "QR Payment"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Refunded"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Scanned"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Signed"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "SLA Configuration"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Survey"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Terminated"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "uMoney"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Unipay Bank Transfer"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Unipay Wallet"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "VAT Configuration"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "WHT Configuration"
 msgstr ""
-
+#. module: tsc_crm_workflow
 msgid "Working Hours"
 msgstr ""
 

@@ -13,906 +13,906 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-
+#. module: tsc_crm
 msgid "Accept"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Accepted"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Action Taken"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Activate"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Active"
 msgstr ""
-
+#. module: tsc_crm
 msgid "All"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Amount"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Amount Paid"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Appendix"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Archive"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Assign"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Assigned"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Assigned By"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Assigned From"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Assigned To"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Assignment Log"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Auto Assignment"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Bank Transfer"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Banner"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Both"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Business"
 msgstr ""
-
+#. module: tsc_crm
 msgid "CMS CRM"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Cancel"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Cancelled"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Cannot post invoice without lines"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Cash"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Channel"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Check Status"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Child Regions"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Combo"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Combo Package"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Combo Services"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Company"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Confirm"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Confirmation Deadline"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Confirmed"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Contract"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Contract Date"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Contract Information"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Contract Number"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Contract activated"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Contract cancelled"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Contract expired"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Contract must be pending signing"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Contract must be signed to activate"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Contract number must be unique!"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Contract reset to draft"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Contract signed"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Contract submitted for signing"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Contracts"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Created"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Currency"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Current Orders"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Customer"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Customer Care"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Customer Code"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Customer Type"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Customer code must be unique!"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Cycle"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Dashboard"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Deadline"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Delivered"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Description"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Direct Sale"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Discount"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Discount (%)"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Distribution Channel"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Document Information"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Document Type"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Document published"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Document rejected"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Document signed"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Documents"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Done"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Draft"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Due Date"
 msgstr ""
-
+#. module: tsc_crm
 msgid "End Date"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Error Message"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Expired"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Expired contracts cannot be cancelled"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Failed"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Financial"
 msgstr ""
-
+#. module: tsc_crm
 msgid "General Information"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Government"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Group By"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Group Type"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Images"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Implementation"
 msgstr ""
-
+#. module: tsc_crm
 msgid "In Progress"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Individual"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Individual/Household"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Invoice"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Invoice Date"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Invoice Information"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Invoice Lines"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Invoice Number"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Invoice cancelled"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Invoice number must be unique!"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Invoice posted"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Invoice refunded"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Invoice reset to draft"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Invoices"
 msgstr ""
-
+#. module: tsc_crm
 msgid "LaoID"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Level"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Logo"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Maintenance"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Manager"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Manual"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Mark Done"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Mark Expired"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Mark Failed"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Mark Published"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Mark Rejected"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Mark Signed"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Mark as Signed"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Max Concurrent Orders"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Media"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Miniapp"
 msgstr ""
-
+#. module: tsc_crm
 msgid "New SLA Violation"
 msgstr ""
-
+#. module: tsc_crm
 msgid "New Signing"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Not Sent"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Notes"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Offline"
 msgstr ""
-
+#. module: tsc_crm
 msgid "One Time"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Online"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Only cancelled invoices can be reset to draft"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Only confirmed payments can be refunded"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Only draft contracts can be submitted"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Only draft invoices can be posted"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Only draft payments can be submitted"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Only pending or cancelled contracts can be reset to draft"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Only pending payments can be confirmed"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Only posted or paid invoices can be refunded"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Order"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Order Assignment"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Order Assignment Log"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Order Assignments"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Order Line"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Order Lines"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Order Reference"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Order Total"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Order accepted by %s"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Order assigned to %s"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Order confirmed"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Order moved to survey phase"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Orders"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Orders Kanban"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Other"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Overdue"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Overdue Orders"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Overdue Tasks"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Package"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Package Type"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Package code must be unique!"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Packages"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Paid"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Paid invoices cannot be cancelled"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Parent Region"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Partial payment received"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Payment"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Payment Date"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Payment Information"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Payment Method"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Payment Reference"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Payment confirmed"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Payment failed"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Payment reference must be unique!"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Payment refunded"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Payment submitted for processing"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Payments"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Pending"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Pending Signing"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Please select an assignee"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Please select an employee"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Policies"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Post"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Posted"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Price (Kip/month)"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Price Levels"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Pricing"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Project"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Published"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Quantity"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Reason"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Refund"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Refunded"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Region"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Region Manager"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Region code must be unique!"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Regions"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Rejected"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Reopen"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Reset to Draft"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Resolution"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Resolve"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Resolved"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Resolved Date"
 msgstr ""
-
+#. module: tsc_crm
 msgid "SLA Config"
 msgstr ""
-
+#. module: tsc_crm
 msgid "SLA Deadline"
 msgstr ""
-
+#. module: tsc_crm
 msgid "SLA Violation"
 msgstr ""
-
+#. module: tsc_crm
 msgid "SLA Violations"
 msgstr ""
-
+#. module: tsc_crm
 msgid "SLA violated - auto action triggered"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Scan Filename"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Scanned Contract"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Search Assignments"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Search Contracts"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Search Invoices"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Search Order Lines"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Search Packages"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Search Payments"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Search Regions"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Search Services"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Search Signing Records"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Search Technical Tasks"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Send to VOffice"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Sent to VOffice for signing"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Service"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Service Type"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Service code must be at least 2 characters"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Service code must be unique!"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Services"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Setup Fee"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Sign Date"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Signed"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Signed Document"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Signed File"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Signed Filename"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Signing Record"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Signing Records"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Signing cancelled"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Source"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Staff"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Stage Key"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Start"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Start Date"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Status"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Submit"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Submit for Signing"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Survey"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Surveying"
 msgstr ""
-
+#. module: tsc_crm
 msgid "TSC CRM Dashboard"
 msgstr ""
-
+#. module: tsc_crm
 msgid "TSC Contract"
 msgstr ""
-
+#. module: tsc_crm
 msgid "TSC Invoice"
 msgstr ""
-
+#. module: tsc_crm
 msgid "TSC Invoice Line"
 msgstr ""
-
+#. module: tsc_crm
 msgid "TSC Package"
 msgstr ""
-
+#. module: tsc_crm
 msgid "TSC Package Level"
 msgstr ""
-
+#. module: tsc_crm
 msgid "TSC Payment"
 msgstr ""
-
+#. module: tsc_crm
 msgid "TSC Role"
 msgstr ""
-
+#. module: tsc_crm
 msgid "TSC SLA Violation"
 msgstr ""
-
+#. module: tsc_crm
 msgid "TSC Service"
 msgstr ""
-
+#. module: tsc_crm
 msgid "TSC Signing Record"
 msgstr ""
-
+#. module: tsc_crm
 msgid "TSC VAT Configuration"
 msgstr ""
-
+#. module: tsc_crm
 msgid "TSC WHT Configuration"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Target Customer"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Task Type"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Task assigned to %s"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Task completed"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Tax"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Tax Information"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Team Manager"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Team Type"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Technical"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Technical Task"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Technical Tasks"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Total"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Total Amount"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Totals"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Transaction ID"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Trial Days"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Unarchive"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Unipay"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Unit Price"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Untaxed Amount"
 msgstr ""
-
+#. module: tsc_crm
 msgid "VAT"
 msgstr ""
-
+#. module: tsc_crm
 msgid "VAT Amount"
 msgstr ""
-
+#. module: tsc_crm
 msgid "VAT Configuration"
 msgstr ""
-
+#. module: tsc_crm
 msgid "VAT Configurations"
 msgstr ""
-
+#. module: tsc_crm
 msgid "VAT Rate (%)"
 msgstr ""
-
+#. module: tsc_crm
 msgid "VAT rate must be between 0 and 100"
 msgstr ""
-
+#. module: tsc_crm
 msgid "VOffice Document ID"
 msgstr ""
-
+#. module: tsc_crm
 msgid "VOffice Information"
 msgstr ""
-
+#. module: tsc_crm
 msgid "VOffice Integration"
 msgstr ""
-
+#. module: tsc_crm
 msgid "VOffice Status"
 msgstr ""
-
+#. module: tsc_crm
 msgid "VOffice Transaction Code"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Valid From"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Valid From must be before Valid To"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Valid To"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Validity"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Validity Days"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Value Proposition"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Video URL"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Violation Date"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Violation Details"
 msgstr ""
-
+#. module: tsc_crm
 msgid "WHT"
 msgstr ""
-
+#. module: tsc_crm
 msgid "WHT Amount"
 msgstr ""
-
+#. module: tsc_crm
 msgid "WHT Configuration"
 msgstr ""
-
+#. module: tsc_crm
 msgid "WHT Configurations"
 msgstr ""
-
+#. module: tsc_crm
 msgid "WHT Rate (%)"
 msgstr ""
-
+#. module: tsc_crm
 msgid "WHT rate must be between 0 and 100"
 msgstr ""
-
+#. module: tsc_crm
 msgid "Workflow Stage"
 msgstr ""
-
+#. module: tsc_crm
 msgid "uMoney"
 msgstr ""

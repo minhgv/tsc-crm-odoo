@@ -1,179 +1,179 @@
 # Translation file for tsc_crm_service
 # Generated automatically
-
+#. module: tsc_crm_service
 msgid "Active"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Agency"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Both"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "By Order Count"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "By Revenue"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Combo"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Combo Line"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Contact Name"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Currency"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Deployment Fee"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Description"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Discount"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Discount Mode"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Discount Policy"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Discount Type"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Fixed Amount"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Individual"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Line Discount"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Offline"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Online"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Package"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Package Level"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Package Name"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Package Type"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Percentage"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Per Order Line"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Per Package"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Per Service"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Per Use"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Promotion"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Promotion Type"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Revenue Tier"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Scope"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Service"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Service Name"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Service Type"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Services"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Specific Agent"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Target Customer"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Tier 1"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Tier 2"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Tier 3"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Trial Days"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Valid"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Validity Days"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Value"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Video URL"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Government"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Business"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "All Agents"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Start Date"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "End Date"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Cycle"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Code"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Direct Sale"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Project"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Policy"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Notes"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Value Proposition"
 msgstr ""

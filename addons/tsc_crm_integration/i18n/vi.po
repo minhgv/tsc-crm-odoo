@@ -1,173 +1,174 @@
 # Language: vi
 # Translation file for $mod
 # Generated automatically
-
+#. module: tsc_crm_integration
 msgid "BCCS3"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Contract Signed"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Datalake"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Email"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Failed"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Inbound"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Integration Configuration"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Integration Log"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Invoice Created"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Landing Page Configuration"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "New Order"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Notification Log"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Notification Template"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Order Assigned"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Order Overdue"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Order Transferred"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Outbound"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Payment Received"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Pending"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Push Notification"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Sent"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "SMS"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "SMS Gateway"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Success"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Unipay"
 msgstr ""
-
+#. module: tsc_crm_integration
 msgid "Voffice"
 msgstr ""
 
 
 # Vietnamese translations
+#. module: tsc_crm_integration
 msgid "Service"
 msgstr "Dịch vụ"
-
+#. module: tsc_crm_integration
 msgid "Package"
 msgstr "Gói cước"
-
+#. module: tsc_crm_integration
 msgid "Order"
 msgstr "Đơn hàng"
-
+#. module: tsc_crm_integration
 msgid "Contract"
 msgstr "Hợp đồng"
-
+#. module: tsc_crm_integration
 msgid "Invoice"
 msgstr "Hóa đơn"
-
+#. module: tsc_crm_integration
 msgid "Payment"
 msgstr "Thanh toán"
-
+#. module: tsc_crm_integration
 msgid "Region"
 msgstr "Khu vực"
-
+#. module: tsc_crm_integration
 msgid "Customer"
 msgstr "Khách hàng"
-
+#. module: tsc_crm_integration
 msgid "Employee"
 msgstr "Nhân viên"
-
+#. module: tsc_crm_integration
 msgid "Draft"
 msgstr "Nháp"
-
+#. module: tsc_crm_integration
 msgid "Confirmed"
 msgstr "Đã xác nhận"
-
+#. module: tsc_crm_integration
 msgid "Active"
 msgstr "Hoạt động"
-
+#. module: tsc_crm_integration
 msgid "Pending"
 msgstr "Chờ xử lý"
-
+#. module: tsc_crm_integration
 msgid "Success"
 msgstr "Thành công"
-
+#. module: tsc_crm_integration
 msgid "Failed"
 msgstr "Thất bại"
-
+#. module: tsc_crm_integration
 msgid "Cancel"
 msgstr "Hủy"
-
+#. module: tsc_crm_integration
 msgid "Save"
 msgstr "Lưu"
-
+#. module: tsc_crm_integration
 msgid "Search"
 msgstr "Tìm kiếm"
-
+#. module: tsc_crm_integration
 msgid "Create"
 msgstr "Tạo"
-
+#. module: tsc_crm_integration
 msgid "Edit"
 msgstr "Sửa"
-
+#. module: tsc_crm_integration
 msgid "Delete"
 msgstr "Xóa"
-
+#. module: tsc_crm_integration
 msgid "Name"
 msgstr "Tên"
-
+#. module: tsc_crm_integration
 msgid "Description"
 msgstr "Mô tả"
-
+#. module: tsc_crm_integration
 msgid "Price"
 msgstr "Giá"
-
+#. module: tsc_crm_integration
 msgid "Total"
 msgstr "Tổng cộng"
-
+#. module: tsc_crm_integration
 msgid "Status"
 msgstr "Trạng thái"
-
+#. module: tsc_crm_integration
 msgid "Date"
 msgstr "Ngày"
-
+#. module: tsc_crm_integration
 msgid "Email"
 msgstr "Email"
-
+#. module: tsc_crm_integration
 msgid "Phone"
 msgstr "Điện thoại"
-
+#. module: tsc_crm_integration
 msgid "Address"
 msgstr "Địa chỉ"

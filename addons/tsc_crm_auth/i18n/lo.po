@@ -1,55 +1,55 @@
 # Language: lo
 # Translation file for $mod
 # Generated automatically
-
+#. module: tsc_crm_auth
 msgid "Backend"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Backend User"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Customer"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Customer Registration"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Employee"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Expired"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Failed"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "LaoID"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Login"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Login Log"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "OTP"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "OTP Code"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Pending"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Register"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Reset Password"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Success"
 msgstr ""
-
+#. module: tsc_crm_auth
 msgid "Verified"
 msgstr ""
 

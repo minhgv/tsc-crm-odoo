@@ -1,73 +1,73 @@
 # Language: lo
 # Translation file for $mod
 # Generated automatically
-
+#. module: tsc_crm_service
 msgid "Agency"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Both"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Business"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Combo"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Combo Line"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Commission"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Cycle"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Direct Sale"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Discount"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Government"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Individual"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Line Discount"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Offline"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Online"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Package"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Package Level"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Per Use"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Project"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Promotion"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Service"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Tier 1"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Tier 2"
 msgstr ""
-
+#. module: tsc_crm_service
 msgid "Tier 3"
 msgstr ""
 

@@ -1,5 +1,4 @@
 # Vietnamese translation for tsc_crm
-# Generated from code analysis
 #
 msgid ""
 msgstr ""
@@ -15,905 +14,1206 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#. module: tsc_crm
 msgid "Accept"
 msgstr "Chấp nhận"
 
+#. module: tsc_crm
 msgid "Accepted"
 msgstr ""
 
+#. module: tsc_crm
 msgid "Action Taken"
 msgstr "Hành động đã thực hiện"
 
+#. module: tsc_crm
 msgid "Activate"
 msgstr "Kích hoạt"
 
+#. module: tsc_crm
 msgid "Active"
 msgstr "Hoạt động"
 
+#. module: tsc_crm
 msgid "All"
 msgstr "Tất cả"
 
+#. module: tsc_crm
 msgid "Amount"
 msgstr "Số tiền"
 
+#. module: tsc_crm
 msgid "Amount Paid"
 msgstr "Đã thanh toán"
 
+#. module: tsc_crm
 msgid "Appendix"
 msgstr "Phụ lục"
 
+#. module: tsc_crm
 msgid "Archive"
 msgstr "Lưu trữ"
 
+#. module: tsc_crm
 msgid "Assign"
 msgstr "Giao việc"
 
+#. module: tsc_crm
 msgid "Assigned"
 msgstr "Đã giao"
 
+#. module: tsc_crm
 msgid "Assigned By"
 msgstr "Giao bởi"
 
+#. module: tsc_crm
 msgid "Assigned From"
 msgstr "Giao từ"
 
+#. module: tsc_crm
 msgid "Assigned To"
 msgstr "Giao cho"
 
+#. module: tsc_crm
 msgid "Assignment Log"
 msgstr "Nhật ký giao việc"
 
+#. module: tsc_crm
 msgid "Auto Assignment"
 msgstr ""
 
+#. module: tsc_crm
 msgid "Bank Transfer"
 msgstr "Chuyển khoản"
 
+#. module: tsc_crm
 msgid "Banner"
 msgstr "Banner"
 
+#. module: tsc_crm
 msgid "Both"
 msgstr "Cả hai"
 
+#. module: tsc_crm
 msgid "Business"
 msgstr "Doanh nghiệp"
 
+#. module: tsc_crm
 msgid "CMS CRM"
 msgstr "CMS CRM"
 
+#. module: tsc_crm
 msgid "Cancel"
 msgstr "Hủy"
 
+#. module: tsc_crm
 msgid "Cancelled"
 msgstr "Đã hủy"
 
+#. module: tsc_crm
 msgid "Cannot post invoice without lines"
 msgstr "Không thể phát hành hóa đơn không có dòng"
 
+#. module: tsc_crm
 msgid "Cash"
 msgstr "Tiền mặt"
 
+#. module: tsc_crm
 msgid "Channel"
 msgstr "Kênh"
 
+#. module: tsc_crm
 msgid "Check Status"
 msgstr "Kiểm tra trạng thái"
 
+#. module: tsc_crm
 msgid "Child Regions"
 msgstr "Khu vực con"
 
+#. module: tsc_crm
 msgid "Combo"
 msgstr "Combo"
 
+#. module: tsc_crm
 msgid "Combo Package"
 msgstr "Gói combo"
 
+#. module: tsc_crm
 msgid "Combo Services"
 msgstr "Dịch vụ combo"
 
+#. module: tsc_crm
 msgid "Company"
 msgstr "Công ty"
 
+#. module: tsc_crm
 msgid "Confirm"
 msgstr "Xác nhận"
 
+#. module: tsc_crm
 msgid "Confirmation Deadline"
 msgstr "Hạn xác nhận"
 
+#. module: tsc_crm
 msgid "Confirmed"
 msgstr "Đã xác nhận"
 
+#. module: tsc_crm
 msgid "Contract"
 msgstr "Hợp đồng"
 
+#. module: tsc_crm
 msgid "Contract Date"
 msgstr "Ngày hợp đồng"
 
+#. module: tsc_crm
 msgid "Contract Information"
 msgstr "Thông tin hợp đồng"
 
+#. module: tsc_crm
 msgid "Contract Number"
 msgstr "Số hợp đồng"
 
+#. module: tsc_crm
 msgid "Contract activated"
 msgstr "Hợp đồng đã kích hoạt"
 
+#. module: tsc_crm
 msgid "Contract cancelled"
 msgstr "Hợp đồng đã hủy"
 
+#. module: tsc_crm
 msgid "Contract expired"
 msgstr "Hợp đồng đã hết hạn"
 
+#. module: tsc_crm
 msgid "Contract must be pending signing"
 msgstr "Hợp đồng phải đang chờ ký"
 
+#. module: tsc_crm
 msgid "Contract must be signed to activate"
 msgstr "Hợp đồng phải được ký để kích hoạt"
 
+#. module: tsc_crm
 msgid "Contract number must be unique!"
 msgstr "Số hợp đồng phải là duy nhất!"
 
+#. module: tsc_crm
 msgid "Contract reset to draft"
 msgstr "Hợp đồng đặt lại nháp"
 
+#. module: tsc_crm
 msgid "Contract signed"
 msgstr "Hợp đồng đã ký"
 
+#. module: tsc_crm
 msgid "Contract submitted for signing"
 msgstr "Hợp đồng đã gửi ký"
 
+#. module: tsc_crm
 msgid "Contracts"
 msgstr "Hợp đồng"
 
+#. module: tsc_crm
 msgid "Created"
 msgstr "Đã tạo"
 
+#. module: tsc_crm
 msgid "Currency"
 msgstr "Tiền tệ"
 
+#. module: tsc_crm
 msgid "Current Orders"
 msgstr "Đơn hàng hiện tại"
 
+#. module: tsc_crm
 msgid "Customer"
 msgstr "Khách hàng"
 
+#. module: tsc_crm
 msgid "Customer Care"
 msgstr "Chăm sóc khách hàng"
 
+#. module: tsc_crm
 msgid "Customer Code"
 msgstr "Mã khách hàng"
 
+#. module: tsc_crm
 msgid "Customer Type"
 msgstr "Loại khách hàng"
 
+#. module: tsc_crm
 msgid "Customer code must be unique!"
 msgstr "Mã khách hàng phải là duy nhất!"
 
+#. module: tsc_crm
 msgid "Cycle"
 msgstr "Chu kỳ"
 
+#. module: tsc_crm
 msgid "Dashboard"
 msgstr "Bảng điều khiển"
 
+#. module: tsc_crm
 msgid "Deadline"
 msgstr "Hạn chót"
 
+#. module: tsc_crm
 msgid "Delivered"
 msgstr "Đã giao"
 
+#. module: tsc_crm
 msgid "Description"
 msgstr "Mô tả"
 
+#. module: tsc_crm
 msgid "Direct Sale"
 msgstr "Bán trực tiếp"
 
+#. module: tsc_crm
 msgid "Discount"
 msgstr "Giảm giá"
 
+#. module: tsc_crm
 msgid "Discount (%)"
 msgstr "Giảm giá (%)"
 
+#. module: tsc_crm
 msgid "Distribution Channel"
 msgstr "Kênh phân phối"
 
+#. module: tsc_crm
 msgid "Document Information"
 msgstr "Thông tin tài liệu"
 
+#. module: tsc_crm
 msgid "Document Type"
 msgstr "Loại tài liệu"
 
+#. module: tsc_crm
 msgid "Document published"
 msgstr "Tài liệu đã phát hành"
 
+#. module: tsc_crm
 msgid "Document rejected"
 msgstr "Tài liệu bị từ chối"
 
+#. module: tsc_crm
 msgid "Document signed"
 msgstr "Tài liệu đã ký"
 
+#. module: tsc_crm
 msgid "Documents"
 msgstr "Tài liệu"
 
+#. module: tsc_crm
 msgid "Done"
 msgstr "Hoàn thành"
 
+#. module: tsc_crm
 msgid "Draft"
 msgstr "Nháp"
 
+#. module: tsc_crm
 msgid "Due Date"
 msgstr "Ngày đến hạn"
 
+#. module: tsc_crm
 msgid "End Date"
 msgstr "Ngày kết thúc"
 
+#. module: tsc_crm
 msgid "Error Message"
 msgstr "Thông báo lỗi"
 
+#. module: tsc_crm
 msgid "Expired"
 msgstr "Hết hạn"
 
+#. module: tsc_crm
 msgid "Expired contracts cannot be cancelled"
 msgstr "Hợp đồng hết hạn không thể hủy"
 
+#. module: tsc_crm
 msgid "Failed"
 msgstr "Thất bại"
 
+#. module: tsc_crm
 msgid "Financial"
 msgstr "Tài chính"
 
+#. module: tsc_crm
 msgid "General Information"
 msgstr "Thông tin chung"
 
+#. module: tsc_crm
 msgid "Government"
 msgstr "Chính phủ"
 
+#. module: tsc_crm
 msgid "Group By"
 msgstr "Nhóm theo"
 
+#. module: tsc_crm
 msgid "Group Type"
 msgstr "Loại nhóm"
 
+#. module: tsc_crm
 msgid "Images"
 msgstr "Hình ảnh"
 
+#. module: tsc_crm
 msgid "Implementation"
 msgstr "Triển khai"
 
+#. module: tsc_crm
 msgid "In Progress"
 msgstr "Đang thực hiện"
 
+#. module: tsc_crm
 msgid "Individual"
 msgstr "Cá nhân"
 
+#. module: tsc_crm
 msgid "Individual/Household"
 msgstr "Cá nhân/Hộ kinh doanh"
 
+#. module: tsc_crm
 msgid "Invoice"
 msgstr "Hóa đơn"
 
+#. module: tsc_crm
 msgid "Invoice Date"
 msgstr "Ngày hóa đơn"
 
+#. module: tsc_crm
 msgid "Invoice Information"
 msgstr "Thông tin hóa đơn"
 
+#. module: tsc_crm
 msgid "Invoice Lines"
 msgstr "Dòng hóa đơn"
 
+#. module: tsc_crm
 msgid "Invoice Number"
 msgstr "Số hóa đơn"
 
+#. module: tsc_crm
 msgid "Invoice cancelled"
 msgstr "Hóa đơn đã hủy"
 
+#. module: tsc_crm
 msgid "Invoice number must be unique!"
 msgstr "Số hóa đơn phải là duy nhất!"
 
+#. module: tsc_crm
 msgid "Invoice posted"
 msgstr "Hóa đơn đã phát hành"
 
+#. module: tsc_crm
 msgid "Invoice refunded"
 msgstr "Hóa đơn đã hoàn tiền"
 
+#. module: tsc_crm
 msgid "Invoice reset to draft"
 msgstr "Hóa đơn đặt lại nháp"
 
+#. module: tsc_crm
 msgid "Invoices"
 msgstr "Hóa đơn"
 
+#. module: tsc_crm
 msgid "LaoID"
 msgstr "LaoID"
 
+#. module: tsc_crm
 msgid "Level"
 msgstr "Cấp"
 
+#. module: tsc_crm
 msgid "Logo"
 msgstr "Logo"
 
+#. module: tsc_crm
 msgid "Maintenance"
 msgstr "Bảo trì"
 
+#. module: tsc_crm
 msgid "Manager"
 msgstr "Quản lý"
 
+#. module: tsc_crm
 msgid "Manual"
 msgstr "Thủ công"
 
+#. module: tsc_crm
 msgid "Mark Done"
 msgstr "Đánh dấu hoàn thành"
 
+#. module: tsc_crm
 msgid "Mark Expired"
 msgstr "Đánh dấu hết hạn"
 
+#. module: tsc_crm
 msgid "Mark Failed"
 msgstr "Đánh dấu thất bại"
 
+#. module: tsc_crm
 msgid "Mark Published"
 msgstr "Đánh dấu đã phát hành"
 
+#. module: tsc_crm
 msgid "Mark Rejected"
 msgstr "Đánh dấu bị từ chối"
 
+#. module: tsc_crm
 msgid "Mark Signed"
 msgstr "Đánh dấu đã ký"
 
+#. module: tsc_crm
 msgid "Mark as Signed"
 msgstr "Đánh dấu đã ký"
 
+#. module: tsc_crm
 msgid "Max Concurrent Orders"
 msgstr "Số đơn tối đa cùng lúc"
 
+#. module: tsc_crm
 msgid "Media"
 msgstr "Phương tiện"
 
+#. module: tsc_crm
 msgid "Miniapp"
 msgstr "Miniapp"
 
+#. module: tsc_crm
 msgid "New SLA Violation"
 msgstr "Vi phạm SLA mới"
 
+#. module: tsc_crm
 msgid "New Signing"
 msgstr "Ký mới"
 
+#. module: tsc_crm
 msgid "Not Sent"
 msgstr "Chưa gửi"
 
+#. module: tsc_crm
 msgid "Notes"
 msgstr "Ghi chú"
 
+#. module: tsc_crm
 msgid "Offline"
 msgstr "Offline"
 
+#. module: tsc_crm
 msgid "One Time"
 msgstr "Một lần"
 
+#. module: tsc_crm
 msgid "Online"
 msgstr "Online"
 
+#. module: tsc_crm
 msgid "Only cancelled invoices can be reset to draft"
 msgstr "Chỉ hóa đơn đã hủy mới đặt lại nháp"
 
+#. module: tsc_crm
 msgid "Only confirmed payments can be refunded"
 msgstr "Chỉ thanh toán đã xác nhận mới hoàn tiền"
 
+#. module: tsc_crm
 msgid "Only draft contracts can be submitted"
 msgstr "Chỉ hợp đồng nháp mới gửi được"
 
+#. module: tsc_crm
 msgid "Only draft invoices can be posted"
 msgstr "Chỉ hóa đơn nháp mới phát hành được"
 
+#. module: tsc_crm
 msgid "Only draft payments can be submitted"
 msgstr "Chỉ thanh toán nháp mới gửi được"
 
+#. module: tsc_crm
 msgid "Only pending or cancelled contracts can be reset to draft"
 msgstr "Chỉ hợp đồng chờ/hủy mới đặt lại nháp"
 
+#. module: tsc_crm
 msgid "Only pending payments can be confirmed"
 msgstr "Chỉ thanh toán chờ mới xác nhận được"
 
+#. module: tsc_crm
 msgid "Only posted or paid invoices can be refunded"
 msgstr "Chỉ hóa đơn phát hành/đã thanh toán mới hoàn tiền"
 
+#. module: tsc_crm
 msgid "Order"
 msgstr "Đơn hàng"
 
+#. module: tsc_crm
 msgid "Order Assignment"
 msgstr "Phân công đơn hàng"
 
+#. module: tsc_crm
 msgid "Order Assignment Log"
 msgstr "Nhật ký giao việc"
 
+#. module: tsc_crm
 msgid "Order Assignments"
 msgstr "Phân công đơn hàng"
 
+#. module: tsc_crm
 msgid "Order Line"
 msgstr "Dòng đơn hàng"
 
+#. module: tsc_crm
 msgid "Order Lines"
 msgstr "Chi tiết đơn hàng"
 
+#. module: tsc_crm
 msgid "Order Reference"
 msgstr "Mã đơn hàng"
 
+#. module: tsc_crm
 msgid "Order Total"
 msgstr "Tổng đơn hàng"
 
+#. module: tsc_crm
 msgid "Order accepted by %s"
 msgstr "Đơn hàng được chấp nhận bởi %s"
 
+#. module: tsc_crm
 msgid "Order assigned to %s"
 msgstr "Đơn hàng giao cho %s"
 
+#. module: tsc_crm
 msgid "Order confirmed"
 msgstr "Đơn hàng đã xác nhận"
 
+#. module: tsc_crm
 msgid "Order moved to survey phase"
 msgstr "Đơn hàng chuyển sang khảo sát"
 
+#. module: tsc_crm
 msgid "Orders"
 msgstr "Đơn hàng"
 
+#. module: tsc_crm
 msgid "Orders Kanban"
 msgstr "Kanban đơn hàng"
 
+#. module: tsc_crm
 msgid "Other"
 msgstr "Khác"
 
+#. module: tsc_crm
 msgid "Overdue"
 msgstr "Quá hạn"
 
+#. module: tsc_crm
 msgid "Overdue Orders"
 msgstr "Đơn hàng quá hạn"
 
+#. module: tsc_crm
 msgid "Overdue Tasks"
 msgstr "Công việc quá hạn"
 
+#. module: tsc_crm
 msgid "Package"
 msgstr "Gói cước"
 
+#. module: tsc_crm
 msgid "Package Type"
 msgstr "Loại gói"
 
+#. module: tsc_crm
 msgid "Package code must be unique!"
 msgstr "Mã gói phải là duy nhất!"
 
+#. module: tsc_crm
 msgid "Packages"
 msgstr "Gói cước"
 
+#. module: tsc_crm
 msgid "Paid"
 msgstr "Đã thanh toán"
 
+#. module: tsc_crm
 msgid "Paid invoices cannot be cancelled"
 msgstr "Hóa đơn đã thanh toán không thể hủy"
 
+#. module: tsc_crm
 msgid "Parent Region"
 msgstr "Khu vực cha"
 
+#. module: tsc_crm
 msgid "Partial payment received"
 msgstr "Đã nhận thanh toán một phần"
 
+#. module: tsc_crm
 msgid "Payment"
 msgstr "Thanh toán"
 
+#. module: tsc_crm
 msgid "Payment Date"
 msgstr "Ngày thanh toán"
 
+#. module: tsc_crm
 msgid "Payment Information"
 msgstr "Thông tin thanh toán"
 
+#. module: tsc_crm
 msgid "Payment Method"
 msgstr "Phương thức thanh toán"
 
+#. module: tsc_crm
 msgid "Payment Reference"
 msgstr "Mã thanh toán"
 
+#. module: tsc_crm
 msgid "Payment confirmed"
 msgstr "Thanh toán đã xác nhận"
 
+#. module: tsc_crm
 msgid "Payment failed"
 msgstr "Thanh toán thất bại"
 
+#. module: tsc_crm
 msgid "Payment reference must be unique!"
 msgstr "Mã thanh toán phải là duy nhất!"
 
+#. module: tsc_crm
 msgid "Payment refunded"
 msgstr "Thanh toán đã hoàn tiền"
 
+#. module: tsc_crm
 msgid "Payment submitted for processing"
 msgstr "Thanh toán đã gửi xử lý"
 
+#. module: tsc_crm
 msgid "Payments"
 msgstr "Thanh toán"
 
+#. module: tsc_crm
 msgid "Pending"
 msgstr "Chờ xử lý"
 
+#. module: tsc_crm
 msgid "Pending Signing"
 msgstr "Chờ ký"
 
+#. module: tsc_crm
 msgid "Please select an assignee"
 msgstr "Vui lòng chọn người được giao"
 
+#. module: tsc_crm
 msgid "Please select an employee"
 msgstr "Vui lòng chọn nhân viên"
 
+#. module: tsc_crm
 msgid "Policies"
 msgstr "Chính sách"
 
+#. module: tsc_crm
 msgid "Post"
 msgstr "Phát hành"
 
+#. module: tsc_crm
 msgid "Posted"
 msgstr "Đã phát hành"
 
+#. module: tsc_crm
 msgid "Price (Kip/month)"
 msgstr "Giá (Kip/tháng)"
 
+#. module: tsc_crm
 msgid "Price Levels"
 msgstr "Mức giá"
 
+#. module: tsc_crm
 msgid "Pricing"
 msgstr "Định giá"
 
+#. module: tsc_crm
 msgid "Project"
 msgstr "Dự án"
 
+#. module: tsc_crm
 msgid "Published"
 msgstr "Đã phát hành"
 
+#. module: tsc_crm
 msgid "Quantity"
 msgstr "Số lượng"
 
+#. module: tsc_crm
 msgid "Reason"
 msgstr "Lý do"
 
+#. module: tsc_crm
 msgid "Refund"
 msgstr "Hoàn tiền"
 
+#. module: tsc_crm
 msgid "Refunded"
 msgstr "Đã hoàn tiền"
 
+#. module: tsc_crm
 msgid "Region"
 msgstr "Khu vực"
 
+#. module: tsc_crm
 msgid "Region Manager"
 msgstr "Quản lý khu vực"
 
+#. module: tsc_crm
 msgid "Region code must be unique!"
 msgstr "Mã khu vực phải là duy nhất!"
 
+#. module: tsc_crm
 msgid "Regions"
 msgstr "Khu vực"
 
+#. module: tsc_crm
 msgid "Rejected"
 msgstr "Bị từ chối"
 
+#. module: tsc_crm
 msgid "Reopen"
 msgstr "Mở lại"
 
+#. module: tsc_crm
 msgid "Reset to Draft"
 msgstr "Đặt lại nháp"
 
+#. module: tsc_crm
 msgid "Resolution"
 msgstr "Giải quyết"
 
+#. module: tsc_crm
 msgid "Resolve"
 msgstr "Giải quyết"
 
+#. module: tsc_crm
 msgid "Resolved"
 msgstr "Đã xử lý"
 
+#. module: tsc_crm
 msgid "Resolved Date"
 msgstr "Ngày xử lý"
 
+#. module: tsc_crm
 msgid "SLA Config"
 msgstr "Cấu hình SLA"
 
+#. module: tsc_crm
 msgid "SLA Deadline"
 msgstr "Hạn SLA"
 
+#. module: tsc_crm
 msgid "SLA Violation"
 msgstr "Vi phạm SLA"
 
+#. module: tsc_crm
 msgid "SLA Violations"
 msgstr "Vi phạm SLA"
 
+#. module: tsc_crm
 msgid "SLA violated - auto action triggered"
 msgstr "Vi phạm SLA - đã kích hoạt tự động"
 
+#. module: tsc_crm
 msgid "Scan Filename"
 msgstr "Tên file scan"
 
+#. module: tsc_crm
 msgid "Scanned Contract"
 msgstr "Hợp đồng đã scan"
 
+#. module: tsc_crm
 msgid "Search Assignments"
 msgstr "Tìm kiếm phân công"
 
+#. module: tsc_crm
 msgid "Search Contracts"
 msgstr "Tìm kiếm hợp đồng"
 
+#. module: tsc_crm
 msgid "Search Invoices"
 msgstr "Tìm kiếm hóa đơn"
 
+#. module: tsc_crm
 msgid "Search Order Lines"
 msgstr "Tìm kiếm dòng đơn hàng"
 
+#. module: tsc_crm
 msgid "Search Packages"
 msgstr "Tìm kiếm gói cước"
 
+#. module: tsc_crm
 msgid "Search Payments"
 msgstr "Tìm kiếm thanh toán"
 
+#. module: tsc_crm
 msgid "Search Regions"
 msgstr "Tìm kiếm khu vực"
 
+#. module: tsc_crm
 msgid "Search Services"
 msgstr "Tìm kiếm dịch vụ"
 
+#. module: tsc_crm
 msgid "Search Signing Records"
 msgstr "Tìm kiếm phiên ký"
 
+#. module: tsc_crm
 msgid "Search Technical Tasks"
 msgstr "Tìm kiếm công việc kỹ thuật"
 
+#. module: tsc_crm
 msgid "Send to VOffice"
 msgstr "Gửi VOffice"
 
+#. module: tsc_crm
 msgid "Sent to VOffice for signing"
 msgstr "Đã gửi VOffice ký"
 
+#. module: tsc_crm
 msgid "Service"
 msgstr "Dịch vụ"
 
+#. module: tsc_crm
 msgid "Service Type"
 msgstr "Loại dịch vụ"
 
+#. module: tsc_crm
 msgid "Service code must be at least 2 characters"
 msgstr "Mã dịch vụ phải ít nhất 2 ký tự"
 
+#. module: tsc_crm
 msgid "Service code must be unique!"
 msgstr "Mã dịch vụ phải là duy nhất!"
 
+#. module: tsc_crm
 msgid "Services"
 msgstr "Dịch vụ"
 
+#. module: tsc_crm
 msgid "Setup Fee"
 msgstr "Phí lắp đặt"
 
+#. module: tsc_crm
 msgid "Sign Date"
 msgstr "Ngày ký"
 
+#. module: tsc_crm
 msgid "Signed"
 msgstr "Đã ký"
 
+#. module: tsc_crm
 msgid "Signed Document"
 msgstr "Hợp đồng đã ký"
 
+#. module: tsc_crm
 msgid "Signed File"
 msgstr "File đã ký"
 
+#. module: tsc_crm
 msgid "Signed Filename"
 msgstr "Tên file đã ký"
 
+#. module: tsc_crm
 msgid "Signing Record"
 msgstr "Phiên ký"
 
+#. module: tsc_crm
 msgid "Signing Records"
 msgstr "Phiên ký"
 
+#. module: tsc_crm
 msgid "Signing cancelled"
 msgstr "Ký đã hủy"
 
+#. module: tsc_crm
 msgid "Source"
 msgstr "Nguồn"
 
+#. module: tsc_crm
 msgid "Staff"
 msgstr "Nhân viên"
 
+#. module: tsc_crm
 msgid "Stage Key"
 msgstr "Mã giai đoạn"
 
+#. module: tsc_crm
 msgid "Start"
 msgstr "Bắt đầu"
 
+#. module: tsc_crm
 msgid "Start Date"
 msgstr "Ngày bắt đầu"
 
+#. module: tsc_crm
 msgid "Status"
 msgstr "Trạng thái"
 
+#. module: tsc_crm
 msgid "Submit"
 msgstr "Gửi"
 
+#. module: tsc_crm
 msgid "Submit for Signing"
 msgstr "Gửi ký"
 
+#. module: tsc_crm
 msgid "Survey"
 msgstr "Khảo sát"
 
+#. module: tsc_crm
 msgid "Surveying"
 msgstr "Đang khảo sát"
 
+#. module: tsc_crm
 msgid "TSC CRM Dashboard"
 msgstr "Bảng điều khiển TSC CRM"
 
+#. module: tsc_crm
 msgid "TSC Contract"
 msgstr "Hợp đồng TSC"
 
+#. module: tsc_crm
 msgid "TSC Invoice"
 msgstr "Hóa đơn TSC"
 
+#. module: tsc_crm
 msgid "TSC Invoice Line"
 msgstr "Dòng hóa đơn TSC"
 
+#. module: tsc_crm
 msgid "TSC Package"
 msgstr "Gói cước TSC"
 
+#. module: tsc_crm
 msgid "TSC Package Level"
 msgstr "Mức gói cước TSC"
 
+#. module: tsc_crm
 msgid "TSC Payment"
 msgstr "Thanh toán TSC"
 
+#. module: tsc_crm
 msgid "TSC Role"
 msgstr "Vai trò TSC"
 
+#. module: tsc_crm
 msgid "TSC SLA Violation"
 msgstr "Vi phạm SLA TSC"
 
+#. module: tsc_crm
 msgid "TSC Service"
 msgstr "Dịch vụ TSC"
 
+#. module: tsc_crm
 msgid "TSC Signing Record"
 msgstr "Phiên ký TSC"
 
+#. module: tsc_crm
 msgid "TSC VAT Configuration"
 msgstr "Cấu hình VAT TSC"
 
+#. module: tsc_crm
 msgid "TSC WHT Configuration"
 msgstr "Cấu hình WHT TSC"
 
+#. module: tsc_crm
 msgid "Target Customer"
-msgstr ""
+msgstr "Đối tượng khách hàng"
 
+#. module: tsc_crm
 msgid "Task Type"
 msgstr "Loại công việc"
 
+#. module: tsc_crm
 msgid "Task assigned to %s"
 msgstr "Công việc giao cho %s"
 
+#. module: tsc_crm
 msgid "Task completed"
 msgstr "Công việc hoàn thành"
 
+#. module: tsc_crm
 msgid "Tax"
 msgstr "Thuế"
 
+#. module: tsc_crm
 msgid "Tax Information"
 msgstr "Thông tin thuế"
 
+#. module: tsc_crm
 msgid "Team Manager"
 msgstr "Quản lý nhóm"
 
+#. module: tsc_crm
 msgid "Team Type"
 msgstr "Loại nhóm"
 
+#. module: tsc_crm
 msgid "Technical"
 msgstr "Kỹ thuật"
 
+#. module: tsc_crm
 msgid "Technical Task"
 msgstr "Công việc kỹ thuật"
 
+#. module: tsc_crm
 msgid "Technical Tasks"
 msgstr "Công việc kỹ thuật"
 
+#. module: tsc_crm
 msgid "Total"
 msgstr "Tổng cộng"
 
+#. module: tsc_crm
 msgid "Total Amount"
 msgstr "Tổng tiền"
 
+#. module: tsc_crm
 msgid "Totals"
 msgstr "Tổng cộng"
 
+#. module: tsc_crm
 msgid "Transaction ID"
 msgstr "Mã giao dịch"
 
+#. module: tsc_crm
 msgid "Trial Days"
 msgstr "Ngày dùng thử"
 
+#. module: tsc_crm
 msgid "Unarchive"
 msgstr "Bỏ lưu trữ"
 
+#. module: tsc_crm
 msgid "Unipay"
 msgstr "Unipay"
 
+#. module: tsc_crm
 msgid "Unit Price"
 msgstr "Đơn giá"
 
+#. module: tsc_crm
 msgid "Untaxed Amount"
 msgstr "Thành tiền"
 
+#. module: tsc_crm
 msgid "VAT"
 msgstr "VAT"
 
+#. module: tsc_crm
 msgid "VAT Amount"
 msgstr "Tiền VAT"
 
+#. module: tsc_crm
 msgid "VAT Configuration"
 msgstr "Cấu hình VAT"
 
+#. module: tsc_crm
 msgid "VAT Configurations"
 msgstr "Cấu hình VAT"
 
+#. module: tsc_crm
 msgid "VAT Rate (%)"
 msgstr "Tỷ lệ VAT (%)"
 
+#. module: tsc_crm
 msgid "VAT rate must be between 0 and 100"
 msgstr "Tỷ lệ VAT phải từ 0 đến 100"
 
+#. module: tsc_crm
 msgid "VOffice Document ID"
 msgstr "Mã tài liệu VOffice"
 
+#. module: tsc_crm
 msgid "VOffice Information"
 msgstr "Thông tin VOffice"
 
+#. module: tsc_crm
 msgid "VOffice Integration"
 msgstr "Tích hợp VOffice"
 
+#. module: tsc_crm
 msgid "VOffice Status"
 msgstr "Trạng thái VOffice"
 
+#. module: tsc_crm
 msgid "VOffice Transaction Code"
 msgstr "Mã giao dịch VOffice"
 
+#. module: tsc_crm
 msgid "Valid From"
 msgstr "Có hiệu lực từ"
 
+#. module: tsc_crm
 msgid "Valid From must be before Valid To"
 msgstr "Ngày bắt đầu phải trước ngày kết thúc"
 
+#. module: tsc_crm
 msgid "Valid To"
 msgstr "Có hiệu lực đến"
 
+#. module: tsc_crm
 msgid "Validity"
 msgstr "Hiệu lực"
 
+#. module: tsc_crm
 msgid "Validity Days"
 msgstr "Số ngày hiệu lực"
 
+#. module: tsc_crm
 msgid "Value Proposition"
 msgstr "Giá trị mang lại"
 
+#. module: tsc_crm
 msgid "Video URL"
 msgstr "URL video"
 
+#. module: tsc_crm
 msgid "Violation Date"
 msgstr "Ngày vi phạm"
 
+#. module: tsc_crm
 msgid "Violation Details"
 msgstr "Chi tiết vi phạm"
 
+#. module: tsc_crm
 msgid "WHT"
 msgstr "WHT"
 
+#. module: tsc_crm
 msgid "WHT Amount"
 msgstr "Tiền WHT"
 
+#. module: tsc_crm
 msgid "WHT Configuration"
 msgstr "Cấu hình WHT"
 
+#. module: tsc_crm
 msgid "WHT Configurations"
 msgstr "Cấu hình WHT"
 
+#. module: tsc_crm
 msgid "WHT Rate (%)"
 msgstr "Tỷ lệ WHT (%)"
 
+#. module: tsc_crm
 msgid "WHT rate must be between 0 and 100"
 msgstr "Tỷ lệ WHT phải từ 0 đến 100"
 
+#. module: tsc_crm
 msgid "Workflow Stage"
 msgstr "Giai đoạn quy trình"
 
+#. module: tsc_crm
 msgid "uMoney"
 msgstr "uMoney"

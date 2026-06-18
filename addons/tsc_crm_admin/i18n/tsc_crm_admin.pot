@@ -1,89 +1,89 @@
 # Translation file for tsc_crm_admin
 # Generated automatically
-
+#. module: tsc_crm_admin
 msgid "Administration"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Business"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Create"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Customer Care"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Delete"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Description"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "District"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Division"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Manager"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Model"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Organization Name"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Organization Type"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Organizations"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Operation"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Parent"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Permission"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Permission Name"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Permissions"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Province"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Read"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Role"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Role Name"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Role-Permission Mapping"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Roles"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "TSC (Headquarters)"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Technical"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Update"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Village"
 msgstr ""
-
+#. module: tsc_crm_admin
 msgid "Children"
 msgstr ""
