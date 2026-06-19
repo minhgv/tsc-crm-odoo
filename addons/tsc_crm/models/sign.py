@@ -10,8 +10,8 @@ class TscSign(models.Model):
 
     name = fields.Char(string=_('Signing Record'), compute='_compute_name', store=True)
     contract_id = fields.Many2one('tsc.contract', string=_('Contract'), required=True, ondelete='cascade')
-    lead_id = fields.Many2one('crm.lead', string=_('Order'), related='contract_id.lead_id', store=True)
-    partner_id = fields.Many2one('res.partner', string=_('Customer'), related='contract_id.partner_id', store=True)
+    lead_id = fields.Many2one('crm.lead', string=_('Order'), related='contract_id.lead_id')
+    partner_id = fields.Many2one('res.partner', string=_('Customer'), related='contract_id.partner_id')
     doc_type = fields.Selection([
         ('contract', _('Contract')),
         ('appendix', _('Appendix')),
